@@ -1,0 +1,47 @@
+site_name: 11408 考研背诵笔记
+site_description: 计算机考研 11408 核心背诵知识点
+site_author: notes
+repo_url: 
+edit_uri: ""
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+extra:
+  search:
+    language: zh
+  social:
+    - icon: fontawesome/brands/github
+
+nav:
+  - 首页: index.md
+  - 考研11408笔记: 考研11408笔记.md
+  - 政治: 政治/index.md
+  - 英语: 英语/index.md
+  - 数学一: 数学一/index.md
+  - 408: 408/index.md

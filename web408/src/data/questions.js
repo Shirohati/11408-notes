@@ -1,0 +1,8717 @@
+export const questions = [
+  {
+    "id": "EX_2009_01",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_queue"
+    ],
+    "question": "为解决计算机主机与打印机之间速度不匹配问题，通常设置一个打印数据缓冲区，主机将要输出的数据依次写入该缓冲区，而打印机则依次从该缓冲区中取出数据。该缓冲区的逻辑结构应该是____。",
+    "options": [
+      "A. 栈",
+      "B. 队列",
+      "C. 树",
+      "D. 图"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_02",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "设栈 S 和队列 Q 的初始状态均为空，元素 a,b,c,d,e,f,g 依次进入栈 S。若每个元素出栈后立即进入队列 Q，且 7 个元素出队的顺序是 b,d,c,f,e,a,g，则栈 S 的容量至少是 ________。",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_03",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_traversal"
+    ],
+    "question": "给定二叉树如右图所示。设 N 代表二叉树的根，L 代表根结点的左子树，R 代表根结点的右子树。若遍历后的结点序列是 3，1，7，5，6，2，4，则其遍历方式是",
+    "options": [
+      "A. LRN",
+      "B. NRL",
+      "C. RLN",
+      "D. RNL"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_04",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "下列二叉排序树中，满足平衡二叉树定义的是________。 ![](https://408.foreverlink.love/images/9772e8db13a8111651b9c9b9def0b5d9.jpg) ![](https://408.foreverlink.love/images/9007d083ed4f8a5e268452bed347655e.jpg) B. ![](https://408.foreverlink.love/images/e1d7dd2c47850abb1fdeb3d8902e8aff.jpg) C. ![](https://408.foreverlink.love/images/c80c0d5336c32145679192c0c802e38e.jpg) D.",
+    "options": [
+      "A.",
+      "B.",
+      "C.",
+      "D."
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_05",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "已知一棵完全二叉树的第6层（设根为第1层）有8个叶结点，则该完全二叉树的结点个数最多是",
+    "options": [
+      "A. 39",
+      "B. 52",
+      "C. 111",
+      "D. 119"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_06",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "将森林转换为对应的二叉树，若在二叉树中，结点 u 是结点 v 的父结点的父结点，则在原来的森林中，u 和 v 可能具有的关系是 I. 父子关系 II．兄弟关系 III. u的父结点与v的父结点是兄弟关系",
+    "options": [
+      "A. 只有 II",
+      "B. I 和 II",
+      "C. I 和III",
+      "D. I 、II 和 III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_07",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_basic"
+    ],
+    "question": "下列关于无向连通图特性的叙述中，正确的是________。 I. 所有顶点的度之和为偶数 II. 边数大于顶点个数减1 III. 至少有一个顶点的度为 1",
+    "options": [
+      "A. 只有 I",
+      "B. 只有 II",
+      "C. I 和 II",
+      "D. I 和III"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_08",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "下列叙述中，不符合 $\\mathrm{m}$ 阶B树定义要求的是________。",
+    "options": [
+      "A. 根节点最多有  $\\mathrm{m}$  棵子树",
+      "B. 所有叶结点都在同一层上",
+      "C. 各结点内关键字均升序或降序排列",
+      "D. 叶结点之间通过指针链接"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_09",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "已知关键字序列 5, 8, 12, 19, 28, 20, 15, 22 是小根堆 (最小堆), 插入关键字 3 , 调整后得到的小根堆是______。",
+    "options": [
+      "A. 3，5，12，8，28，20，15，22，19",
+      "B. 3, 5, 12, 19, 20, 15, 22, 8, 28",
+      "C. 3, 8, 12, 5, 20, 15, 22, 28, 19",
+      "D. 3, 12, 5, 8, 28, 20, 15, 22, 19"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_10",
+    "subject": "ds",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "若数据元素序列11，12，13，7，8，9，23，4，5是采用下列排序方法之一得到的第二趟排序后的结果，则该排序算法只能是________。",
+    "options": [
+      "A. 起泡排序",
+      "B. 插入排序",
+      "C. 选择排序",
+      "D. 二路归并排序"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_11",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_structure"
+    ],
+    "question": "冯·诺依曼计算机中指令和数据均以二进制形式存放在存储器中，CPU区分它们的依据是",
+    "options": [
+      "A. 指令操作码的译码结果",
+      "B. 指令和数据的寻址方式",
+      "C. 指令周期的不同阶段",
+      "D. 指令和数据所在的存储单元"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_12",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "一个 C 语言程序在一台 32 位机器上运行。程序中定义了三个变量 x、y 和 z，其中 x 和 z 为 int 型，y 为 short 型。当 $x = 127$ ， $y = -9$ 时，执行赋值语句 $z = x + y$ 后，x、y 和 z 的值分别是 ________。",
+    "options": [
+      "A. $x = 0000007\\mathrm{FH}$  ，y=FFF9H，z=00000076H",
+      "B. $x = 0000007 \\mathrm{FH}, y = \\mathrm{FFF9H}, z = \\mathrm{FFFF} 0076 \\mathrm{H}$",
+      "C. $x = 0000007 \\mathrm{FH}, y = F F F 7 \\mathrm{H}, z = F F F F 0 0 7 6 \\mathrm{H}$",
+      "D. $x = 0000007 \\mathrm{FH}, y = 1 \\mathrm{FFF} 7 \\mathrm{H}, z = 00000076 \\mathrm{H}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_13",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float",
+      "co_data_alu"
+    ],
+    "question": "浮点数加、减运算过程一般包括对阶、尾数运算、规格化、舍入和判溢出等步骤。设浮点数的阶码和尾数均采用补码表示，且位数分别为 5 位和 7 位（均含 2 位符号位）。若有两个数 $\\mathrm{X} = 2^{7} \\times 29 / 32$ ， $\\mathrm{Y} = 2^{5} \\times 5 / 8$ ，则用浮点加法计算 $\\mathrm{X} + \\mathrm{Y}$ 的最终结果是 ________。",
+    "options": [
+      "A. 00111 1100010",
+      "B. 00111 0100010",
+      "C. 01000 0010001",
+      "D. 发生溢出"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_14",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache",
+      "co_mem_main"
+    ],
+    "question": "某计算机的 Cache 共有 16 块，采用 2 路组相联映射方式（即每组 2 块）。每个主存块大小为 32 字节，按字节编址。主存 129 号单元所在主存块应装入到的 Cache 组号是 ________。",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 4",
+      "D. 6"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_15",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某计算机主存容量为 64KB, 其中 ROM 区为 4KB, 其余为 RAM 区, 按字节编址。现要用 $2 \\mathrm{~K} \\times 8$ 位的 ROM 芯片和 $4 \\mathrm{~K} \\times 4$ 位的 RAM 芯片来设计该存储器, 则需要上述规格的 ROM 芯片数和 RAM 芯片数分别是______。",
+    "options": [
+      "A. 1、15",
+      "B. 2、15",
+      "C. 1、30",
+      "D. 2、30"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_16",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "某机器字长 16 位, 主存按字节编址, 转移指令采用相对寻址, 由两个字节组成, 第一字节为操作码字段,第二字节为相对位移量字段。假定取指令时, 每取一个字节 PC 自动加 1 。若某转移指令所在主存地址为 $2000 \\mathrm{H}$ , 相对位移量字段的内容为 $06 \\mathrm{H}$ , 则该转移指令成功转移后的目标地址是______。",
+    "options": [
+      "A. 2006H",
+      "B. 2007H",
+      "C. 2008H",
+      "D. 2009H"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_17",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_cisc_risc"
+    ],
+    "question": "下列关于 RISC 的叙述中, 错误的是",
+    "options": [
+      "A. RISC普遍采用微程序控制器",
+      "B. RISC 大多数指令在一个时钟周期内完成",
+      "C. RISC 的内部通用寄存器数量相对 CISC 多",
+      "D. RISC 的指令数、寻址方式和指令格式种类相对 CISC 少"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_18",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存时间）分别为 $90 \\mathrm{~ns}$ 、 $80 \\mathrm{~ns}$ 、 $70 \\mathrm{~ns}$ 、和 $60 \\mathrm{~ns}$ ，则该计算机的 CPU 时钟周期至少是 ______。",
+    "options": [
+      "A. $90 \\mathrm{~ns}$",
+      "B. $80 \\mathrm{~ns}$",
+      "C. $70 \\mathrm{~ns}$",
+      "D. $60 \\mathrm{~ns}$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_19",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_control"
+    ],
+    "question": "相对于微程序控制器，硬布线控制器的特点是",
+    "options": [
+      "A. 指令执行速度慢，指令功能的修改和扩展容易",
+      "B. 指令执行速度慢, 指令功能的修改和扩展难",
+      "C. 指令执行速度快, 指令功能的修改和扩展容易",
+      "D. 指令执行速度快, 指令功能的修改和扩展难"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_20",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "假设某系统总线在一个总线周期中并行传输4字节信息，一个总线周期占用2个时钟周期，总线时钟频率为 $10\\mathrm{MHz}$ ，则总线带宽是________。",
+    "options": [
+      "A. $10 \\mathrm{MB} / \\mathrm{S}$",
+      "B. $20 \\mathrm{MB} / \\mathrm{S}$",
+      "C. $40 \\mathrm{MB} / \\mathrm{S}$",
+      "D. $80 \\mathrm{MB} / \\mathrm{S}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_21",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache"
+    ],
+    "question": "假设某计算机的存储系统由 Cache 和主存组成，某程序执行过程中访存 1000 次，其中访问 Cache 缺失（未命中）50 次，则 Cache 的命中率是 ______。",
+    "options": [
+      "A. $5\\%$",
+      "B. $9.5\\%$",
+      "C. $50\\%$",
+      "D. $95\\%$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_22",
+    "subject": "co",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "下列选项中，能引起外部中断的事件是",
+    "options": [
+      "A. 键盘输入",
+      "B. 除数为 0",
+      "C. 浮点运算下溢",
+      "D. 访存缺页"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_23",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_concept"
+    ],
+    "question": "单处理机系统中，可并行的是 I 进程与进程 II 处理机与设备 III 处理机与通道 IV 设备与设备",
+    "options": [
+      "A. I、II 和 III",
+      "B. I、II 和IV",
+      "C. I、III和IV",
+      "D. II、III和IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_24",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "下列进程调度算法中，综合考虑进程等待时间和执行时间的是______。",
+    "options": [
+      "A. 时间片轮转调度算法",
+      "B. 短进程优先调度算法",
+      "C. 先来先服务调度算法",
+      "D. 高响应比优先调度算法"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_25",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "某计算机系统中有 8 台打印机, 由 K 个进程竞争使用, 每个进程最多需要 3 台打印机。该系统可能会发生死锁的 K 的最小值是_____。",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_26",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_contiguous"
+    ],
+    "question": "分区分配内存管理方式的主要保护措施是________。",
+    "options": [
+      "A. 界地址保护",
+      "B. 程序代码保护",
+      "C. 数据保护",
+      "D. 栈保护"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_27",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_segmentation"
+    ],
+    "question": "一个分段存储管理系统中，地址长度为32位，其中段号占8位，则最大段长是______。",
+    "options": [
+      "A. $2^{8}$  字节",
+      "B. $2^{16}$  字节",
+      "C. $2^{24}$  字节",
+      "D. $2^{32}$  字节"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_28",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "下列文件物理结构中，适合随机访问且易于文件扩展的是________。",
+    "options": [
+      "A. 连续结构",
+      "B. 索引结构",
+      "C. 链式结构且磁盘块定长",
+      "D. 链式结构且磁盘块变长"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_29",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_disk"
+    ],
+    "question": "假设磁头当前位于第 105 道，正在向磁道序号增加的方向移动。现有一个磁道访问请求序列为 35，45，12，68，110，180，170，195，采用 SCAN 调度(电梯调度)算法得到的磁道访问序列是 ________。",
+    "options": [
+      "A. 110,170,180,195,68,45,35,12",
+      "B. 110,68,45,35,12,170,180,195",
+      "C. 110,170,180,195,12,35,45,68",
+      "D. 12,35,45,68,110,170,180,195"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_30",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "文件系统中，文件访问控制信息存储的合理位置是________。",
+    "options": [
+      "A. 文件控制块",
+      "B. 文件分配表",
+      "C. 用户口令表",
+      "D. 系统注册表"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_31",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "设文件 F1 的当前引用计数值为 1，先建立 F1 的符号链接（软链接）文件 F2，再建立 F1 的硬链接文件 F3，然后删除 F1。此时，F2 和 F3 的引用计数值分别是________。",
+    "options": [
+      "A. 0、1",
+      "B. 1、1",
+      "C. 1、2",
+      "D. 2、1"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_32",
+    "subject": "os",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control"
+    ],
+    "question": "程序员利用系统调用打开 I/O 设备时，通常使用的设备标识是 ________。",
+    "options": [
+      "A. 逻辑设备名",
+      "B. 物理设备名",
+      "C. 主设备号",
+      "D. 从设备号"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_33",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "在OSI参考模型中，自下而上第一个提供端到端服务的层次是____。",
+    "options": [
+      "A. 数据链路层",
+      "B. 传输层",
+      "C. 会话层",
+      "D. 应用层"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_34",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "在无噪声情况下，若某通信链路的带宽为 $3\\mathrm{kHz}$ ，采用 4 个相位，每个相位具有 4 种振幅的 QAM 调制技术， 则该通信链路的最大数据传输速率是",
+    "options": [
+      "A. 12kbps",
+      "B. 24 kbps",
+      "C. $48 \\mathrm{~kbps}$",
+      "D. 96 kbps"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_35",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "数据链路层采用后退 N 帧（GBN）协议，发送方已经发送了编号为 0~7 的帧。当计时器超时时，若发送方只收到 0、2、3 号帧的确认，则发送方需要重发的帧数是______。",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_36",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "以太网交换机进行转发决策时使用的 PDU 地址是______。",
+    "options": [
+      "A. 目的物理地址",
+      "B. 目的 IP 地址",
+      "C. 源物理地址",
+      "D. 源IP地址"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_37",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "在一个采用 CSMA/CD 协议的网络中，传输介质是一根完整的电缆，传输速率为 1Gbps，电缆中的信号传播速度是 $200000\\mathrm{km/s}$ 。若最小数据帧长度减少 800 比特，则最远的两个站点之间的距离至少需要________。",
+    "options": [
+      "A. 增加  $160 \\mathrm{~m}$",
+      "B. 增加  $80 \\mathrm{~m}$",
+      "C. 减少  $160 \\mathrm{~m}$",
+      "D. 减少  $80 \\mathrm{~m}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_38",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲与主机乙之间已建立一个 TCP 连接, 主机甲向主机乙发送了两个连续的 TCP 段, 分别包含 300 字节和 500 字节的有效载荷, 第一个段的序列号为 200 , 主机乙正确接收到两个段后, 发送给主机甲的确认序列号是______。",
+    "options": [
+      "A. 500",
+      "B. 700",
+      "C. 800",
+      "D. 1000"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_39",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "一个 TCP 连接总是以 1KB 的最大段长发送 TCP 段，发送方有足够多的数据要发送。当拥塞窗口为 16KB时发生了超时，如果接下来的 4 个 RTT（往返时间）时间内的 TCP 段的传输都是成功的，那么当第 4 个 RTT 时间内发送的所有 TCP 段都得到肯定应答时，拥塞窗口大小是______。",
+    "options": [
+      "A. $7 \\mathrm{~KB}$",
+      "B. $8 \\mathrm{KB}$",
+      "C. $9\\mathrm{{KB}}$",
+      "D. $16 \\mathrm{KB}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2009_40",
+    "subject": "cn",
+    "year": 2009,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "FTP 客户和服务器间传递 FTP 命令时，使用的连接是______。",
+    "options": [
+      "A. 建立在TCP之上的控制连接",
+      "B. 建立在TCP之上的数据连接",
+      "C. 建立在 UDP 之上的控制连接",
+      "D. 建立在 UDP 之上的数据连接"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_01",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "若元素 a、b、c、d、e、f 依次进栈，允许进栈、退栈操作交替进行，但不允许连续三次进行退栈操作，则不可能得到的出栈序列是________。",
+    "options": [
+      "A. dcebfa",
+      "B. c b d a e f",
+      "C. bcaefd",
+      "D. a f e d c b"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_02",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_queue"
+    ],
+    "question": "某队列允许在其两端进行入队操作，但仅允许在一端进行出队操作。若元素 a、b、c、d、e 依次入此队列后再进行出队操作，则不可能得到的出队序列是________。",
+    "options": [
+      "A. bace de",
+      "B. dbace",
+      "C. d b c a e",
+      "D. ecbad"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_03",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_threaded"
+    ],
+    "question": "下列线索二叉树中（用虚线表示线索），符合后序线索树定义的是________。 ![](https://408.foreverlink.love/images/379883be6cc766060ef790c71a83d0aa.jpg)",
+    "options": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_04",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "在右图所示的平衡二叉树中，插入关键字 48 后得到一棵新平衡二叉树。在新平衡二叉树中，关键字 37 所在结点的左、右子结点中保存的关键字分别是______。",
+    "options": [
+      "A. 13, 48",
+      "B. 24, 48",
+      "C. 24, 53",
+      "D. 24，90"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_05",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "在一棵度为 4 的树 T 中，若有 20 个度为 4 的结点，10 个度为 3 的结点，1 个度为 2 的结点，10 个度为 1 的结点，则树 T 的叶结点个数是 ________。 ![](https://408.foreverlink.love/images/d3ab7dff241c49a7fdd6269b691abc79.jpg)",
+    "options": [
+      "A. 41",
+      "B. 82",
+      "C. 113",
+      "D. 122"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_06",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "对 $\\mathbf{n}(\\mathbf{n}\\geq 2)$ 个权值均不相同的字符构造成哈夫曼树。下列关于该哈夫曼树的叙述中，错误的是",
+    "options": [
+      "A. 该树一定是一棵完全二叉树。",
+      "B. 树中一定没有度为 1 的结点。",
+      "C. 树中两个权值最小的结点一定是兄弟结点。",
+      "D. 树中任一非叶结点的权值一定不小于下一层任一结点的权值。"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_07",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_basic"
+    ],
+    "question": "若无向图 $\\mathrm{G} = (\\mathrm{V}, \\mathrm{E})$ 中含有 7 个顶点，要保证图 $\\mathrm{G}$ 在任何情况下都是连通的，则需要的边数最少是",
+    "options": [
+      "A. 6",
+      "B. 15",
+      "C. 16",
+      "D. 21"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_08",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_topological"
+    ],
+    "question": "对右图进行拓扑排序，可以得到不同的拓扑序列的个数是____。",
+    "options": [
+      "A. 4",
+      "B. 3",
+      "C. 2",
+      "D. 1"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_09",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "已知一个长度为 16 的顺序表 L, 其元素按关键字有序排列。若采用折半查找法查找一个 L 中不存在的元素, 则关键字的比较次数最多的是______。 ![](https://408.foreverlink.love/images/9e0585636a38a054247de01ac4d76318.jpg)",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_10",
+    "subject": "ds",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_swap"
+    ],
+    "question": "采用递归方式对顺序表进行快速排序。下列关于递归次数的叙述中，正确的是______。",
+    "options": [
+      "A. 递归次数与初始数据的排列次序无关。",
+      "B. 每次划分后，先处理较长的分区可以减少递归次数。",
+      "C. 每次划分后, 先处理较短的分区可以减少递归次数。",
+      "D. 递归次数与每次划分后得到的分区的处理顺序无关。"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_11",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "对一组数据(2，12，16，88，5，10)进行排序，若前三趟排序结果如下： 第一趟排序结果：2，12，16，5，10，88 第二趟排序结果：2，12，5，10，16，88 第三趟排序结果：2，5，10，12，16，88 则采用的排序方法可能是",
+    "options": [
+      "A. 起泡排序",
+      "B. 希尔排序",
+      "C. 归并排序",
+      "D. 基数排序"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_12",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "下列选项中，能缩短程序执行时间的措施是 I. 提高CPU时钟频率 II.优化数据通路结构 III. 对程序进行编译优化",
+    "options": [
+      "A. 仅 I 和 II",
+      "B. 仅 I 和 III",
+      "C. 仅II和III",
+      "D. I 、II 和III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_13",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed",
+      "co_data_alu"
+    ],
+    "question": "假定有 4 个整数用 8 位补码分别表示 $\\mathrm{r}1 = \\mathrm{FEH}$ , $\\mathrm{r}2 = \\mathrm{F}2\\mathrm{H}$ , $\\mathrm{r}3 = 90\\mathrm{H}$ , $\\mathrm{r}4 = \\mathrm{F}8\\mathrm{H}$ , 若将运算结果存放在一个 8 位寄存器中, 则下列运算中会发生溢出的是",
+    "options": [
+      "A. r1 x r2",
+      "B. r2 x r3",
+      "C. r1 x r4",
+      "D. r2 x r4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_14",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "假定变量 i、f 和 d 的数据类型分别为 int, float 和 double（int 用补码表示，float 和 double 分别用 IEEE754 单精度和双精度浮点数格式表示），已知 $i = 785, f = 1.5678 \\mathrm{e}3, d = 1.5 \\mathrm{e}100$ 。若在 32 位机器中执行下列关系表达式，则结果为“真”的是 ________。 (I) $\\mathrm{i} = = (\\mathrm{int})(\\mathrm{float})\\mathrm{i}$ $(\\Pi)\\mathbf{f} = = (\\mathrm{float})(\\mathrm{int})\\mathbf{f}$ $(\\mathrm{III})\\mathrm{f} =$ (float)(double)f $(\\mathrm{IV})(\\mathrm{d} + \\mathrm{f}) - \\mathrm{d} = = \\mathrm{f}$",
+    "options": [
+      "A. 仅 I 和 II",
+      "B. 仅 I 和 III",
+      "C. 仅 II 和 III",
+      "D. 仅 III 和 IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_15",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "15. 假定用若干个 $2 \\mathrm{~k} \\times 4$ 位的芯片组成一个 $8 \\mathrm{~k} \\times 8$ 位的存储器, 则地址 0B1FH 所在芯片的最小地址是",
+    "options": [
+      "A. 0000H",
+      "B. $0600\\mathrm{H}$",
+      "C. ${0700}\\mathrm{H}$",
+      "D. $0800 \\mathrm{H}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_16",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "下列有关 RAM 和 ROM 的叙述中，正确的是________。 IRAM是易失性存储器，ROM是非易失性存储器 II RAM 和 ROM 都采用随机存取方式进行信息访问 III RAM 和 ROM 都可用作 Cache IV RAM 和 ROM 都需要进行刷新",
+    "options": [
+      "A. 仅 I 和 II",
+      "B. 仅 II 和 III",
+      "C. 仅 I,II 和 IV",
+      "D. 仅 II, III 和 IV"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_17",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_virtual"
+    ],
+    "question": "下列命中组合情况中，一次访存过程中不可能发生的是________。",
+    "options": [
+      "A. TLB 未命中，Cache 未命中，Page 未命中",
+      "B. TLB 未命中, Cache 命中, Page 命中",
+      "C. TLB 命中, Cache 未命中, Page 命中",
+      "D. TLB 命中, Cache 命中, Page 未命中"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_18",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_structure"
+    ],
+    "question": "下列寄存器中，汇编语言程序员可见的是________。",
+    "options": [
+      "A. 存储器地址寄存器(MAR)",
+      "B. 程序计数器(PC)",
+      "C. 存储器数据寄存器(MDR)",
+      "D. 指令寄存器(IR)"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_19",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "下列选项中，不会引起指令流水线阻塞的是________。",
+    "options": [
+      "A. 数据旁路（转发）",
+      "B. 数据相关",
+      "C. 条件转移",
+      "D. 资源冲突"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_20",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "下列选项中的英文缩写均为总线标准的是________。",
+    "options": [
+      "A. PCI、CRT、USB、EISA",
+      "B. ISA、CPI、VESA、EISA",
+      "C. ISA、SCSI、RAM、MIPS",
+      "D. ISA、EISA、PCI、PCI-Express"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_21",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "单级中断系统中，中断服务程序内的执行顺序是________。 I保护现场 II开中断 III关中断 IV 保存断点 V中断事件处理 VI恢复现场 VII中断返回",
+    "options": [
+      "A. $\\mathrm{I} > \\mathrm{V} - > \\mathrm{VI} - > \\mathrm{II} - > \\mathrm{VII}$",
+      "B. III->I->V->VII",
+      "C. III->IV->V->VI->VII",
+      "D. IV->I->V->VI->VII"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_22",
+    "subject": "co",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "假定一台计算机的显示存储器用DRAM芯片实现，若要求显示分辨率为 $1600*1200$ ，颜色深度为24位，帧频为85HZ，显存总带宽的 $50\\%$ 用来刷新屏幕，则需要的显存总带宽至少约为________。",
+    "options": [
+      "A. 245Mbps",
+      "B. 979Mbps",
+      "C. 1958Mbps",
+      "D. 7834Mbps"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_23",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列选项中，操作系统提供给应用程序的接口是____。",
+    "options": [
+      "A. 系统调用",
+      "B. 中断",
+      "C. 库函数",
+      "D. 原语"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_24",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列选项中，导致创建新进程的操作是________。 I 用户登录成功 II 设备分配 III 启动程序执行",
+    "options": [
+      "A. 仅 I 和 II",
+      "B. 仅 II 和 III",
+      "C. 仅 I 和 III",
+      "D. I 、II 和III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_25",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "设与某资源关联的信号量初值为 3 , 当前值为 1 。若 M 表示该资源的可用个数, N 表示等待该资源的进程数, 则 M、N 分别是_____。",
+    "options": [
+      "A. 0、1",
+      "B. 1、0",
+      "C. 1、2",
+      "D. 2、0"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_26",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "下列选项中，降低进程优先级的合理时机是______。",
+    "options": [
+      "A. 进程的时间片用完",
+      "B. 进程刚完成 I/O, 进入就绪列队",
+      "C. 进程长期处于就绪列队中",
+      "D. 进程从就绪态转为运行态"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_27",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "进程 P0 和 P1 的共享变量定义及其初值为 boolean flag[2]; int turn $= 0$ $\\mathrm{flag}[0] = \\mathrm{FA}$ LSE; flag[1] $=$ FA LSE; 若进程P0和P1访问临界资源的类C伪代码实现如下： ```c void P0() // 进程P0 { while (TRUE) { flag[0] = TRUE; turn=1; while (flag[1] && (turn==1)) { 临界区； flag[0] = FALSE; } } ``` ```c void P1() // 进程P1 { while (TRUE) { flag[1] = TRUE; turn = 0; while (flag[0] && (turn == 0)) ; 临界区； flag[1] = FALSE; } } ``` 则并发执行进程P0和P1时产生的情形是______。",
+    "options": [
+      "A. 不能保证进程互斥进入临界区，会出现“饥饿”现象",
+      "B. 不能保证进程互斥进入临界区，不会出现“饥饿”现象",
+      "C. 能保证进程互斥进入临界区, 会出现“饥饿”现象",
+      "D. 能保证进程互斥进入临界区，不会出现“饥饿”现象"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_28",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_contiguous"
+    ],
+    "question": "某基于动态分区存储管理的计算机, 其主存容量为 $55 \\mathrm{MB}$ (初始为空闲), 采用最佳适配 (Best Fit) 算法, 分配和释放的顺序为: 分配 $15 \\mathrm{MB}$ , 分配 $30 \\mathrm{MB}$ , 释放 $15 \\mathrm{MB}$ , 分配 $8 \\mathrm{MB}$ , 分配 $6 \\mathrm{MB}$ , 此时主存中最大空闲分区的大小是______。",
+    "options": [
+      "A. 7MB",
+      "B. 9MB",
+      "C. 10MB",
+      "D. 15MB"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_29",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_paging"
+    ],
+    "question": "某计算机采用二级页表的分页存储管理方式，按字节编址，页大小为 $2^{10}$ 字节，页表项大小为 2 字节，逻辑地址结构为： <table><tr><td>页目录号</td><td>页号</td><td>页内偏移量</td></tr></table> 逻辑地址空间大小为 $2^{16}$ 页，则表示整个逻辑地址空间的页目录表中包含表项的个数至少是",
+    "options": [
+      "A. 64",
+      "B. 128",
+      "C. 256",
+      "D. 512"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_30",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "设文件索引节点中有 7 个地址项，其中 4 个地址项是直接地址索引，2 个地址项是一级间接地址索引，1 个地址项是二级间接地址索引，每个地址项大小为 4 字节。若磁盘索引块和磁盘数据块大小均为 256 字节，则可表示的单个文件最大长度是 ________。",
+    "options": [
+      "A. ${33}\\mathrm{{KB}}$",
+      "B. $519\\mathrm{KB}$",
+      "C. $1057 \\mathrm{~KB}$",
+      "D. ${16513}\\mathrm{{KB}}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_31",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_directory"
+    ],
+    "question": "设置当前工作目录的主要目的是",
+    "options": [
+      "A. 节省外存空间",
+      "B. 节省内存空间",
+      "C. 加快文件的检索速度",
+      "D. 加快文件的读/写速度"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_32",
+    "subject": "os",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "本地用户通过键盘登陆系统时，首先获得键盘输入信息的程序是________。",
+    "options": [
+      "A. 命令解释程序",
+      "B. 中断处理程序",
+      "C. 系统调用服务程序",
+      "D. 用户登录程序"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_33",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "下列选项中，不属于网络体系结构所描述的内容是________。",
+    "options": [
+      "A. 网络的层次",
+      "B. 每一层使用的协议",
+      "C. 协议的内部实现细节",
+      "D. 每一层必须完成的功能"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_34",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "在下图所示的采用“存储-转发”方式的分组交换网络中，所有链路的数据传输速率为 $100\\mathrm{Mbps}$ ，分组大小为 $1000\\mathrm{B}$ ，其中分组头大小为 $20\\mathrm{B}$ 。若主机 H1 向主机 H2 发送一个大小为 $980000\\mathrm{B}$ 的文件，则在不考虑分组拆装时间和传播延迟的情况下，从 H1 发送开始到 H2 接收完为止，需要的时间至少是 ![](https://408.foreverlink.love/images/fb7a66e15664cb33e93d810b9f353860.jpg)",
+    "options": [
+      "A. $80 \\mathrm{~ms}$",
+      "B. $80.08 \\mathrm{~ms}$",
+      "C. $80.16 \\mathrm{~ms}$",
+      "D. $80.24 \\mathrm{~ms}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_35",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_route"
+    ],
+    "question": "某自治系统内采用 RIP 协议，若该自治系统内的路由器 R1 收到其邻居路由器 R2 的距离矢量，距离矢量中包含信息 <net1, 16>，则能得出的结论是 ______。",
+    "options": [
+      "A. R2 可以经过 R1 到达 net1, 跳数为 17",
+      "B. R2可以到达net1，跳数为16",
+      "C. R1 可以经过 R2 到达 net1, 跳数为 17",
+      "D. R1 不能经过 R2 到达 net1"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_36",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_protocols"
+    ],
+    "question": "若路由器R因为拥塞丢弃IP分组，则此时R可向发出该IP分组的源主机发送的ICMP报文类型是",
+    "options": [
+      "A. 路由重定向",
+      "B. 目的不可达",
+      "C. 源点抑制",
+      "D. 超时"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_37",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "某网络的 IP 地址空间为 192.168.5.0/24，采用定长子网划分，子网掩码为 255.255.255.248，则该网络中的最大子网个数、每个子网内的最大可分配地址个数分别是____。",
+    "options": [
+      "A. 32, 8",
+      "B. 32, 6",
+      "C. 8, 32",
+      "D. 8, 30"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_38",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_route"
+    ],
+    "question": "下列网络设备中，能够抑制广播风暴的是________。 I中继器 II 集线器 III 网桥 IV路由器",
+    "options": [
+      "A. 仅 I 和 II",
+      "B. 仅III",
+      "C. 仅III 和IV",
+      "D. 仅IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_39",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲和主机乙之间已建立了一个 TCP 连接, TCP 最大段长度为 1000 字节。若主机甲的当前拥塞窗口为 4000 字节, 在主机甲向主机乙连续发送两个最大段后, 成功收到主机乙发送的第一个段的确认段, 确认段中通告的接收窗口大小为 2000 字节, 则此时主机甲还可以向主机乙发送的最大字节数是______。",
+    "options": [
+      "A. 1000",
+      "B. 2000",
+      "C. 3000",
+      "D. 4000"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2010_40",
+    "subject": "cn",
+    "year": 2010,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_dns",
+      "cn_tp_udp"
+    ],
+    "question": "如果本地域名服务器无缓存，当采用递归方法解析另一网络某主机域名时，用户主机、本地域名服务器发送的域名请求消息数分别为________。",
+    "options": [
+      "A. 一条、一条",
+      "B. 一条、多条",
+      "C. 多条、一条",
+      "D. 多条、多条"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_01",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_definition"
+    ],
+    "question": "设 $n$ 是描述问题规模的非负整数, 下面程序片段的时间复杂度是 ```latex $\\mathbf{x} = 2$ while $(x < n / 2)$ $\\mathrm{x} = 2^{\\star}\\mathrm{x};$ ```",
+    "options": [
+      "A. $0\\left(\\log_2 n\\right)$",
+      "B. $0(\\mathrm{n})$",
+      "C. $0(\\mathrm{n} \\log_2 \\mathrm{n})$",
+      "D. $0\\left(\\mathrm{n}^{2}\\right)$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_02",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "元素a，b，c，d，e依次进入初始为空的栈中，若元素进栈后可停留、可出栈，直到所有元素都出栈，则在所有可能的出栈序列中，以元素d开头的序列个数是",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_03",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_circular"
+    ],
+    "question": "已知循环队列存储在一维数组A[0..n-1]中，且队列非空时front和rear分别指向队头元素和队尾元素。若初始时队列为空，且要求第1个进入队列的元素存储在A[0]处，则初始时front和rear的值分别是",
+    "options": [
+      "A. 0,0",
+      "B. 0, n-1",
+      "C. n-1,0",
+      "D. n-1, n-1"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_04",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "若一棵完全二叉树有768个结点，则该二叉树中叶结点的个数是",
+    "options": [
+      "A. 257",
+      "B. 258",
+      "C. 384",
+      "D. 385"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_05",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_traversal"
+    ],
+    "question": "若一棵二叉树的前序遍历序列和后序遍历序列分别为1,2,3,4和4,3,2,1，则该二叉树的中序遍历序列不会是",
+    "options": [
+      "A. 1,2,3,4",
+      "B. 2,3,4,1",
+      "C. 3,2,4,1",
+      "D. 4,3,2,1"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_06",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "已知一棵有2011个结点的树, 其叶结点个数为 116 , 该树对应的二叉树中无右孩子的结点个数是",
+    "options": [
+      "A. 115",
+      "B. 116",
+      "C. 1895",
+      "D. 1896"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_07",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic",
+      "ds_tree_traversal"
+    ],
+    "question": "对于下列关键字序列，不可能构成某二叉排序树中一条查找路径的序列是",
+    "options": [
+      "A. 95, 22, 91, 24, 94, 71",
+      "B. 92, 20, 91, 34, 88, 35",
+      "C. 21,89,77,29,36,38",
+      "D. 12, 25, 71, 68, 33, 34"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_08",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_basic"
+    ],
+    "question": "下列关于图的叙述中，正确的是 I.回路是简单路径 II. 存储稀疏图，用邻接矩阵比邻接表更省空间 III. 若有向图中存在拓扑序列, 则该图不存在回路",
+    "options": [
+      "A. 仅 II",
+      "B. 仅 I、II",
+      "C. 仅III",
+      "D. 仅 I、III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_09",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_hash"
+    ],
+    "question": "为提高散列（Hash）表的查找效率，可以采取的正确措施是 I. 增大装填（载）因子 II．设计冲突（碰撞）少的散列函数 III. 处理冲突（碰撞）时避免产生聚集（堆积）现象",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、II",
+      "D. 仅 II、III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_10",
+    "subject": "ds",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_swap"
+    ],
+    "question": "为实现快速排序算法，待排序序列宜采用的存储方式是",
+    "options": [
+      "A. 顺序存储",
+      "B. 散列存储",
+      "C. 链式存储",
+      "D. 索引存储"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_11",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "已知序列25, 13, 10, 12, 9是大根堆，在序列尾部插入新元素18，将其再调整为大根堆，调整过程中元素之间进行的比较次数是",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_12",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "下列选项中，描述浮点数操作速度指标的是",
+    "options": [
+      "A. MIPS",
+      "B. CPI",
+      "C. IPC",
+      "D. MFLOPS"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_13",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "float型数据通常用IEEE 754单精度浮点数格式表示。若编译器将float型变量x分配在一个32位浮点寄存器FR1中，且 $x = -8.25$ ，则FR1的内容是",
+    "options": [
+      "A. C104 0000H",
+      "B. C242 0000H",
+      "C. C184 0000H",
+      "D. C1C2 0000H"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_14",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "下列各类存储器中，不采用随机存取方式的是",
+    "options": [
+      "A. EPROM",
+      "B. CDROM",
+      "C. DRAM",
+      "D. SRAM"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_15",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某计算机存储器按字节编址，主存地址空间大小为64MB，现用 $4\\mathrm{M} \\times 8$ 位的RAM芯片组成32MB的主存储器，则存储器地址寄存器MAR的位数至少是",
+    "options": [
+      "A. 22位",
+      "B. 23位",
+      "C. 25位",
+      "D. 26位"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_16",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "偏移寻址通过将某个寄存器内容与一个形式地址相加而生成有效地址。下列寻址方式中，不属于偏移寻址方式的是",
+    "options": [
+      "A. 间接寻址",
+      "B. 基址寻址",
+      "C. 相对寻址",
+      "D. 变址寻址"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_17",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_control"
+    ],
+    "question": "某机器有一个标志寄存器，其中有进位/借位标志CF、零标志ZF、符号标志SF和溢出标志OF，条件转移指令bgt（无符号整数比较大于时转移）的转移条件是",
+    "options": [
+      "A. $CF + OF = 1$",
+      "B. $\\overline{SF} + ZF = 1$",
+      "C. $\\overline{CF + ZF} = 1$",
+      "D. $\\overline{CF + SF} = 1$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_18",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline",
+      "co_cpu_datapath"
+    ],
+    "question": "下列给出的指令系统特点中，有利于实现指令流水线的是 I. 指令格式规整且长度一致 II. 指令和数据按边界对齐存放 III. 只有Load/Store指令才能对操作数进行存储访问",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅 I、III",
+      "D. I 、II 、III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_19",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_structure"
+    ],
+    "question": "假定不采用Cache和指令预取技术，且机器处于“开中断”状态，则在下列有关指令执行的叙述中，错误的是",
+    "options": [
+      "A. 每个指令周期中CPU都至少访问内存一次",
+      "B. 每个指令周期一定大于或等于一个CPU时钟周期",
+      "C. 空操作指令的指令周期中任何寄存器的内容都不会被改变",
+      "D. 当前程序在每条指令执行结束时都可能被外部中断打断"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_20",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "在系统总线的数据线上，不可能传输的是",
+    "options": [
+      "A. 指令",
+      "B. 操作数",
+      "C. 握手（应答）信号",
+      "D. 中断类型号"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_21",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "某计算机有五级中断 $\\mathrm{L}_4 \\sim \\mathrm{L}_0$ ，中断屏蔽字为 $\\mathrm{M}_4\\mathrm{M}_3\\mathrm{M}_2\\mathrm{M}_1\\mathrm{M}_0$ ， $\\mathrm{M_i} = 1$ （ $0 \\leqslant i \\leqslant 4$ ）表示对 $\\mathrm{L_i}$ 级中断进行屏蔽。若中断响应优先级从高到低的顺序是 $\\mathrm{L}_4 \\rightarrow \\mathrm{L}_0 \\rightarrow \\mathrm{L}_2 \\rightarrow \\mathrm{L}_1 \\rightarrow \\mathrm{L}_3$ ，则 $\\mathrm{L_i}$ 的中断处理程序中设置的中断屏蔽字是",
+    "options": [
+      "A. 11110",
+      "B. 01101",
+      "C. 00011",
+      "D. 01010"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_22",
+    "subject": "co",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "某计算机处理器主频为 $50 \\mathrm{MHz}$ , 采用定时查询方式控制设备A的 $\\mathrm{I} / \\mathrm{O}$ , 查询程序运行一次所用的时钟周期数至少为 500。在设备A工作期间, 为保证数据不丢失, 每秒需对其查询至少 200 次, 则CPU用于设备A的 $\\mathrm{I} / \\mathrm{O}$ 的时间占整个CPU时间的百分比至少是",
+    "options": [
+      "A. $0.02\\%$",
+      "B. $0.05\\%$",
+      "C. $0.20\\%$",
+      "D. $0.50\\%$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_23",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "下列选项中，满足短任务优先且不会发生饥饿现象的调度算法是",
+    "options": [
+      "A. 先来先服务",
+      "B. 高响应比优先",
+      "C. 时间片轮转",
+      "D. 非抢占式短任务优先"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_24",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列选项中，在用户态执行的是",
+    "options": [
+      "A. 命令解释程序",
+      "B. 缺页处理程序",
+      "C. 进程调度程序",
+      "D. 时钟中断处理程序"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_25",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "在支持多线程的系统中，进程P创建的若干个线程不能共享的是",
+    "options": [
+      "A. 进程P的代码段",
+      "B. 进程P中打开的文件",
+      "C. 进程P的全局变量",
+      "D. 进程P中某线程的栈指针"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_26",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control",
+      "os_io_disk"
+    ],
+    "question": "用户程序发出磁盘I/O请求后，系统的正确处理流程是",
+    "options": [
+      "A. 用户程序  $\\rightarrow$  系统调用处理程序  $\\rightarrow$  中断处理程序  $\\rightarrow$  设备驱动程序",
+      "B. 用户程序  $\\rightarrow$  系统调用处理程序  $\\rightarrow$  设备驱动程序  $\\rightarrow$  中断处理程序",
+      "C. 用户程序  $\\rightarrow$  设备驱动程序  $\\rightarrow$  系统调用处理程序  $\\rightarrow$  中断处理程序",
+      "D. 用户程序  $\\rightarrow$  设备驱动程序  $\\rightarrow$  中断处理程序  $\\rightarrow$  系统调用处理程序"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_27",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "某时刻进程的资源使用情况如下表所示。 <table><tr><td rowspan=\"2\">进程</td><td colspan=\"3\">已分配资源</td><td colspan=\"3\">尚需分配</td><td colspan=\"3\">可用资源</td></tr><tr><td>R1</td><td>R2</td><td>R3</td><td>R1</td><td>R2</td><td>R3</td><td>R1</td><td>R2</td><td>R3</td></tr><tr><td>P1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td rowspan=\"4\">0</td><td rowspan=\"4\">2</td><td rowspan=\"4\">1</td></tr><tr><td>P2</td><td>1</td><td>2</td><td>0</td><td>1</td><td>3</td><td>2</td></tr><tr><td>P3</td><td>0</td><td>1</td><td>1</td><td>1</td><td>3</td><td>1</td></tr><tr><td>P4</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td></tr></table> 此时的安全序列是",
+    "options": [
+      "A. P1, P2, P3, P4",
+      "B. P1,P3,P2,P4",
+      "C. P1, P4, P3, P2",
+      "D. 不存在"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_28",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual"
+    ],
+    "question": "在缺页处理过程中，操作系统执行的操作可能是 I. 修改页表 II. 磁盘I/O III. 分配页框",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II",
+      "C. 仅III",
+      "D. I 、II 和III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_29",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_thrashing"
+    ],
+    "question": "当系统发生抖动（thrashing）时，可用采取的有效措施是 I. 撤销部分进程 II. 增加磁盘交换区的容量 III. 提高用户进程的优先级",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅III",
+      "D. 仅 I、II"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_30",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual"
+    ],
+    "question": "在虚拟内存管理中，地址变换机构将逻辑地址变换为物理地址，形成该逻辑地址的阶段是",
+    "options": [
+      "A. 编辑",
+      "B. 编译",
+      "C. 链接",
+      "D. 装载"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_31",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_buffer"
+    ],
+    "question": "某文件占 10 个磁盘块, 现要把该文件磁盘块逐个读入主存缓冲区, 并送用户区进行分析, 假设一个缓冲区与一个磁盘块大小相同, 把一个磁盘块读入缓冲区的时间为 $100 \\mathrm{us}$ , 将缓冲区的数据传送到用户区的时间是50us，CPU对一块数据进行分析的时间为50us。 在单缓冲区和双缓冲区结构下，读入并分析完该文件的时间分别是",
+    "options": [
+      "A. 1500us、1000us",
+      "B. 1550us、1100us",
+      "C. 1550us、1550us",
+      "D. 2000us、2000us"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_32",
+    "subject": "os",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "有两个并发执行的进程P1和P2，共享初值为1的变量x。P1对x加1，P2对x减1。加1和减1操作的指令序列分别如下所示。 // 加1操作 //减1操作 load R1, x // 取x到寄存器R1中 load R2, x inc R1 dec R2 store x，R1 // 将R1的内容存入x store x，R2 两个操作完成后，x的值",
+    "options": [
+      "A. 可能为-1或3",
+      "B. 只能为1",
+      "C. 可能为0、1或2",
+      "D. 可能为-1、0、1或2"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_33",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model",
+      "cn_arch_basic"
+    ],
+    "question": "TCP/IP参考模型的网络层提供的是",
+    "options": [
+      "A. 无连接不可靠的数据报服务",
+      "B. 无连接可靠的数据报服务",
+      "C. 有连接不可靠的虚电路服务",
+      "D. 有连接可靠的虚电路服务"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_34",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "若某通信链路的数据传输速率为2400bps，采用4相位调制，则该链路的波特率是",
+    "options": [
+      "A. 600波特",
+      "B. 1200波特",
+      "C. 4800波特",
+      "D. 9600波特"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_35",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "数据链路层采用选择重传协议（SR）传输数据，发送方已发送了 $0 \\sim 3$ 号数据帧，现已收到1号帧的确认，而0、2号帧依次超时，则此时需要重传的帧数是",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_36",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "下列选项中，对正确接收到的数据帧进行确认的MAC协议是",
+    "options": [
+      "A. CSMA",
+      "B. CDMA",
+      "C. CSMA/CD",
+      "D. CSMA/CA"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_37",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_route"
+    ],
+    "question": "某网络拓扑如下图所示，路由器R1只有到达子网192.168.1.0/24的路由。为使R1可以将 IP分组正确地路由到图中所有子网，则在R1中需要增加的一条路由（目的网络，子网掩码，下一跳）是 ![](https://408.foreverlink.love/images/326756aa7a20e87bfadb3bd6978c9734.jpg)",
+    "options": [
+      "A. 192.168.2.0",
+      "B. 192.168.2.0",
+      "C. 192.168.2.0",
+      "D. 192.168.2.0"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_38",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "在子网192.168.4.0/30中，能接收目的地址为192.168.4.3的IP分组的最大主机数是",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_39",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲向主机乙发送一个 $(\\mathrm{SYN} = 1, \\mathrm{seq} = 11220)$ 的TCP段，期望与主机乙建立TCP连接，若主机乙接受该连接请求，则主机乙向主机甲发送的正确的TCP段可能是",
+    "options": [
+      "A. $(\\mathrm{SYN} = 0$  ，ACK  $= 0$  ，seq  $= 11221$  ，ack  $= 11221)$",
+      "B. $(\\mathrm{SYN} = 1$  ，ACK=1，seq=11220，ack=11220)",
+      "C. $(\\mathrm{SYN} = 1$  ，ACK=1，seq=11221，ack=11221)",
+      "D. $(\\mathrm{SYN} = 0$  ，ACK  $= 0$  ，seq  $= 11220$  ，ack  $= 11220)$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2011_40",
+    "subject": "cn",
+    "year": 2011,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲与主机乙之间已建立一个TCP连接，主机甲向主机乙发送了3个连续的TCP段，分别包含300字节、400字节和500字节的有效载荷，第3个段的序号为900。若主机乙仅正确接收到第1和第3个段，则主机乙发送给主机甲的确认序号是",
+    "options": [
+      "A. 300",
+      "B. 500",
+      "C. 1200",
+      "D. 1400"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_01",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_definition"
+    ],
+    "question": "求整数 $n(n \\geq 0)$ 阶乘的算法如下，其时间复杂度是 ```c int fact(int n){ if $(n < = 1)$ return 1; return $n^{\\star}$ fact(n-1); } ```",
+    "options": [
+      "A. $\\mathrm{O}\\left( {{\\log }_{2}\\mathrm{n}}\\right)$",
+      "B. $\\mathrm{O}\\left( \\mathrm{n}\\right)$",
+      "C. $\\mathrm{O}\\left( {\\mathrm{{nlog}}2\\mathrm{n}}\\right)$",
+      "D. $O\\left(n^{2}\\right)$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_02",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack_app"
+    ],
+    "question": "已知操作符包括‘+’、‘-’、‘*’、‘/’、‘(和)’。将中缀表达式 $\\mathrm{a + b - a^{*}((c + d) / e - f) + g}$ 转换为等价的后缀表达式 $\\mathrm{ab + acd + e / f - * - g + }$ 时，用栈来存放暂时还不能确定运算次序的操作符，若栈初始时为空，则转换过程中同时保存在栈中的操作符的最大个数是",
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 8",
+      "D. 11"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_03",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_traversal"
+    ],
+    "question": "若一棵二叉树的前序遍历序列为 a, e, b, d, c，后序遍历序列为 b, c, d, e, a，则根结点的孩子结点________。",
+    "options": [
+      "A. 只有 e",
+      "B. 有 e、b",
+      "C. 有 e、c",
+      "D. 无法确定"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_04",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "若平衡二叉树的高度为 6，且所有非叶结点的平衡因子均为 1，则该平衡二叉树的结点总数为 ______。",
+    "options": [
+      "A. 10",
+      "B. 20",
+      "C. 32",
+      "D. 33"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_05",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_bfs",
+      "ds_graph_storage"
+    ],
+    "question": "对有n个结点、e条边且使用邻接表存储的有向图进行广度优先遍历，其算法时间复杂度是",
+    "options": [
+      "A. $\\mathrm{O}\\left( \\mathrm{n}\\right)$",
+      "B. $O(e)$",
+      "C. $\\mathrm{O}\\left( {\\mathrm{n} + \\mathrm{e}}\\right)$",
+      "D. $\\mathrm{O}(\\mathrm{n}^{*}\\mathrm{e})$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_06",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_topological"
+    ],
+    "question": "若用邻接矩阵存储有向图，矩阵中主对角线以下的元素均为零，则关于该图拓扑序列的结论是",
+    "options": [
+      "A. 存在，且唯一",
+      "B. 存在，且不唯一",
+      "C. 存在，可能不唯一",
+      "D. 无法确定是否存在"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_07",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_shortest"
+    ],
+    "question": "对如下有向带权图，若采用迪杰斯特拉（Dijkstra）算法求从源点a到其他各顶点的最短路径，则得到的第一条最短路径的目标顶点是b，第二条最短路径的目标顶点是c，后续得到的其余各最短路径的目标顶点依次是 ![](https://408.foreverlink.love/images/b15d5301f9581c21e39b282657b34719.jpg)",
+    "options": [
+      "A. d,e,f",
+      "B. e,d,f",
+      "C. f,d,e",
+      "D. f,e,d"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_08",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_mst",
+      "ds_graph_shortest"
+    ],
+    "question": "下列关于最小生成树的叙述中，正确的是 I. 最小生成树的代价唯一 II．所有权值最小的边一定会出现在所有的最小生成树中 III. 使用普里姆（Prim）算法从不同顶点开始得到的最小生成树一定相同 IV．使用普里姆算法和克鲁斯卡尔（Kruskal）算法得到的最小生成树总不相同",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、III",
+      "D. 仅 II、IV"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_09",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "已知一棵 3 阶 B-树，如下图所示。删除关键字 78 得到一棵新 B-树，其最右叶结点中的关键字是 ![](https://408.foreverlink.love/images/94cb4139afb5369d5bb7bc9dee182a32.jpg)",
+    "options": [
+      "A. 60",
+      "B. 60, 62",
+      "C. 62, 65",
+      "D. 65"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_10",
+    "subject": "ds",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "在内部排序过程中，对尚未确定最终位置的所有元素进行一遍处理称为一趟排序。下列排序方法中，每一趟排序结束都至少能够确定一个元素最终位置的方法是 I. 简单选择排序 II. 希尔排序 III. 快速排序 IV. 堆排序 V. 二路归并排序",
+    "options": [
+      "A. 仅 I、III、IV",
+      "B. 仅 I、III、V",
+      "C. 仅 II、III、IV",
+      "D. 仅III、IV、V"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_11",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "对一待排序序列分别进行折半插入排序和直接插入排序，两者之间可能的不同之处是",
+    "options": [
+      "A. 排序的总趟数",
+      "B. 元素的移动次数",
+      "C. 使用辅助空间的数量",
+      "D. 元素之间的比较次数"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_12",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "假定基准程序 A 在某计算机上的运行时间为 100 秒，其中 90 秒为 CPU 时间，其余为 I/O 时间。若 CPU 速度提高 $50\\%$ ，I/O 速度不变，则运行基准程序 A 所耗费的时间是 ________。",
+    "options": [
+      "A. 55秒",
+      "B. 60秒",
+      "C. 65秒",
+      "D. 70秒"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_13",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "假定编译器规定 int 和 short 型长度分别为 32 位和 16 位，执行下列 C 语言语句： $$ \\text {u n s i g n e d} x = 6 5 5 3 0; $$ $$ \\text {u n s i g n e d} \\quad \\text {i n t} \\quad y = x; $$ 得到y的机器数为",
+    "options": [
+      "A. 00007FFAH",
+      "B. 0000 FFFAH",
+      "C. FFFF 7FFAH",
+      "D. FFFF FFFAH"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_14",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "float 类型（即 IEEE754 单精度浮点数格式）能表示的最大正整数是 ______。",
+    "options": [
+      "A. $2^{126} - 2^{103}$",
+      "B. $2^{127} - 2^{104}$",
+      "C. $2^{127} - 2^{103}$",
+      "D. $2^{128} - 2^{104}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_15",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "某计算机存储器按字节编址，采用小端方式存放数据。假定编译器规定 int 型和 short 型长度分别为 32 位和 16 位，并且数据按边界对齐存储。某 C 语言程序段如下： ```txt struct { int a; char b; short c; } record; record.a=273; ``` 若 record 变量的首地址为 0xC008，则地址 0xC008 中内容及 record.c 的地址分别为 ______。",
+    "options": [
+      "A. $0 \\times  {00}$  、  $0 \\times  \\mathrm{C}{00}\\mathrm{D}$",
+      "B. $0 \\times  {00}$  、  $0 \\times  \\mathrm{C}{00}\\mathrm{E}$",
+      "C. $0 \\times 11$  、  $0 \\times C 0 0 D$",
+      "D. $0 \\times 11$  、  $0 \\times C 0 0 E$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_16",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "下列关于闪存（Flash Memory）的叙述中，错误的是",
+    "options": [
+      "A. 信息可读可写，并且读、写速度一样快",
+      "B. 存储元由MOS管组成，是一种半导体存储器",
+      "C. 掉电后信息不丢失, 是一种非易失性存储器",
+      "D. 采用随机访问方式, 可替代计算机外部存储器"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_17",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache",
+      "co_mem_main"
+    ],
+    "question": "假设某计算机按字编址，Cache有4个行，Cache和主存之间交换的块大小为1个字。若Cache的内容初始为空，采用2路组相联映射方式和LRU替换策略。访问的主存地址依次为0,4,8,2,0,6,8,6,4,8时，命中Cache的次数是________。",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_18",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_control"
+    ],
+    "question": "某计算机的控制器采用微程序控制方式，微指令中的操作控制字段采用字段直接编码法，共有33个微命令，构成5个互斥类，分别包含7、3、12、5和6个微命令，则操作控制字段至少有________。",
+    "options": [
+      "A. 5 位",
+      "B. 6 位",
+      "C. 15 位",
+      "D. 33 位"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_19",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_timing"
+    ],
+    "question": "某同步总线的时钟频率为 $100\\mathrm{MHz}$ ，宽度为 32 位，地址/数据线复用，每传输一个地址或数据占用一个时钟周期。若该总线支持突发（猝发）传输方式，则一次“主存写”总线事务传输 128 位数据所需要的时间至少是 ________。",
+    "options": [
+      "A. 20ns",
+      "B. 40ns",
+      "C. 50ns",
+      "D. 80ns"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_20",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "下列关于 USB 总线特性的描述中，错误的是",
+    "options": [
+      "A. 可实现外设的即插即用和热拔插",
+      "B. 可通过级联方式连接多台外设",
+      "C. 是一种通信总线，连接不同外设",
+      "D. 同时可传输 2 位数据, 数据传输率高"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_21",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "下列选项中，在 I/O 总线的数据线上传输的信息包括 ______。 I. I/O接口中的命令字 II. I/O接口中的状态字 III. 中断类型号",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I、II、III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_22",
+    "subject": "co",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "响应外部中断的过程中，中断隐指令完成的操作，除保护断点外，还包括 I．关中断 II. 保存通用寄存器的内容 III. 形成中断服务程序入口",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I、II、III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_23",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列选项中，不可能在用户态发生的事件是",
+    "options": [
+      "A. 系统调用",
+      "B. 外部中断",
+      "C. 进程切换",
+      "D. 缺页"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_24",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "中断处理和子程序调用都需要压栈以保护现场，中断处理一定会保存而子程序调用不需要保存其内容的是________。",
+    "options": [
+      "A. 程序计数器",
+      "B. 程序状态字寄存器",
+      "C. 通用数据寄存器",
+      "D. 通用地址寄存器"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_25",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual"
+    ],
+    "question": "下列关于虚拟存储器的叙述中，正确的是",
+    "options": [
+      "A. 虚拟存储只能基于连续分配技术",
+      "B. 虚拟存储只能基于非连续分配技术",
+      "C. 虚拟存储容量只受外存容量的限制",
+      "D. 虚拟存储容量只受内存容量的限制"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_26",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control"
+    ],
+    "question": "操作系统的 I/O 子系统通常由四个层次组成，每一层明确定义了与邻近层次的接口。其合理的层次组织排列顺序是________。",
+    "options": [
+      "A. 用户级 I/O 软件、设备无关软件、设备驱动程序、中断处理程序",
+      "B. 用户级 I/O 软件、设备无关软件、中断处理程序、设备驱动程序",
+      "C. 用户级 I/O 软件、设备驱动程序、设备无关软件、中断处理程序",
+      "D. 用户级 I/O 软件、中断处理程序、设备无关软件、设备驱动程序"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_27",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "假设 5 个进程 P0、P1、P2、P3、P4 共享三类资源 R1、R2、R3，这些资源总数分别为 18、6、22。T0 时刻的资源分配情况如下表所示，此时存在的一个安全序列是 <table><tr><td>进程</td><td>已分配资源</td><td>资源最大需求</td></tr></table> <table><tr><td></td><td>R1</td><td>R2</td><td>R3</td><td>R1</td><td>R2</td><td>R3</td></tr><tr><td>P0</td><td>3</td><td>2</td><td>3</td><td>5</td><td>5</td><td>10</td></tr><tr><td>P1</td><td>4</td><td>0</td><td>3</td><td>5</td><td>3</td><td>6</td></tr><tr><td>P2</td><td>4</td><td>0</td><td>5</td><td>4</td><td>0</td><td>11</td></tr><tr><td>P3</td><td>2</td><td>0</td><td>4</td><td>4</td><td>2</td><td>5</td></tr><tr><td>P4</td><td>3</td><td>1</td><td>4</td><td>4</td><td>2</td><td>4</td></tr></table>",
+    "options": [
+      "A. P0, P2, P4, P1, P3",
+      "B. P1,P0,P3,P4,P2",
+      "C. P2,P1,P0,P3,P4",
+      "D. P3,P4,P2,P1,P0"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_28",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control",
+      "os_io_disk"
+    ],
+    "question": "若一个用户进程通过read系统调用读取一个磁盘文件中的数据，则下列关于此过程的叙述中，正确的是 I．若该文件的数据不在内存，则该进程进入睡眠等待状态 II．请求read系统调用会导致CPU从用户态切换到核心态 III. read 系统调用的参数应包含文件的名称",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I、II 和 III"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_29",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "一个多道批处理系统中仅有 P1 和 P2 两个作业，P2 比 P1 晚 5ms 到达，它们的计算和 I/O 操作顺序如下： P1：计算60ms，I/O80ms，计算20ms P2：计算120ms，I/O40ms，计算40ms 若不考虑调度和切换时间，则完成两个作业需要的时间最少是",
+    "options": [
+      "A. ${240}\\mathrm{{ms}}$",
+      "B. $260 \\mathrm{~ms}$",
+      "C. ${340}\\mathrm{\\;{ms}}$",
+      "D. ${360}\\mathrm{\\;{ms}}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_30",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "若某单处理器多进程系统中有多个就绪态进程，则下列关于处理机调度的叙述中，错误的是________。",
+    "options": [
+      "A. 在进程结束时能进行处理机调度",
+      "B. 创建新进程后能进行处理机调度",
+      "C. 在进程处于临界区时不能进行处理机调度",
+      "D. 在系统调用完成并返回用户态时能进行处理机调度"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_31",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列关于进程和线程的叙述中，正确的是",
+    "options": [
+      "A. 不管系统是否支持线程，进程都是资源分配的基本单位",
+      "B. 线程是资源分配的基本单位，进程是调度的基本单位",
+      "C. 系统级线程和用户级线程的切换都需要内核的支持",
+      "D. 同一进程中的各个线程拥有各自不同的地址空间"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_32",
+    "subject": "os",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_disk"
+    ],
+    "question": "下列选项中，不能改善磁盘设备 I/O 性能的是________。",
+    "options": [
+      "A. 重排 I/O 请求次序",
+      "B. 在一个磁盘上设置多个分区",
+      "C. 预读和滞后写",
+      "D. 优化文件物理块的分布"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_33",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_protocols"
+    ],
+    "question": "在TCP/IP体系结构中，直接为ICMP提供服务的协议是",
+    "options": [
+      "A. PPP",
+      "B. IP",
+      "C. UDP",
+      "D. TCP"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_34",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_media"
+    ],
+    "question": "在物理层接口特性中，用于描述完成每种功能的事件发生顺序的是________。",
+    "options": [
+      "A. 机械特性",
+      "B. 功能特性",
+      "C. 过程特性",
+      "D. 电气特性"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_35",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "以太网的 MAC 协议提供的是",
+    "options": [
+      "A. 无连接不可靠服务",
+      "B. 无连接可靠服务",
+      "C. 有连接不可靠服务",
+      "D. 有连接可靠服务"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_36",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "两台主机之间的数据链路层采用后退N帧协议（GBN）传输数据，数据传输速率为16kbps，单向传播时延为270ms，数据帧长度范围是128~512字节，接收方总是以与数据帧等长的帧进行确认。 为使信道利用率达到最高，帧序号的比特数至少为",
+    "options": [
+      "A. 5",
+      "B. 4",
+      "C. 3",
+      "D. 2"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_37",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_route"
+    ],
+    "question": "下列关于 IP 路由器功能的描述中，正确的是________。 I．运行路由协议，设备路由表 II. 监测到拥塞时，合理丢弃IP分组 III. 对收到的 IP 分组头进行差错校验，确保传输的 IP 分组不丢失 IV. 根据收到的 IP 分组的目的 IP 地址，将其转发到合适的输出线路上",
+    "options": [
+      "A. 仅III、IV",
+      "B. 仅 I、II、III",
+      "C. 仅 I、II、IV",
+      "D. I、II、III、IV"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_38",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_protocols"
+    ],
+    "question": "ARP协议的功能是",
+    "options": [
+      "A. 根据 IP 地址查询 MAC 地址",
+      "B. 根据 MAC 地址查询 IP 地址",
+      "C. 根据域名查询 IP 地址",
+      "D. 根据 IP 地址查询域名"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_39",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "某主机的 IP 地址为 180.80.77.55，子网掩码为 255.255.252.0。若该主机向其所在子网发送广播分组，则目的地址可以是 ________。",
+    "options": [
+      "A. 180.80.76.0",
+      "B. 180.80.76.255",
+      "C. 180.80.77.255",
+      "D. 180.80.79.255"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2012_40",
+    "subject": "cn",
+    "year": 2012,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_email"
+    ],
+    "question": "若用户 1 与用户 2 之间发送和接收电子邮件的过程如下图所示，则图中①、②、③阶段分别使用的应用层协议可以是 ![](https://408.foreverlink.love/images/9ca8886b705c567b135516a0ad1b815e.jpg)",
+    "options": [
+      "A. SMTP、SMTP、SMTP",
+      "B. POP3、SMTP、POP3",
+      "C. POP3、SMTP、SMTP",
+      "D. SMTP、SMTP、POP3"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_01",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_linked"
+    ],
+    "question": "已知两个长度分别为 $m$ 和 $n$ 的升序链表, 若将它们合并为一个长度为 $m + n$ 的降序链表, 则最坏情况下的时间复杂度是",
+    "options": [
+      "A. $O(n)$",
+      "B. $O(m \\times n)$",
+      "C. $O(\\min (m,n))$",
+      "D. $O(\\max (m,n))$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_02",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "一个栈的入栈序列为 $1,2,3,\\dots ,n$ ，其出栈序列是 $p_1,p_2,p_3,\\dots ,p_n$ 。若 $p_2 = 3$ ，则 $p_3$ 可能取值的个数是",
+    "options": [
+      "A. $n - 3$",
+      "B. $n - 2$",
+      "C. $n - 1$",
+      "D. 无法确定"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_03",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "若将关键字 1, 2, 3, 4, 5, 6, 7 依次插入到初始为空的平衡二叉树 $T$ 中, 则 $T$ 中平衡因子为 0 的分支结点的个数是",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_04",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "已知三叉树 $T$ 中 6 个叶结点的权分别是 2, 3, 4, 5, 6, 7, $T$ 的带权（外部）路径长度最小是",
+    "options": [
+      "A. 27",
+      "B. 46",
+      "C. 54",
+      "D. 56"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_05",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_threaded"
+    ],
+    "question": "若 X 是后序线索二叉树中的叶结点, 且 X 存在左兄弟结点 Y, 则 X 的右线索指向的是",
+    "options": [
+      "A. X 的父结点",
+      "B. 以  $\\mathrm{Y}$  为根的子树的最左下结点",
+      "C. X 的左兄弟结点 Y",
+      "D. 以  $\\mathrm{Y}$  为根的子树的最右下结点"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_06",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic",
+      "ds_sort_insert"
+    ],
+    "question": "在任意一棵非空二叉排序树 $T_{1}$ 中，删除某结点 $\\nu$ 之后形成二叉排序树 $T_{2}$ ，再将 $\\nu$ 插入 $T_{2}$ 形成二叉排序树 $T_{3}$ 。下列关于 $T_{1}$ 与 $T_{3}$ 的叙述中，正确的是 I. 若 $v$ 是 $T_{1}$ 的叶结点, 则 $T_{1}$ 与 $T_{3}$ 不同 II. 若 $v$ 是 $T_{1}$ 的叶结点, 则 $T_{1}$ 与 $T_{3}$ 相同 III. 若 $\\nu$ 不是 $T_{1}$ 的叶结点, 则 $T_{1}$ 与 $T_{3}$ 不同 IV. 若 $v$ 不是 $T_{1}$ 的叶结点, 则 $T_{1}$ 与 $T_{3}$ 相同",
+    "options": [
+      "A. 仅 I、III",
+      "B. 仅 I、IV",
+      "C. 仅 II、III",
+      "D. 仅 II、IV"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_07",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_storage"
+    ],
+    "question": "设图的邻接矩阵 A 如下所示。各顶点的度依次是 $$",
+    "options": [
+      "A. = \\left[ \\begin{array}{c c c c} 0 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 1 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{array} \\right]",
+      "B. 2, 2, 1, 1",
+      "C. 3, 4, 2, 3",
+      "D. 4, 4, 2, 2"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_08",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_bfs"
+    ],
+    "question": "若对如下无向图进行遍历，则下列选项中，不是广度优先遍历序列的是",
+    "options": [
+      "A. h，c，a，b，d，e，g，f",
+      "B. e，a，f，g，b，h，c，d",
+      "C. d，b，c，a，h，e，f，g",
+      "D. a, b, c, d, h, e, f, g"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_09",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_critical"
+    ],
+    "question": "下列 AOE 网表示一项包含 8 个活动的工程。通过同时加快若干活动的进度可以缩短整个工程的工期。下列选项中，加快其进度就可以缩短工程工期的是 ![](https://408.foreverlink.love/images/f1f2adaac775a3a9c71c5dc6d3966224.jpg)",
+    "options": [
+      "A. c和e",
+      "B. d 和 e",
+      "C. f和d",
+      "D. f 和 h"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_10",
+    "subject": "ds",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "在一株高度为 2 的 5 阶 B 树中, 所含关键字的个数最少是",
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 8",
+      "D. 14"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_11",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_merge"
+    ],
+    "question": "对给定的关键字序列 110, 119, 007, 911, 114, 120, 122 进行基数排序, 则第 2 趟分配收集后得到的关键字序列是",
+    "options": [
+      "A. 007, 110, 119, 114, 911, 120, 122",
+      "B. 007, 110, 119, 114, 911, 122, 120",
+      "C. 007, 110, 911, 114, 119, 120, 122",
+      "D. 110, 120, 911, 122, 114, 007, 119"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_12",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "某计算机主频为 $1.2 \\mathrm{GHz}$ , 其指令分为 4 类, 它们在基准程序中所占比例及 CPI 如下表所示。 <table><tr><td>指令类型</td><td>所占比例</td><td>CPI</td></tr><tr><td>A</td><td>50%</td><td>2</td></tr><tr><td>B</td><td>20%</td><td>3</td></tr><tr><td>C</td><td>10%</td><td>4</td></tr><tr><td>D</td><td>20%</td><td>5</td></tr></table> 该机的 MIPS 数是",
+    "options": [
+      "A. 100",
+      "B. 200",
+      "C. 400",
+      "D. 600"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_13",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "某数采用 IEEE 754 单精度浮点数格式表示为 C640000H，则该数的值是",
+    "options": [
+      "A. $-1.5 \\times 2^{13}$",
+      "B. $-1.5 \\times 2^{12}$",
+      "C. $-0.5 \\mathrm{x} \\times 2^{13}$",
+      "D. $-0.5 \\times 2^{12}$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_14",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "某字长为 8 位的计算机中，已知整型变量 $x$ 、 $y$ 的机器数分别为 $[x]_{\\text{补}} = 1$ 1110100， $[y]_{\\text{补}} = 1$ 0110000。若整型变量 $z = 2 * x + y / 2$ ，则 $z$ 的机器数为",
+    "options": [
+      "A. 1 1000000",
+      "B. 0 0100100",
+      "C. 10101010",
+      "D. 溢出"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_15",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_radix"
+    ],
+    "question": "用海明码对长度为 8 位的数据进行检/纠错时, 若能纠正一位错。则校验位数至少为",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_16",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_virtual",
+      "co_mem_cache"
+    ],
+    "question": "某计算机主存地址空间大小为 $256 \\mathrm{MB}$ , 按字节编址。虚拟地址空间大小为 $4 \\mathrm{~GB}$ , 采用页式存储管理, 页面大小为 $4 \\mathrm{KB}, \\mathrm{TLB}$ (快表) 采用全相联映射, 有 4 个页表项, 内容如下表所示。 <table><tr><td>有效位</td><td>标记</td><td>页框号</td><td>...</td></tr><tr><td>0</td><td>FF180H</td><td>0002H</td><td>...</td></tr><tr><td>1</td><td>3FFF1H</td><td>0035H</td><td>...</td></tr><tr><td>0</td><td>02FF3H</td><td>0351H</td><td>...</td></tr><tr><td>1</td><td>03FFFH</td><td>0153H</td><td>...</td></tr></table> 则对虚拟地址 03FF F180H 进行虚实地址变换的结果是",
+    "options": [
+      "A. 0153180H",
+      "B. 0035180H",
+      "C. TLB缺失",
+      "D. 缺页"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_17",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "假设变址寄存器 R 的内容为 $1000 \\mathrm{H}$ , 指令中的形式地址为 $2000 \\mathrm{H}$ ; 地址 $1000 \\mathrm{H}$ 中的内容为 $2000 \\mathrm{H}$ , 地址 $2000 \\mathrm{H}$ 中的内容为 $3000 \\mathrm{H}$ , 地址 $3000 \\mathrm{H}$ 中的内容为 $4000 \\mathrm{H}$ , 则变址寻址方式下访问到的操作数是",
+    "options": [
+      "A. ${1000}\\mathrm{H}$",
+      "B. 2000H",
+      "C. ${3000}\\mathrm{H}$",
+      "D. ${4000}\\mathrm{\\;H}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_18",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "某CPU主频为 $1.03\\mathrm{GHz}$ ，采用4级指令流水线，每个流水段的执行需要1个时钟周期。假定CPU执行了100条指令，在其执行过程中，没有发生任何流水线阻塞，此时流水线的吞吐率为",
+    "options": [
+      "A. $0.25 \\times 10^{9}$  条指令/秒",
+      "B. $0.97 \\times 10^{9}$  条指令/秒",
+      "C. $1.0 \\times 10^{9}$  条指令/秒",
+      "D. $1.03 \\times 10^{9}$  条指令/秒"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_19",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "下列选项中，用于设备和设备控制器（I/O接口）之间互连的接口标准是",
+    "options": [
+      "A. PCI",
+      "B. USB",
+      "C. AGP",
+      "D. PCI-Express"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_20",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "下列选项中，用于提高 RAID 可靠性的措施有 I. 磁盘镜像 II. 条带化 III. 奇偶校验 IV. 增加 Cache 机制",
+    "options": [
+      "A. 仅I、II",
+      "B. 仅 I、III",
+      "C. 仅 I、III 和 IV",
+      "D. 仅 II、III 和 IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_21",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "某磁盘的转速为 10000 转/分，平均寻道时间是 $6 \\mathrm{~ms}$ ，磁盘传输速率是 $20 \\mathrm{MB} / \\mathrm{s}$ ，磁盘控制器延迟为 $0.2 \\mathrm{~ms}$ ，读取一个 $4 \\mathrm{KB}$ 的扇区所需的平均时间约为",
+    "options": [
+      "A. $9\\mathrm{\\;{ms}}$",
+      "B. $9.4 \\mathrm{~ms}$",
+      "C. $12 \\mathrm{~ms}$",
+      "D. $12.4 \\mathrm{~ms}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_22",
+    "subject": "co",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_dma",
+      "co_io_interface"
+    ],
+    "question": "下列关于中断 I/O 方式和 DMA 方式比较的叙述中，错误的是",
+    "options": [
+      "A. 中断 I/O 方式请求的是 CPU 处理时间, DMA 方式请求的是总线使用权",
+      "B. 中断响应发生在一条指令执行结束后, DMA 响应发生在一个总线事务完成后",
+      "C. 中断 I/O 方式下数据传送通过软件完成, DMA 方式下数据传送由硬件完成",
+      "D. 中断 I/O 方式适用于所有外部设备, DMA 方式仅适用于快速外部设备"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_23",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "用户在删除某文件的过程中，操作系统不可能执行的操作是",
+    "options": [
+      "A. 删除此文件所在的目录",
+      "B. 删除与此文件关联的目录项",
+      "C. 删除与此文件对应的文件控制块",
+      "D. 释放与此文件关联的内存级冲区"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_24",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "为支持 CD-ROM 中视频文件的快速随机播放，播放性能最好的文件数据块组织方式是",
+    "options": [
+      "A. 连续结构",
+      "B. 链式结构",
+      "C. 直接索引结构",
+      "D. 多级索引结构"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_25",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control",
+      "os_io_disk"
+    ],
+    "question": "用户程序发出磁盘 I/O 请求后，系统的处理流程是：用户程序 $\\rightarrow$ 系统调用处理程序 $\\rightarrow$ 设备驱动程序 $\\rightarrow$ 中断处理程序。其中，计算数据所在磁盘的柱面号、磁头号、扇区号的程序是",
+    "options": [
+      "A. 用户程序",
+      "B. 系统调用处理程序",
+      "C. 设备驱动程序",
+      "D. 中断处理程序"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_26",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "若某文件系统索引结点（inode）中有直接地址项和间接地址项，则下列选项中，与单个文件长度无关的因素是",
+    "options": [
+      "A. 索引结点的总数",
+      "B. 间接地址索引的级数",
+      "C. 地址项的个数",
+      "D. 文件块大小"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_27",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_buffer"
+    ],
+    "question": "设系统缓冲区和用户工作区均采用单缓冲，从外设读入 1 个数据块到系统缓冲区的时间为 100，从系统缓冲区读入 1 个数据块到用户工作区的时间为 5，对用户工作区中的 1 个数据块进行分析的时间为 90（如下图所示）。进程从外设读入并分析 2 个数据块的最短时间是 ![](https://408.foreverlink.love/images/fb6128c544c135b7c6a8b8b9b6d6cd8c.jpg)",
+    "options": [
+      "A. 200",
+      "B. 295",
+      "C. 300",
+      "D. 390"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_28",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列选项中，会导致用户进程从用户态切换到内核态的操作是 I. 整数除以零 II. sin（）函数调用 III. read 系统调用",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I、II 和 III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_29",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "计算机开机后，操作系统最终被加载到",
+    "options": [
+      "A. BIOS",
+      "B. ROM",
+      "C. EPROM",
+      "D. RAM"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_30",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual"
+    ],
+    "question": "若用户进程访问内存时产生缺页，则下列选项中，操作系统可能执行的操作是 I. 处理越界错 II. 置换页 III. 分配内存",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅 I、III",
+      "D. I、II 和 III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_31",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "某系统正在执行三个进程 P1、P2 和 P3，各进程的计算（CPU）时间和 I/O 时间比例如下表所示。 <table><tr><td>进程</td><td>计算时间</td><td>I/O 时间</td></tr><tr><td>P1</td><td>90%</td><td>10%</td></tr><tr><td>P2</td><td>50%</td><td>50%</td></tr><tr><td>P3</td><td>15%</td><td>85%</td></tr></table> 为提高系统资源利用率，合理的进程优先级设置应为",
+    "options": [
+      "A. P1>P2>P3",
+      "B. P3>P2>P1",
+      "C. $\\mathrm{P}2 > \\mathrm{P}1 = \\mathrm{P}3$",
+      "D. P1>P2=P3"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_32",
+    "subject": "os",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "下列关于银行家算法的叙述中，正确的是",
+    "options": [
+      "A. 银行家算法可以预防死锁",
+      "B. 当系统处于安全状态时, 系统中一定无死锁进程",
+      "C. 当系统处于不安全状态时, 系统中一定会出现死锁进程",
+      "D. 银行家算法破坏了死锁必要条件中的“请求和保持”条件"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_33",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "在 OSI 参考模型中，下列功能需由应用层的相邻层实现的是",
+    "options": [
+      "A. 对话管理",
+      "B. 数据格式转换",
+      "C. 路由选择",
+      "D. 可靠数据传输"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_34",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "若下图为 $10 \\mathrm{BaseT}$ 网卡接收到的信号波形, 则该网卡收到的比特串是 ![](https://408.foreverlink.love/images/9c2912ab7a3aeda25dd0629072de5431.jpg)",
+    "options": [
+      "A. 0011 0110",
+      "B. 1010 1101",
+      "C. 0101 0010",
+      "D. 1100 0101"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_35",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "主机甲通过 1 个路由器（存储转发方式）与主机乙互联，两段链路的数据传输速率均为 10 Mbps，主机甲分别采用报文交换和分组大小为 $10 \\mathrm{~kb}$ 的分组交换向主机乙发送 1 个大小为 $8 \\mathrm{Mb} (1 \\mathrm{M} = 10^{6})$ 的报文。若忽略链路传播延迟、分组头开销和分组拆装时间，则两种交换方式完成该报文传输所需的总时间分别为",
+    "options": [
+      "A. $800 \\mathrm{~ms} 、 1600 \\mathrm{~ms}$",
+      "B. $801 \\mathrm{~ms} 、 1600 \\mathrm{~ms}$",
+      "C. $1600 \\mathrm{~ms} 、 800 \\mathrm{~ms}$",
+      "D. $1600 \\mathrm{~ms} 、 801 \\mathrm{~ms}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_36",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "下列介质访问控制方法中，可能发生冲突的是",
+    "options": [
+      "A. CDMA",
+      "B. CSMA",
+      "C. TDMA",
+      "D. FDMA"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_37",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "HDLC协议对01111000111110组帧后对应的比特串为",
+    "options": [
+      "A. 01111100 00111110 10",
+      "B. 01111100 01111101 0111110",
+      "C. 01111100 01111101 0",
+      "D. 01111100 01111110 01111101"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_38",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "对于 100Mbps 的以太网交换机，当输出端口无排队，以直通交换（cut-through switching）方式转发一个以太网帧（不包括前导码）时，引入的转发延迟至少是",
+    "options": [
+      "A. $0 \\mu \\mathrm{s}$",
+      "B. ${0.48\\mu }\\mathrm{s}$",
+      "C. $5.12 \\mu \\mathrm{s}$",
+      "D. 121.44 μs"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_39",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲与主机乙之间已建立一个 TCP 连接，双方持续有数据传输，且数据无差错与丢失。若甲收到 1 个来自乙的 TCP 段，该段的序号为 1913、确认序号为 2046、有效载荷为 100 字节，则甲立即发送给乙的 TCP 段的序号和确认序号分别是",
+    "options": [
+      "A. 2046、2012",
+      "B. 2046、2013",
+      "C. 2047、2012",
+      "D. 2047、2013"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2013_40",
+    "subject": "cn",
+    "year": 2013,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_email"
+    ],
+    "question": "下列关于 SMTP 协议的叙述中，正确的是 I. 只支持传输 7 比特 ASC II 码内容 II. 支持在邮件服务器之间发送邮件 III. 支持从用户代理向邮件服务器发送邮件 IV. 支持从邮件服务器向用户代理发送邮件",
+    "options": [
+      "A. 仅 I、II 和 III",
+      "B. 仅 I、II 和 IV",
+      "C. 仅 I、III 和 IV",
+      "D. 仅 II、III 和 IV"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_01",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_definition"
+    ],
+    "question": "下列程序段的时间复杂度是 ```javascript count=0; for $(k = 1;k < = n;k^{*} = 2)$ for $(j = 1;j < = n;j + + )$ count++; ```",
+    "options": [
+      "A. $\\mathrm{O}\\left( {{\\log }_{2}\\mathrm{n}}\\right)$",
+      "B. O(n)",
+      "C. $\\mathrm{O}(\\mathrm{nlog}_{2}\\mathrm{n})$",
+      "D. $O\\left(n^{2}\\right)$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_02",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack_app"
+    ],
+    "question": "假设栈初始为空，将中缀表达式 $a / b + (c^* d - e^* f) / g$ 转换为等价的后缀表达式的过程中，当扫描到 $f$ 时，栈中的元素依次是",
+    "options": [
+      "A. $+ (* -$",
+      "B. $+(-^{*})$",
+      "C. $1 + \\left( \\begin{array}{l} * \\\\ - * \\end{array} \\right)$",
+      "D. /+-*"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_03",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_circular"
+    ],
+    "question": "循环队列放在一维数组 A[0...M-1]中，end1 指向队头元素，end2 指向队尾元素的后一个位置。假设队列两端均可进行入队和出队操作，队列中最多能容纳 M-1 个元素。初始时为空。下列判断队空和队满的条件中，正确的是________。",
+    "options": [
+      "A. 队空: end1 == end2;",
+      "B. 队空: end1 == end2;",
+      "C. 队空: end2 == (end1 + 1) mod M;",
+      "D. 队空: end1 == (end2 + 1) mod M;"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_04",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_threaded"
+    ],
+    "question": "若对如下的二叉树进行中序线索化, 则结点 $\\mathrm{x}$ 的左、右线索指向的结点分别是 ![](https://408.foreverlink.love/images/52bea3a840225deb0ca67f018664f9e6.jpg)",
+    "options": [
+      "A. e、c",
+      "B. e、a",
+      "C. d、c",
+      "D. b、a"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_05",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "将森林 F 转换为对应的二叉树 T, F 中叶结点的个数等于____。",
+    "options": [
+      "A. T中叶结点的个数",
+      "B. T 中度为 1 的结点个数",
+      "C. T中左孩子指针为空的结点个数",
+      "D. T 中右孩子指针为空的结点个数"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_06",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "5 个字符有如下 4 种编码方案, 不是前缀编码的是",
+    "options": [
+      "A. 01,0000,0001,001,1",
+      "B. 011,000,001,010,1",
+      "C. 000,001,010,011,100",
+      "D. 0,100,110,1110,1100"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_07",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_topological"
+    ],
+    "question": "对如下所示的有向图进行拓扑排序，得到的拓扑序列可能是",
+    "options": [
+      "A. 3,1,2,4,5,6",
+      "B. 3,1,2,4,6,5",
+      "C. $3,1,4,2,5,6$",
+      "D. 3,1,4,2,6,5"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_08",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_hash"
+    ],
+    "question": "用哈希（散列）方法处理冲突（碰撞）时可能出现堆积（聚集）现象，下列选项中，会受堆积现象直接影响的是________。",
+    "options": [
+      "A. 存储效率",
+      "B. 散列函数",
+      "C. 装填(装载)因子",
+      "D. 平均查找长度"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_09",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "在一棵具有 15 个关键字的 4 阶 B 树中, 含关键字的结点个数最多是_____。",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 10",
+      "D. 15"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_10",
+    "subject": "ds",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "用希尔排序方法对一个数据序列进行排序时，若第 1 趟排序结果为 9,1,4,13,7,8,20,23,15，则该趟排序采用的增量（间隔）可能是 ______。",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_11",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_swap"
+    ],
+    "question": "下列选项中，不可能是快速排序第2趟排序结果的是",
+    "options": [
+      "A. 2,3,5,4,6,7,9",
+      "B. 2,7,5,6,4,3,9",
+      "C. $3,2,5,4,7,6,9$",
+      "D. 4,2,3,5,7,6,9"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_12",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "程序 P 在机器 M 上的执行时间是 20 秒, 编译优化后, P 执行的指令数减少到原来的 $70 \\%$ , 而 CPI 增加到原来的 1.2 倍, 则 P 在 M 上的执行时间是",
+    "options": [
+      "A. 8.4秒",
+      "B. 11.7秒",
+      "C. 14秒",
+      "D. 16.8秒"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_13",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed",
+      "co_data_alu"
+    ],
+    "question": "若 $x = 103, y = -25$ ，则下列表达式采用 8 位定点补码运算实现时，会发生溢出的是 ______。",
+    "options": [
+      "A. $x + y$",
+      "B. $-x + y$",
+      "C. x-y",
+      "D. -x-y"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_14",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "float 型数据据常用 IEEE754 单精度浮点格式表示。假设两个 float 型变量 x 和 y 分别存放在 32 位寄存器 $\\mathrm{f}_1$ 和 $\\mathrm{f}_2$ 中，若 $(\\mathrm{f}_1) = \\mathrm{CC90000H}$ ， $(\\mathrm{f}_2) = \\mathrm{B0C0000H}$ ，则 x 和 y 之间的关系为 ________。",
+    "options": [
+      "A. $x < y$  且符号相同",
+      "B. $x < y$  且符号不同",
+      "C. $x > y$  且符号相同",
+      "D. $x > y$  且符号不同"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_15",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某容量为 256MB 的存储器由若干 $4\\mathrm{M} \\times 8$ 位的 DRAM 芯片构成，该 DRAM 芯片的地址引脚和数据引脚总数是 ______。",
+    "options": [
+      "A. 19",
+      "B. 22",
+      "C. 30",
+      "D. 36"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_16",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline",
+      "co_cpu_datapath"
+    ],
+    "question": "采用指令 Cache 与数据 Cache 分离的主要目的是",
+    "options": [
+      "A. 降低 Cache 的缺失损失",
+      "B. 提高 Cache 的命中率",
+      "C. 降低 CPU 平均访存时间",
+      "D. 减少指令流水线资源冲突"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_17",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_format",
+      "co_isa_addressing"
+    ],
+    "question": "某计算机有 16 个通用寄存器，采用 32 位定长指令字，操作码字段（含寻址方式位）为 8 位，Store 指令的源操作数和目的操作数分别采用寄存器直接寻址和基址寻址方式。若基址寄存器可使用任一通用寄存器，且偏移量用补码表示，则 Store 指令中偏移量的取值范围是 ________。",
+    "options": [
+      "A. $-32768\\sim +32767$",
+      "B. $-32767\\sim +32768$",
+      "C. $-65536\\sim +65535$",
+      "D. $-65535 \\sim +65536$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_18",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_control"
+    ],
+    "question": "某计算机采用微程序控制器，共有 32 条指令，公共的取指令微程序包含 2 条微指令，各指令对应的微程序平均由 4 条微指令组成，采用断定法（下地址字段法）确定下条微 指令地址，则微指令中下址字段的位数至少是____。",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 8",
+      "D. 9"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_19",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "某同步总线采用数据线和地址线复用方式，其中地址/数据线有 32 根，总线时钟频率为 $66 \\mathrm{MHz}$ ，每个时钟周期传送两次数据(上升沿和下降沿各传送一次数据)，该总线的最大数据传输率(总线带宽)是 ______。",
+    "options": [
+      "A. $132\\mathrm{MB / s}$",
+      "B. $264 \\mathrm{MB} / \\mathrm{s}$",
+      "C. $528 \\mathrm{MB} / \\mathrm{s}$",
+      "D. $1056 \\mathrm{MB} / \\mathrm{s}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_20",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_timing"
+    ],
+    "question": "一次总线事务中，主设备只需给出一个首地址，从设备就能从首地址开始的若干连续单元读出或写入多个数据。这种总线事务方式称为________。",
+    "options": [
+      "A. 并行传输",
+      "B. 串行传输",
+      "C. 突发传输",
+      "D. 同步传输"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_21",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "下列有关 I/O 接口的叙述中, 错误的是____。",
+    "options": [
+      "A. 状态端口和控制端口可以合用同一个寄存器",
+      "B. I/O 接口中 CPU 可访问的寄存器称为 I/O 端口",
+      "C. 采用独立编址方式时, I/O 端口地址和主存地址可能相同",
+      "D. 采用统一编址方式时, CPU 不能用访存指令访问 I/O 端口"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_22",
+    "subject": "co",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "若某设备中断请求的响应和处理时间为 $100 \\mathrm{~ns}$ , 每 $400 \\mathrm{~ns}$ 发出一次中断请求, 中断响应所允许的最长延迟时间为 $50 \\mathrm{~ns}$ , 则在该设备持续工作过程中, CPU 用于该设备的 I/O 时间占整个 CPU 时间的百分比至少是",
+    "options": [
+      "A. $12.5\\%$",
+      "B. $25\\%$",
+      "C. $37.5\\%$",
+      "D. $50\\%$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_23",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "下列调度算法中，不可能导致饥饿现象的是________。",
+    "options": [
+      "A. 时间片轮转",
+      "B. 静态优先数调度",
+      "C. 非抢占式短作业优先",
+      "D. 抢占式短作业优先"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_24",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "某系统有 n 台互斥使用的同类设备, 三个并发进程分别需要 3、4、5 台设备, 可确保系统不发生死锁的设备数 n 最小为_____。",
+    "options": [
+      "A. 9",
+      "B. 10",
+      "C. 11",
+      "D. 12"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_25",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列指令中，不能在用户态执行的是________。",
+    "options": [
+      "A. trap指令",
+      "B. 跳转指令",
+      "C. 压栈指令",
+      "D. 关中断指令"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_26",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "一个进程的读磁盘操作完成后，操作系统针对该进程必做的是________。",
+    "options": [
+      "A. 修改进程状态为就绪态",
+      "B. 降低进程优先级",
+      "C. 给进程分配用户内存空间",
+      "D. 增加进程时间片大小"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_27",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "现有一个容量为 10GB 的磁盘分区, 磁盘空间以簇(Cluster)为单位进行分配, 簇的大小为 $4 \\mathrm{KB}$ , 若采用位图法管理该分区的空闲空间, 即用一位(bit)标识一个簇是否被分配, 则存放该位图所需簇的个数为_____。",
+    "options": [
+      "A. 80",
+      "B. 320",
+      "C. $80 \\mathrm{~K}$",
+      "D. 320K"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_28",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_paging"
+    ],
+    "question": "下列措施中，能加快虚实地址转换的是________。 I. 增大快表(TLB)容量 II. 让页表常驻内存 III. 增大交换区(swap)",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、II",
+      "D. 仅 II、III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_29",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "在一个文件被用户进程首次打开的过程中，操作系统需做的是",
+    "options": [
+      "A. 将文件内容读到内存中",
+      "B. 将文件控制块读到内存中",
+      "C. 修改文件控制块中的读写权限",
+      "D. 将文件的数据缓冲区首指针返回给用户进程"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_30",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual",
+      "os_mem_paging"
+    ],
+    "question": "在页式虚拟存储管理系统中，采用某些页面置换算法，会出现 Belady 异常现象，即进程的缺页次数会随着分配给该进程的页框个数的增加而增加。下列算法中，可能出现 Belady 异常现象的是________。 I. LRU算法 II. FIFO算法 III. OPT算法",
+    "options": [
+      "A. 仅 II",
+      "B. 仅 I、II",
+      "C. 仅 I、III",
+      "D. 仅 II、III"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_31",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "下列关于管道(Pipe)通信的叙述中, 正确的是____。",
+    "options": [
+      "A. 一个管道可实现双向数据传输",
+      "B. 管道的容量仅受磁盘容量大小限制",
+      "C. 进程对管道进行读操作和写操作都可能被阻塞",
+      "D. 一个管道只能有一个读进程或一个写进程对其操作"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_32",
+    "subject": "os",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_paging"
+    ],
+    "question": "下列选项中, 属于多级页表优点的是",
+    "options": [
+      "A. 加快地址变换速度",
+      "B. 减少缺页中断次数",
+      "C. 减少页表项所占字节数",
+      "D. 减少页表所占的连续内存空间"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_33",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "在 OSI 参考模型中，直接为会话层提供服务的是________。",
+    "options": [
+      "A. 应用层",
+      "B. 表示层",
+      "C. 传输层",
+      "D. 网络层"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_34",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "某以太网拓扑及交换机当前转发表如下图所示，主机 00-e1-d5-00-23-a1 向主机 00-e1-d5-00-23-c1 发送 1 个数据帧，主机 00-e1-d5-00-23-c1 收到该帧后，向主机 00-e1-d5-00-23-a1 发送 1 个确认帧，交换机对这两个帧的转发端口分别是（）。 ![](https://408.foreverlink.love/images/6853c60f252479c9ba62d65c2e7e1698.jpg) ![](https://408.foreverlink.love/images/94dd944f5df8d303dd33af470b74a963.jpg)",
+    "options": [
+      "A. $\\{3\\}$  和  $\\{1\\}$",
+      "B. $\\{2,3\\}$  和  $\\{1\\}$",
+      "C. $\\{2,3\\}$  和  $\\{1,2\\}$",
+      "D. $\\{1,2,3\\}$  和  $\\{1\\}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_35",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "下列因素中，不会影响信道数据传输速率的是________。",
+    "options": [
+      "A. 信噪比",
+      "B. 频率宽带",
+      "C. 调制速率",
+      "D. 信号传播速度"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_36",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "主机甲与主机乙之间使用后退N帧协议(GBN)传输数据，甲的发送窗口尺寸为1000，数据帧长为1000字节，信道带宽为100Mbps，乙每收到一个数据帧立即利用一个短帧(忽略其传输延迟)进行确认，若甲乙之间的单向传播延迟是50ms，则甲可以达到的最大平均数据传输速率约为________。",
+    "options": [
+      "A. 10Mbps",
+      "B. 20Mbps",
+      "C. 80Mbps",
+      "D. 100Mbps"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_37",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "站点 A、B、C 通过 CDMA 共享链路，A、B、C 的码片序列(chipping sequence)分别是(1,1,1,1)、(1,-1,1,-1)和(1,1,-1,-1)。若 C 从链路上收到的序列是(2,0,2,0,0,-2,0,-2,0,2,0,2)，则 C 收到 A 发送的数据是________。",
+    "options": [
+      "A. 000",
+      "B. 101",
+      "C. 110",
+      "D. 111"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_38",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲和主机乙已建立了 TCP 连接，甲始终以 $\\mathrm{MSS} = 1\\mathrm{KB}$ 大小的段发送数据，并一直有数据发送；乙每收到一个数据段都会发出一个接收窗口为 $10\\mathrm{KB}$ 的确认段。若甲在 t 时刻发生超时时拥塞窗口为 $8\\mathrm{KB}$ ，则从 t 时刻起，不再发生超时的情况下，经过 10 个 RTT 后，甲的发送窗口是 ________。",
+    "options": [
+      "A. 10KB",
+      "B. 12KB",
+      "C. $14 \\mathrm{KB}$",
+      "D. 15KB"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_39",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_udp"
+    ],
+    "question": "下列关于 UDP 协议的叙述中，正确的是____。 I. 提供无连接服务 II. 提供复用/分用服务 III. 通过差错校验，保障可靠数据传输",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 I、II",
+      "C. 仅 II、III",
+      "D. I、II、III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2014_40",
+    "subject": "cn",
+    "year": 2014,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_http"
+    ],
+    "question": "使用浏览器访问某大学 Web 网站主页时，不可能使用到的协议是____。",
+    "options": [
+      "A. PPP",
+      "B. ARP",
+      "C. UDP",
+      "D. SMTP"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_01",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack_app"
+    ],
+    "question": "已知程序如下： ```txt int S(int n) { return $(n <= 0)?0:s(n - 1) + n;$ } voi",
+    "options": [
+      "D. main()  \n{ cout << S(1);}\n```\n\n程序运行时使用栈来保存调用过程的信息，自栈底到栈顶保存的信息依次对应的是________。",
+      "A. $\\operatorname{main}() \\rightarrow \\operatorname{S}(1) \\rightarrow \\operatorname{S}(0)$",
+      "B. $\\mathrm{S}(0)\\rightarrow \\mathrm{S}(1)\\rightarrow \\mathrm{main}()$",
+      "B. main()  $\\rightarrow$  S(0)  $\\rightarrow$  S(1)"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_02",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic",
+      "ds_tree_traversal"
+    ],
+    "question": "先序序列为 a,b,c,d 的不同二叉树的个数是",
+    "options": [
+      "A. 13",
+      "B. 14",
+      "C. 15",
+      "D. 16"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_03",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "下列选项给出的是从根分别到达两个叶结点路径上的权值序列，能属于同一棵哈夫曼树的是________。",
+    "options": [
+      "A. 24,10,5 和 24,10,7",
+      "B. 24,10,5 和 24,12,7",
+      "C. 24,10,10 和 24,14,11",
+      "D. 24,10,5 和 24,14,6"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_04",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic",
+      "ds_tree_traversal"
+    ],
+    "question": "现有一棵无重复关键字的平衡二叉树（AVL 树），对其进行中序遍历可得到一个降序序列。下列关于该平衡二叉树的叙述中，正确的是________。",
+    "options": [
+      "A. 根结点的度一定为 2",
+      "B. 树中最小元素一定是叶结点",
+      "C. 最后插入的元素一定是叶结点",
+      "D. 树中最大元素一定是无左子树"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_05",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_dfs"
+    ],
+    "question": "设有向图 $\\mathrm{G} = (\\mathrm{V},\\mathrm{E})$ ，顶点集 $\\mathrm{V} = \\{\\mathrm{V}_0,\\mathrm{V}_1,\\mathrm{V}_2,\\mathrm{V}_3\\}$ ，边集 $\\mathrm{E} = \\{<\\mathrm{v}_0,\\mathrm{v}_1>, <\\mathrm{v}_0,\\mathrm{v}_2>, <\\mathrm{v}_0,\\mathrm{v}_3>, <\\mathrm{v}_1,\\mathrm{v}_3>\\}$ 。若从顶点 $\\mathbf{V}_0$ 开始对图进行深度优先遍历，则可能得到的不同遍历序列个数是",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_06",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_mst",
+      "ds_graph_shortest"
+    ],
+    "question": "求下面带权图的最小（代价）生成树时，可能是克鲁斯卡（Kruskal）算法第2次选中但不是普里姆（Prim）算法（从 $\\mathbf{V}_4$ 开始）第2次选中的边是",
+    "options": [
+      "A. $\\left(\\mathrm{V}_{1}, \\mathrm{~V}_{3}\\right)$",
+      "B. $\\left(\\mathrm{V}_{1}, \\mathrm{~V}_{4}\\right)$",
+      "C. $\\left(\\mathrm{V}_{2}, \\mathrm{~V}_{3}\\right)$",
+      "D. $\\left(\\mathrm{V}_{3}, \\mathrm{~V}_{4}\\right)$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_07",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "下列选项中，不能构成折半查找中关键字比较序列的是________。",
+    "options": [
+      "A. 500,200,450,180",
+      "B. 500,450,200,180",
+      "C. 180,500,200,450",
+      "D. 180,200,500,450"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_08",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "已知字符串 S 为“abaabaabacacaabaabcc”，模式串 t 为“abaabc”。采用 KMP 算法进行匹配，第一次出现“失配” $(s[i] \\neq t[j])$ 时， $i = j = 5$ ，则下次开始匹配时，i 和 j 的值分别是 ______。",
+    "options": [
+      "A. $i = 1, j = 0$",
+      "B. $i = 5, j = 0$",
+      "C. $\\mathrm{i} = 5,\\mathrm{j} = 2$",
+      "D. $i = 6, j = 2$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_09",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_merge"
+    ],
+    "question": "下列排序算法中, 元素的移动次数与关键字的初始排列次序无关的是",
+    "options": [
+      "A. 直接插入排序",
+      "B. 起泡排序",
+      "C. 基数排序",
+      "D. 快速排序"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_10",
+    "subject": "ds",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "已知小根堆为8,15,10,21,34,16,12，删除关键字8之后需重建堆，在此过程中，关键字之间的比较次数是",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_11",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "希尔排序的组内排序采用的是",
+    "options": [
+      "A. 直接插入排序",
+      "B. 折半插入排序",
+      "C. 快速排序",
+      "D. 归并排序"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_12",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_structure"
+    ],
+    "question": "计算机硬件能够直接执行的是 I. 机器语言程序 II．汇编语言程序 III. 硬件描述语言程序",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 I、II",
+      "C. 仅 I、III",
+      "D. I、II、III"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_13",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "由3个“1”和5个“0”组成的8位二进制补码，能表示的最小整数是",
+    "options": [
+      "A. -126",
+      "B. -125",
+      "C. -32",
+      "D. -3"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_14",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float",
+      "co_data_alu"
+    ],
+    "question": "下列有关浮点数加减运算的叙述中，正确的是________。 I. 对阶操作不会引起阶码上溢或下溢 II. 右规和尾数舍入都可能引起阶码上溢 III. 左规时可能引起阶码下溢 IV. 尾数溢出时结果不一定溢出",
+    "options": [
+      "A. 仅 II、III",
+      "B. 仅 I、II、IV",
+      "C. 仅 I、III、IV",
+      "D. I、II、III、IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_15",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache",
+      "co_mem_main"
+    ],
+    "question": "假定主存地址为 32 位, 按字节编址, 主存和 Cache 之间采用直接映射方式, 主存块大小为 4 个字, 每字 32 位, 采用回写 (Write Back) 方式, 则能存放 4K 字数据的 Cache 的总容量的位数至少是____。",
+    "options": [
+      "A. 146k",
+      "B. 147K",
+      "C. 148K",
+      "D. 158K"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_16",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache",
+      "co_mem_main",
+      "co_mem_virtual"
+    ],
+    "question": "假定编译器将赋值语句“ $x = x + 3$ ”转换为指令“add xaddr, 3”，其中 xaddr 是 $x$ 对应的存储单元地址。若执行该指令的计算机采用页式虚拟存储管理方式，并配有相应的 TLB，且 Cache 使用直写（Write Through）方式，则完成该指令功能需要访问主存的次数至少是 ________。",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_17",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "下列存储器中，在工作期间需要周期性刷新的是________。",
+    "options": [
+      "A. SRAM",
+      "B. SDRAM",
+      "C. ROM",
+      "D. FLASH"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_18",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某计算机使用 4 体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为 8005, 8006, 8007, 8008, 8001, 8002, 8003, 8004, 8000，则可能发生访存冲突的地址对是 ______。",
+    "options": [
+      "A. 8004和8008",
+      "B. 8002和8007",
+      "C. 8001 和 8008",
+      "D. 8000 和 8004"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_19",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_timing"
+    ],
+    "question": "下列有关总线定时的叙述中，错误的是",
+    "options": [
+      "A. 异步通信方式中, 全互锁协议最慢",
+      "B. 异步通信方式中, 非互锁协议的可靠性最差",
+      "C. 同步通信方式中, 同步时钟信号可由各设备提供",
+      "D. 半同步通信方式中, 握手信号的采样由同步时钟控制"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_20",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "若磁盘转速为 7200 转/分, 平均寻道时间为 $8 \\mathrm{~ms}$ , 每个磁道包含 1000 个扇区, 则访问一个扇区的平均存取时间大约是",
+    "options": [
+      "A. $8.1 \\mathrm{~ms}$",
+      "B. $12.2 \\mathrm{~ms}$",
+      "C. $16.3 \\mathrm{~ms}$",
+      "D. $20.5 \\mathrm{~ms}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_21",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "在采用中断I/O方式控制打印输出的情况下，CPU和打印控制接口中的I/O端口之间交换的信息不可能是________。",
+    "options": [
+      "A. 打印字符",
+      "B. 主存地址",
+      "C. 设备状态",
+      "D. 控制命令"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_22",
+    "subject": "co",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "内部异常（内中断）可分为故障（fault）、陷阱（trap）和终止（abort）三类。下列有关内部异常的叙述中，错误的是________。",
+    "options": [
+      "A. 内部异常的产生与当前执行指令相关",
+      "B. 内部异常的检测由 CPU 内部逻辑实现",
+      "C. 内部异常的响应发生在指令执行过程中",
+      "D. 内部异常处理后返回到发生异常的指令继续执行"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_23",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "处理外部中断时，应该由操作系统保存的是________。",
+    "options": [
+      "A. 程序计数器(PC)的内容",
+      "B. 通用寄存器的内容",
+      "C. 块表(TLB)中的内容",
+      "D. Cache 中的内容"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_24",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "假定下列指令已装入指令寄存器。则执行时不可能导致 CPU 从用户态变为内核态(系统态)的是____。",
+    "options": [
+      "A. DIV R0,R1",
+      "B. INT n",
+      "C. NOT RO",
+      "D. MOV R0,addr"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_25",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列选项中，会导致进程从执行态变为就绪态的事件是",
+    "options": [
+      "A. 执行 Pwait)操作",
+      "B. 申请内存失败",
+      "C. 启动 I/O 设备",
+      "D. 被高优先级进程抢占"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_26",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "若系统 S1 采用死锁避免方法, S2 采用死锁检测方法。下列叙述中, 正确的是 I．S1会限制用户申请资源的顺序，而S2不会 II．S1需要进程运行所需资源总量信息，而S2不需要 III. S1 不会给可能导致死锁的进程分配资源，而 S2 会",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅 I、III",
+      "D. I、II、III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_27",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual",
+      "os_mem_paging"
+    ],
+    "question": "系统为某进程分配了 4 个页框，该进程已访问的页号序列为 2,0,2,9,3,4,2,8,2,4,8,4,5。若进程要访问的下一页的页号为 7，依据 LRU 算法，应淘汰页的页号是 ________。",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 8"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_28",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_buffer"
+    ],
+    "question": "在系统内存中设置磁盘缓冲区的主要目的是",
+    "options": [
+      "A. 减少磁盘 I/O 次数",
+      "B. 减少平均寻道时间",
+      "C. 提高磁盘数据可靠性",
+      "D. 实现设备无关性"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_29",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "在文件的索引节点中存放直接索引指针 10 个, 一级和二级索引指针各 1 个。磁盘块大小为 1KB, 每个索引指针占 4 个字节。若某文件的索引节点已在内存中, 则把该文件偏移量 (按字节编址) 为 1234 和 307400 处所在的磁盘块读入内存, 需访问的磁盘块个数分别是______。",
+    "options": [
+      "A. 1,2",
+      "B. 1,3",
+      "C. 2,3",
+      "D. 2,4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_30",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_thrashing"
+    ],
+    "question": "在请求分页系统中，页面分配策略与页面置换策略不能组合使用的是________。",
+    "options": [
+      "A. 可变分配, 全局置换",
+      "B. 可变分配, 局部置换",
+      "C. 固定分配, 全局置换",
+      "D. 固定分配，局部置换"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_31",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "文件系统用位图法表示磁盘空间的分配情况，位图存于磁盘的 $32 \\sim 127$ 号块中，每个盘块占1024个字节，盘块和块内字节均从0开始编号。假设要释放的盘块号为409612，则位图中要修改的位所在的盘块号和块内字节序号分别是____。",
+    "options": [
+      "A. 81、1",
+      "B. 81、2",
+      "C. 82、1",
+      "D. 82、2"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_32",
+    "subject": "os",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_disk"
+    ],
+    "question": "某硬盘有 200 个磁道（最外侧磁道号为 0），磁道访问请求序列为：130,42,180,15,199，当前磁头位于第 58 号磁道并从外侧向内侧移动。按照 SCAN 调度方法处理完上述请求后，磁头移过的磁道数是____。",
+    "options": [
+      "A. 208",
+      "B. 287",
+      "C. 325",
+      "D. 382"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_33",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_email"
+    ],
+    "question": "通过POP3协议接收邮件时，使用的传输层服务类型是",
+    "options": [
+      "A. 无连接不可靠的数据传输服务",
+      "B. 无连接可靠的数据传输服务",
+      "C. 有连接不可靠的数据传输服务",
+      "D. 有链接可靠的数据传输服务"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_34",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "使用两种编码方案对比特流 01100111 进行编码的结果如下图所示，编码 1 和编码 2 分别是____。 ![](https://408.foreverlink.love/images/afe2463c313061a67b582021f13938c3.jpg)",
+    "options": [
+      "A. NRZ 和曼彻斯特编码",
+      "B. NRZ 和差分曼彻斯特编码",
+      "C. NRZI 和曼彻斯特编码",
+      "D. NRZI 和差分曼彻斯特编码"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_35",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "主机甲通过 128kbps 卫星链路，采用滑动窗口协议向主机乙发送数据，链路单向传播延迟为 $250 \\mathrm{~ms}$ ，帧长为 1000 字节。不考虑确认帧的开销，为使链路利用率不小于 $80\\%$ ，帧序号的比特数至少是____。",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 7",
+      "D. 8"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_36",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "下列关于 CSMA/CD 协议的叙述中，错误的是________。",
+    "options": [
+      "A. 边发送数据帧，边检测是否发生冲突",
+      "B. 适用于无线网络, 以实现无线链路共享",
+      "C. 需要根据网络跨距和数据传输速率限定最小帧长",
+      "D. 当信号传播延迟趋近 0 时, 信道利用率趋近  $100\\%$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_37",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "下列关于交换机的叙述中，正确的是",
+    "options": [
+      "A. 以太网交换机本质上是一种多端口网桥",
+      "B. 通过交换机互连的一组工作站构成一个冲突域",
+      "C. 交换机每个端口所连网络构成一个独立的广播域",
+      "D. 以太网交换机可实现采用不同网络层协议的网络互联"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_38",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_route"
+    ],
+    "question": "某路由器的路由表如下表所示： <table><tr><td>目的网络</td><td>下一跳</td><td>接口</td></tr><tr><td>169.96.40.0/23</td><td>176.1.1.1</td><td>S1</td></tr><tr><td>169.96.40.0/25</td><td>176.2.2.2</td><td>S2</td></tr><tr><td>169.96.40.0/27</td><td>176.3.3.3</td><td>S3</td></tr><tr><td>0.0.0.0/0</td><td>176.4.4.4</td><td>S4</td></tr></table> 若路由器收到一个目的地址为169.96.40.5的IP分组，则转发该IP分组的接口是",
+    "options": [
+      "A. S1",
+      "B. S2",
+      "C. S3",
+      "D. S4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_39",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "主机甲和主机乙新建一个 TCP 连接, 甲的拥塞控制初始阈值为 $32 \\mathrm{KB}$ , 甲向乙始终以 $\\mathrm{MSS} = 1 \\mathrm{KB}$ 大小的段发送数据, 并一直有数据发送; 乙为该连接分配 $16 \\mathrm{KB}$ 接收缓存, 并对每个数据段进行确认, 忽略段传输延迟。若乙收到的数据全部存入缓存, 不被取走, 则甲从连接建立成功时刻起, 未发送超时的情况下, 经过 4 个 RTT 后, 甲的发送窗口是",
+    "options": [
+      "A. 1KB",
+      "B. 8KB",
+      "C. 16KB",
+      "D. 32KB"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2015_40",
+    "subject": "cn",
+    "year": 2015,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_http"
+    ],
+    "question": "某浏览器发出的 HTTP 请求报文如下： GET /index.html HTTP/1.1 Host: www.test.edu.cn Connection: Close Cookie: 123456 下列叙述中，错误的是",
+    "options": [
+      "A. 该浏览器请求浏览 index.html",
+      "B. Index.html 存放在 www.test.edu.cn 上",
+      "C. 该浏览器请求使用持续连接",
+      "D. 该浏览器曾经浏览过 www.test.edu.cn"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_01",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_linked"
+    ],
+    "question": "已知表头元素为c的单链表在内存中的存储状态如下表所示 <table><tr><td>地址</td><td>元素</td><td>链接地址</td></tr><tr><td>1000H</td><td>a</td><td>1010H</td></tr><tr><td>1004H</td><td>b</td><td>100CH</td></tr><tr><td>1008H</td><td>C</td><td>1000H</td></tr><tr><td>100CH</td><td>d</td><td>NULL</td></tr><tr><td>1010H</td><td>e</td><td>1004H</td></tr><tr><td>1014H</td><td></td><td></td></tr></table> 现将f存放于1014H处并插入到单链表中，若f在逻辑上位于a和e之间，则a，e，f的“链接地址”依次是",
+    "options": [
+      "A. 1010H, 1014H, 1004H",
+      "B. 1010H, 1004H, 1014H",
+      "C. ${1014}\\mathrm{H},{1010}\\mathrm{H},{1004}\\mathrm{H}$",
+      "D. ${1014}\\mathrm{H},{1004}\\mathrm{H},{1010}\\mathrm{H}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_02",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_double_circular"
+    ],
+    "question": "已知一个带有表头结点的双向循环链表L, 结点结构为 <table><tr><td>prev</td><td>data</td><td>next</td></tr></table> 其中，prev和next分别是指向其直接前驱和直接后继结点的指针。现要删除指针p所指的结点，正确的语句序列是",
+    "options": [
+      "A. p->next->prev=p->prev; p->prev->next=p->prev; free(p);",
+      "B. p->next->prev=p->next; p->prey->next=p->next; free(p);",
+      "C. p->next->prev=p->next; p->prev->next=p->prev; free(p);",
+      "D. p->next->prey=p->prey; p->prev->next=p->next; free(p);"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_03",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_queue"
+    ],
+    "question": "设有如下图所示的火车车轨，入口到出口之间有n条轨道，列车的行进方向均为从左至右，列车可驶入任意一条轨道。现有编号为1～9的9列列车，驶入的次序依次是8，4，2，5，3，9，1，6，7。若期望驶出的次序依次为1～9，则n至少是 ![](https://408.foreverlink.love/images/78897f8803541d832d597ec371729101.jpg)",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_04",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_matrix"
+    ],
+    "question": "有一个100阶的三对角矩阵M，其元素 $\\mathbf{m}_{\\mathrm{i},\\mathrm{j}}(1\\leq i\\leq 100,1\\leq j\\leq 100)$ 按行优先次序压缩存入下标从0开始的一维数组IV中。元素 $\\mathbf{m}_{30,30}$ 在N中的下标是",
+    "options": [
+      "A. 86",
+      "B. 87",
+      "C. 88",
+      "D. 89"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_05",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "若森林F有15条边、25个结点，则F包含树的个数是",
+    "options": [
+      "A. 8",
+      "B. 9",
+      "C. 10",
+      "D. 11"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_06",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_dfs"
+    ],
+    "question": "下列选项中，不是下图深度优先搜索序列的是 ![](https://408.foreverlink.love/images/05025c62029f10ed06ab79b0f09bddb",
+    "options": [
+      "D. jpg)",
+      "A. $V_{1}, V_{5}, V_{4}, V_{3}, V_{2}$",
+      "B. $V_{1}, V_{3}, V_{2}, V_{5}, V_{4}$",
+      "C. $V_{1}, V_{2}, V_{5}, V_{4}, V_{3}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_07",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_topological"
+    ],
+    "question": "若将n个顶点e条弧的有向图采用邻接表存储，则拓扑排序算法的时间复杂度是",
+    "options": [
+      "A. $\\mathrm{O}\\left( \\mathrm{n}\\right)$",
+      "B. $O(n + e)$",
+      "C. $\\mathrm{O}\\left( {\\mathrm{n}}^{2}\\right)$",
+      "D. $O(n \\times e)$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_08",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_shortest"
+    ],
+    "question": "使用迪杰斯特拉(Dijkstra)算法求下图中从顶点1到其他各顶点的最短路径，依次得到的各最短路径的目标顶点是 ![](https://408.foreverlink.love/images/92ea2daa059778c28bd440fd17f7180e.jpg)",
+    "options": [
+      "A. 5, 2, 3, 4, 6",
+      "B. 5, 2, 3, 6, 4",
+      "C. 5, 2, 4, 3, 6",
+      "D. 5, 2, 6, 3, 4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_09",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。 k=0; while(k<n且A[k]>x)k=k+3; if $\\mathrm{k < n}$ 且A[k]=x查找成功； else if(k-1<n且A[k-1] == x) 查找成功; else if(k-2<n且A[k-2] == x) 查找成功; else查找失败； 本算法与折半查找算法相比，有可能具有更少比较次数的情形是",
+    "options": [
+      "A. 当  $\\mathrm{x}$  不在数组中",
+      "B. 当x接近数组开头处",
+      "C. 当x接近数组结尾处",
+      "D. 当x位于数组中间位置"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_10",
+    "subject": "ds",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "$\\mathbf{B}^{+}$ 树不同于B树的特点之一是",
+    "options": [
+      "A. 能支持顺序查找",
+      "B. 结点中含有关键字",
+      "C. 根结点至少有两个分支",
+      "D. 所有叶结点都在同一层上"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_11",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "对10 TB的数据文件进行排序，应使用的方法是",
+    "options": [
+      "A. 希尔排序",
+      "B. 堆排序",
+      "C. 快速排序",
+      "D. 归并排序"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_12",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_structure"
+    ],
+    "question": "将高级语言源程序转换为机器级目标代码文件的程序是",
+    "options": [
+      "A. 汇编",
+      "B. 链接程序",
+      "C. 编译程序",
+      "D. 解释程序"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_13",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "有如下C语言程序段： short si=-32767; unsigned short usi=si; 执行上述两条语句后，usi的值为",
+    "options": [
+      "A. -32767",
+      "B. 32767",
+      "C. 32768",
+      "D. 32769"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_14",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "某计算机字长为32位，按字节编址，采用小端(Little Endian)方式存放数据。假定有一个double型变量，其机器数表示为1122334455667788H，存放在00008040H开始的连续存储单元中，则存储单元00008046H中存放的是",
+    "options": [
+      "A. \\\\mathrm{H}$",
+      "B. 33H",
+      "C. 66H",
+      "D. 77H"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_15",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache"
+    ],
+    "question": "有如下C语言程序段： for(k=0;k<1000;k++) a[k]=a[k]+32; 若数组a及变量k均为int型，int型数据占4B，数据Cache采用直接映射方式、数据区大小为1KB、块大小为16B，该程序段执行前Cache为空，则该程序段执行过程中访问数组a的Cache缺失率约为",
+    "options": [
+      "A. $1.25\\%$",
+      "B. $2.5\\%$",
+      "C. $12.5\\%$",
+      "D. $25\\%$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_16",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某存储器容量为64KB，按字节编址，地址 $4000\\mathrm{H}\\sim 5\\mathrm{FFFH}$ 为ROM区，其余为RAM区。若采用8K×4位的SRAM芯片进行设计，则需要该芯片的数量是",
+    "options": [
+      "A. 7",
+      "B. 8",
+      "C. 14",
+      "D. 16"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_17",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing",
+      "co_isa_format"
+    ],
+    "question": "某指令格式如下所示。 ![](https://408.foreverlink.love/images/357fefb1882a28a070af427ace3c1477.jpg) 其中M为寻址方式，I为变址寄存器编号，D为形式地址。若采用先变址后间址的寻址方式，则操作数的有效地址是",
+    "options": [
+      "A. I+D",
+      "B. (I) + D",
+      "C. $(\\mathrm{I}) + \\mathrm{D}$",
+      "D. $(\\mathrm{I})^{+} + \\mathrm{D}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_18",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_structure"
+    ],
+    "question": "某计算机主存空间为4GB，字长为32位，按字节编址，采用32位定长指令字格式。若指令按字边界对齐存放，则程序计数器(PC)和指令寄存器(IR)的位数至少分别是",
+    "options": [
+      "A. 30、30",
+      "B. 30、32",
+      "C. 32、30",
+      "D. 32、32"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_19",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline",
+      "co_cpu_datapath",
+      "co_data_alu"
+    ],
+    "question": "在无转发机制的五段基本流水线(取指、译码/读寄存器、运算、访存、写回寄存器)中，下列指令序列存在数据冒险的指令对是 I1:ad",
+    "options": [
+      "D. R1, R2, R3; (R2)+(R3)→R1\n\nI2:ad",
+      "D. R5,R2,R4;R2)+(R4)→R5\n\nI3:ad",
+      "D. R4,R5,R3;R5+(R3)→R4\n\nI4:ad",
+      "D. R5,R2,R6;R2+(R6)→R5"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_20",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_datapath"
+    ],
+    "question": "单周期处理器中所有指令的指令周期为一个时钟周期。下列关于单周期处理器的叙述中，错误的是",
+    "options": [
+      "A. 可以采用单总线结构数据通路",
+      "B. 处理器时钟频率较低",
+      "C. 在指令执行过程中控制信号不变",
+      "D. 每条指令的CPI为1"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_21",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "下列关于总线设计的叙述中，错误的是",
+    "options": [
+      "A. 并行总线传输比串行总线传输速度快",
+      "B. 采用信号线复用技术可减少信号线数量",
+      "C. 采用突发传输方式可提高总线数据传输率",
+      "D. 采用分离事务通信方式可提高总线利用率"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_22",
+    "subject": "co",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "异常是指令执行过程中在处理器内部发生的特殊事件，中断是来自处理器外部的请求事件。下列关于中断或异常情况的叙述中，错误的是",
+    "options": [
+      "A. “访存时缺页”属于中断",
+      "B. “整数除以0”属于异常",
+      "C. “DMA传送结束”属于中断",
+      "D. “存储保护错”属于异常"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_23",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_concept"
+    ],
+    "question": "下列关于批处理系统的叙述中，正确的是 I. 批处理系统允许多个用户与计算机直接交互 II. 批处理系统分为单道批处理系统和多道批处理系统 III.中断技术使得多道批处理系统的I/O设备可与CPU并行工作",
+    "options": [
+      "A. 仅Ⅱ、Ⅲ",
+      "B. 仅Ⅱ",
+      "C. 仅I、Ⅱ",
+      "D. 仅I、Ⅲ"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_24",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "某单CPU系统中有输入和输出设备各1台，现有3个并发执行的作业，每个作业的输入、计算和输出时间均分别为 $2 \\mathrm{~ms}$ 、 $3 \\mathrm{~ms}$ 和 $4 \\mathrm{~ms}$ ，且都按输入、计算和输出的顺序执行，则执行完3个作业需要的时间最少是",
+    "options": [
+      "A. $15\\mathrm{ms}$",
+      "B. $17\\mathrm{ms}$",
+      "C. $22\\mathrm{ms}$",
+      "D. $27\\mathrm{ms}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_25",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "系统中有3个不同的临界资源R1、R2和R3，被4个进程p1、p2、p3及p4共享。各进程对资源的需求为：p1申请R1和R2，p2申请R2和R3，p3申请R1和R3，p4申请R2。若系统出现死锁，则处于死锁状态的进程数至少是",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_26",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual",
+      "os_mem_paging"
+    ],
+    "question": "某系统采用改进型CLOCK置换算法，页表项中字段A为访问位，M为修改位。A=0表示页最近没有被访问，A=1表示页最近被访问过。M=0表示页没有被修改过，M=1表示页被修改过。按(A，M)所有可能的取值，将页分为四类：(0，0）、(1，0）、(0，1)和(1，1)，则该算法淘汰页的次序为",
+    "options": [
+      "A. (0, 0), (0, 1), (1, 0), (1, 1)",
+      "B. (0, 0), (1, 0), (0, 1), (1, 1)",
+      "C. $(0, 0), (0, 1), (1, 1), (1, 0)$",
+      "D. (0, 0), (1, 1), (0, 1), (1, 0)"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_27",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "使用TSL(Test and Set Lock)指令实现进程互斥的伪代码如下所示。 do{ while(TSL(&lock)); critical section; lock $\\equiv$ FALSE; } whileTRUE); 下列与该实现机制相关的叙述中，正确的是",
+    "options": [
+      "A. 退出临界区的进程负责唤醒阻塞态进程",
+      "B. 等待进入临界区的进程不会主动放弃CPU",
+      "C. 上述伪代码满足“让权等待”的同步准则",
+      "D. while(TSL(&lock))语句应在关中断状态下执行"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_28",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_segmentation"
+    ],
+    "question": "某进程的段表内容如下所示。 <table><tr><td rowspan=\"4\">段号012</td><td>段长</td><td>内存起始地址</td><td>权限</td><td>状态</td></tr><tr><td>100</td><td>6000</td><td>只读</td><td>在内存</td></tr><tr><td>200</td><td>-</td><td>读写</td><td>不在内存</td></tr><tr><td>300</td><td>4000</td><td>读写</td><td>在内存</td></tr></table> 当访问段号为2、段内地址为400的逻辑地址时，进行地址转换的结果是",
+    "options": [
+      "A. 段缺失异常",
+      "B. 得到内存地址4400",
+      "C. 越权异常",
+      "D. 越界异常"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_29",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_thrashing"
+    ],
+    "question": "某进程访问页面的序列如下所示。 ![](https://408.foreverlink.love/images/2caf119a3394a7c4efca8a6f76f7bbaa.jpg) 若工作集的窗口大小为6，则在£时刻的工作集为",
+    "options": [
+      "A. $\\{6,0,3,2\\}$",
+      "B. $\\{2, 3, 0, 4\\}$",
+      "C. $\\{0,4,3,2,9\\}$",
+      "D. $\\{4, 5, 6, 0, 3, 2\\}$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_30",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "进程P1和P2均包含并发执行的线程，部分伪代码描述如下所示。 <table><tr><td>//进程P1 int x=0; Thread1() { int a: a=1; x+=1; } Thread2() { int a: a=2; x+=2; }</td><td>//进程P2 int x=0; Thread3() { int a: a=x; x+=3; } Thread4() { int b: b=x; x+=4; }</td></tr></table> 下列选项中，需要互斥执行的操作是",
+    "options": [
+      "A. $a = 1$  与  $a = 2$",
+      "B. $\\mathrm{a} = \\mathrm{x}$  与  $\\mathrm{b} = \\mathrm{x}$",
+      "C. $x+=1$  与  $x+=2$",
+      "D. $x+=1$  与  $x+=3$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_31",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_buffer"
+    ],
+    "question": "下列关于SPOOLing技术的叙述中，错误的是",
+    "options": [
+      "A. 需要外存的支持",
+      "B. 需要多道程序设计技术的支持",
+      "C. 可以让多个作业共享一台独占设备",
+      "D. 由用户作业控制设备与输入/输出井之间的数据传送"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_32",
+    "subject": "os",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "下列关于管程的叙述中，错误的是",
+    "options": [
+      "A. 管程只能用于实现进程的互斥",
+      "B. 管程是由编程语言支持的进程同步机制",
+      "C. 任何时候只能有一个进程在管程中执行",
+      "D. 管程中定义的变量只能被管程内的过程访问"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_33",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "在OSI参考模型中，R1、Switch、Hub实现的最高功能层分别是",
+    "options": [
+      "A. 2、2、1",
+      "B. 2、2、2",
+      "C. 3、2、1",
+      "D. 3、2、2"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_34",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "若连接R2和R3链路的频率带宽为8kHz，信噪比为30dB，该链路实际数据传输速率约为理论最大数据传输速率的50%，则该链路的实际数据传输速率约是",
+    "options": [
+      "A. 8 kbps",
+      "B. 20 kbps",
+      "C. 40 kbps",
+      "D. 80 kbps"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_35",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan"
+    ],
+    "question": "若主机H2向主机H4发送1个数据帧，主机H4向主机H2立即发送一个确认帧，则除H4外，从物理层上能够收到该确认帧的主机还有",
+    "options": [
+      "A. 仅H2",
+      "B. 仅H3",
+      "C. 仅H1、H2",
+      "D. 仅H2、H3"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_36",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac",
+      "cn_dl_lan"
+    ],
+    "question": "若Hub再生比特流过程中，会产生 $1.535 \\mu \\mathrm{s}$ 延时，信号传播速度为 $200 \\mathrm{~m} / \\mu \\mathrm{s}$ ，不考虑以太网帧的前导码，则H3与H4之间理论上可以相距的最远距离是",
+    "options": [
+      "A. $200\\mathrm{m}$",
+      "B. $205\\mathrm{m}$",
+      "C. $359\\mathrm{m}$",
+      "D. $512\\mathrm{m}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_37",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_route"
+    ],
+    "question": "假设R1、R2、R3采用RIP协议交换路由信息，且均已收敛。若R3检测到网络201.1.2.0/25不可达，并向R2通告一次新的距离向量，则R2更新后，其到达该网络的距离是",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 16",
+      "D. 17"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_38",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4"
+    ],
+    "question": "假设连接R1、R2和R3之间的点对点链路使用201.1.3.x/30地址，当H3访问Web服务器S时，R2转发出去的封装HTTP请求报文的IP分组的源IP地址和目的IP地址分别是",
+    "options": [
+      "A. 192.168.3. 251, 130.18.10.1",
+      "B. 192.168.3. 251, 201.1. 3.9",
+      "C. 201.1.3.8, 130.18.10.1",
+      "D. 201.1.3.10, 130.18.10.1"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_39",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "假设H1与H2的默认网关和子网掩码均分别配置为192.168.3. 1和255.255.255.128，H3与H4的默认网关和子网掩码均分别配置为192.168.3. 254和255.255.255.128，则下列现象中可能发生的是",
+    "options": [
+      "A. H1不能与H2进行正常IP通信",
+      "B. H2与H4均不能访问Internet",
+      "C. H1不能与H3进行正常IP通信",
+      "D. H3不能与H4进行正常IP通信"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2016_40",
+    "subject": "cn",
+    "year": 2016,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_dns",
+      "cn_tp_udp"
+    ],
+    "question": "假设所有域名服务器均采用迭代查询方式进行域名解析。当H4访问规范域名为 www. ab",
+    "options": [
+      "C. xyz. com的网站时，域名服务器201.1.1.1在完成该域名解析过程中，可能发出DNS查询的最少和最多次数分别是",
+      "A. 0,3",
+      "B. 1,3",
+      "C. 0,4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_01",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_definition"
+    ],
+    "question": "下列函数的时间复杂度是 ```txt int func(int n){ int $\\mathrm{i} = 0$ sum $= 0$ while $(\\mathrm{sum} < \\mathrm{n})$ sum $+ = + + \\mathrm{i}$ return i; 1 ```",
+    "options": [
+      "A. O(logn)",
+      "B. $\\mathrm{O}\\left( {\\mathrm{n}}^{1/2}\\right)$",
+      "C. $\\mathrm{O}(\\mathrm{n})$",
+      "D. O(nlogn)"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_02",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "下列关于栈的叙述中，错误的是________。 I. 采用非递归方式重写递归程序时必须使用栈 II. 函数调用时，系统要用栈保存必要的信息 III. 只要确定了入栈次序，即可确定出栈次序 IV. 栈是一种受限的线性表，允许在其两端进行操作",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 I、II、III",
+      "C. 仅 I、III、IV",
+      "D. 仅 II、III、IV"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_03",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_matrix"
+    ],
+    "question": "适用于压缩存储稀疏矩阵的两种存储结构是",
+    "options": [
+      "A. 三元组表和十字链表",
+      "B. 三元组表和邻接矩阵",
+      "C. 十字链表和二叉链表",
+      "D. 邻接矩阵和十字链表"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_04",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_traversal"
+    ],
+    "question": "要使一棵非空二叉树的先序序列与中序序列相同，其所有非叶结点须满足的条件是",
+    "options": [
+      "A. 只有左子树",
+      "B. 只有右子树",
+      "C. 结点的度均为 1",
+      "D. 结点的度均为 2"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_05",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_traversal"
+    ],
+    "question": "已知一棵二叉树的树形如下图所示，其后序序列为 e,a,c,b,d,g,f，树中与结点 a 同层的结点是 ![](https://408.foreverlink.love/images/f834542144eedbad26217fa75e5a8b2e.jpg)",
+    "options": [
+      "A. c",
+      "B. d",
+      "C. f",
+      "D. g"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_06",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "已知字符集 $\\{a, b, c, d, e, f, g, h\\}$ , 若各字符的哈夫曼编码依次是 0100, 10,0000, 0101, 001, 011, 11, 0001, 则编码序列 010001100100101011110101 的译码结果是",
+    "options": [
+      "A. acgabfh",
+      "B. adbagbb",
+      "C. afbeagd",
+      "D. afeefgd"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_07",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_basic"
+    ],
+    "question": "已知无向图 G 含有 16 条边, 其中度为 4 的顶点个数为 3 , 度为 3 的顶点个数为 4 , 其他顶点的度均小于 3 。图 G 所含的顶点个数至少是",
+    "options": [
+      "A. 10",
+      "B. 11",
+      "C. 13",
+      "D. 15"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_08",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "下列二叉树中，可能成为折半查找判定树（不含外部结点）的是________。",
+    "options": [
+      "A. (二叉树图)",
+      "B. (二叉树图)",
+      "C. (二叉树图)",
+      "D. (二叉树图)"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_09",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "下列应用中, 适合使用 $\\mathrm{B}+$ 树的是",
+    "options": [
+      "A. 编译器中的词法分析",
+      "B. 关系数据库系统中的索引",
+      "C. 网络中的路由表快速查找",
+      "D. 操作系统的磁盘空闲块管理"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_10",
+    "subject": "ds",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_merge"
+    ],
+    "question": "在内部排序时，若选择了归并排序而没有选择插入排序，则可能的理由是________。 I．归并排序的程序代码更短 II. 归并排序的占用空间更少 III. 归并排序的运行效率更高",
+    "options": [
+      "A. 仅 II",
+      "B. 仅III",
+      "C. 仅 I、II",
+      "D. 仅 I、III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_11",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "下列排序方法中, 若将顺序存储更换为链式存储, 则算法的时间效率会降低的是 I．插入排序II．选择排序III．起泡排序IV．希尔排序V．堆排序",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅III、IV",
+      "D. 仅IV、V"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_12",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_perf"
+    ],
+    "question": "假定计算机 M1 和 M2 具有相同的指令集体系结构 (ISA), 主频分别为 $1.5 \\mathrm{GHz}$ 和 $1.2 \\mathrm{GHz}$ 。在 M1 和 M2 上运行某基准程序 P, 平均 CPI 分别为 2 和 1 , 则程序 P 在 M1 和 M2 上运行时间的比值是",
+    "options": [
+      "A. 0.4",
+      "B. 0.625",
+      "C. 1.6",
+      "D. 2.5"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_13",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "某计算机主存按字节编址, 由 4 个 $64 \\mathrm{M} \\times 8$ 位的 DRAM 芯片采用交叉编址方式构成, 并与宽度为 32 位的存储器总线相连, 主存每次读写 32 位数据。若 double 型变量 x 的主存地址为 804001AH, 则读取 x 需要的存储周期数是____。",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_14",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_hierarchy"
+    ],
+    "question": "某C语言程序段如下： ```txt for $(\\mathrm{i} = 0;\\mathrm{i} < = 9;\\mathrm{i} + + )$ { temp $= 1$ for $(j = 0;j < = i;j + + )$ temp $\\star = a[j]$ sum $+ =$ temp; ``` 下列关于数组 a 的访问局部性的描述中, 正确的是____。",
+    "options": [
+      "A. 时间局部性和空间局部性皆有",
+      "B. 无时间局部性, 有空间局部性",
+      "C. 有时间局部性, 无空间局部性",
+      "D. 时间局部性和空间局部性皆无"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_15",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "下列寻址方式中，最适合按下标顺序访问一维数组元素的是________。",
+    "options": [
+      "A. 相对寻址",
+      "B. 寄存器寻址",
+      "C. 直接寻址",
+      "D. 变址寻址"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_16",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_format"
+    ],
+    "question": "某计算机按字节编址，指令字长固定且只有两种指令格式，其中三地址指令 29 条，二地址指令 107 条，每个地址字段为 6 位，则指令字长至少应该是 ______。",
+    "options": [
+      "A. 24位",
+      "B. 26位",
+      "C. 28位",
+      "D. 32 位"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_17",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "下列关于超标量流水线特性的叙述中，正确的是 I. 能缩短流水线功能段的处理时间 II. 能在一个时钟周期内同时发射多条指令 III. 能结合动态调度技术提高指令执行并行性",
+    "options": [
+      "A. 仅 II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I、II 和III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_18",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_control"
+    ],
+    "question": "下列关于主存储器（MM）和控制存储器（CS）的叙述中，错误的是________。",
+    "options": [
+      "A. MM 在 CPU 外, CS 在 CPU 内",
+      "B. MM 按地址访问, CS 按内容访问",
+      "C. MM存储指令和数据, CS存储微指令",
+      "D. MM 用 RAM 和 ROM 实现, CS 用 ROM 实现"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_19",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_datapath"
+    ],
+    "question": "下列关于指令流水线数据通路的叙述中，错误的是________。",
+    "options": [
+      "A. 包含生成控制信号的控制部件",
+      "B. 包含算术逻辑运算部件（ALU）",
+      "C. 包含通用寄存器组和取指部件",
+      "D. 由组合逻辑电路和时序逻辑电路组合而成"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_20",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "下列关于多总线结构的叙述中，错误的是",
+    "options": [
+      "A. 靠近 CPU 的总线速度较快",
+      "B. 存储器总线可支持突发传送方式",
+      "C. 总线之间须通过桥接器相连",
+      "D. PC I-Express×16 采用并行传输方式"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_21",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "I/O指令实现的数据传送通常发生在________。",
+    "options": [
+      "A. I/O 设备和 I/O 端口之间",
+      "B. 通用寄存器和 I/O 设备之间",
+      "C. I/O 端口和 I/O 端口之间",
+      "D. 通用寄存器和 I/O 端口之间"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_22",
+    "subject": "co",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "下列关于多重中断系统的叙述中, 错误的是",
+    "options": [
+      "A. 在一条指令执行结束时响应中断",
+      "B. 中断处理期间 CPU 处于关中断状态",
+      "C. 中断请求的产生与当前指令的执行无关",
+      "D. CPU 通过采样中断请求信号检测中断请求"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_23",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "假设4个作业到达系统的时刻和运行时间如下表所示。 <table><tr><td>作业</td><td>到达时刻t</td><td>运行时间</td></tr><tr><td>J1</td><td>0</td><td>3</td></tr><tr><td>J2</td><td>1</td><td>3</td></tr><tr><td>J3</td><td>1</td><td>2</td></tr><tr><td>J4</td><td>3</td><td>1</td></tr></table> 系统在 $t = 2$ 时开始作业调度。若分别采用先来先服务和短作业优先调度算法，则选中的作业分别是",
+    "options": [
+      "A. J2、J3",
+      "B. J1、J4",
+      "C. J2、J4",
+      "D. J1、J3"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_24",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "执行系统调用的过程包括如下主要操作： (1)返回用户态 ②执行陷人(trap)指令 ③传递系统调用参数 (4)执行相应的服务程序 正确的执行顺序是",
+    "options": [
+      "A. ②->③->①->④",
+      "B. ②->④->③->①",
+      "C. ③->②->④>①",
+      "D. ③->④->②->①"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_25",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_contiguous"
+    ],
+    "question": "某计算机按字节编址，其动态分区内存管理采用最佳适应算法，每次分配和回收内存后都对空闲分区链重新排序。当前空闲分区信息如下表所示。 <table><tr><td>分区起始地址</td><td>20 K</td><td>500 K</td><td>1000 K</td><td>200 K</td></tr><tr><td>分区大小</td><td>40 KB</td><td>80 KB</td><td>100 KB</td><td>200 KB</td></tr></table> 回收起始地址为 $60 \\mathrm{~K}$ 、大小为 $140 \\mathrm{KB}$ 的分区后, 系统中空闲分区的数量、空闲分区链第一个分区的起始地址和大小分别是",
+    "options": [
+      "A. $3,20\\mathrm{K},380\\mathrm{KB}$",
+      "B. $3,500 \\mathrm{~K}, 80 \\mathrm{~KB}$",
+      "C. $4 、 2 0 \\mathrm { ~ K ~ }$  、180 KB",
+      "D. $4 、 5 0 0 \\mathrm { ~ K } 、 8 0 \\mathrm { ~ K B }$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_26",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "某文件系统的簇和磁盘扇区大小分别为 $1 \\mathrm{KB}$ 和 $512 \\mathrm{~B}$ 。若一个文件的大小为 $1026 \\mathrm{~B}$ , 则系统分配给该文件的磁盘空间大小是",
+    "options": [
+      "A. 1026B",
+      "B. 1536 B",
+      "C. 1538 B",
+      "D. 2048 B"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_27",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_schedule"
+    ],
+    "question": "下列有关基于时间片的进程调度的叙述中, 错误的是",
+    "options": [
+      "A. 时间片越短, 进程切换的次数越多, 系统也越大",
+      "B. 当前进程的时间片用完后, 该进程状态由执行态变为阻塞态",
+      "C. 时钟中断发生后, 系统会修改当前进程在时间片内的剩余时间",
+      "D. 影响时间片大小的主要因素包括响应时间、系统开销和进程数量等"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_28",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_concept"
+    ],
+    "question": "与单道程序系统相比，多道程序系统的优点是 I. CPU 利用率高 II. 系统开销小 III. 系统吞吐量大 IV. I/O 设备利用率高",
+    "options": [
+      "A. 仅 I、III",
+      "B. 仅 I、IV",
+      "C. 仅 II、III",
+      "D. 仅 I、III、IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_29",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic",
+      "os_file_impl"
+    ],
+    "question": "下列选项中，磁盘逻辑格式化程序所做的工作是 I. 对磁盘进行分区 II. 建立文件系统的根目录 III. 确定磁盘扇区校验码所占位数 IV. 对保存空闲磁盘块信息的数据结构进行初始化",
+    "options": [
+      "A. 仅 II",
+      "B. 仅 II、IV",
+      "C. 仅III、IV",
+      "D. 仅 I、II、IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_30",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "某文件系统中，针对每个文件，用户类别分为 4 类：安全管理员、文件主、文件主的伙伴、其他用户；访问权限分为 5 种：完全控制、执行、修改、读取、写入。若文件控制块中用二进制位串表示文件权限，为表示不同类别用户对一个文件的访问权限，则描述文件权限的位数至少应为 ________。",
+    "options": [
+      "A. 5",
+      "B. 9",
+      "C. 12",
+      "D. 20"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_31",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic",
+      "os_file_impl"
+    ],
+    "question": "若文件 f1 的硬链接为 f2，两个进程分别打开 f1 和 f2，获得对应的文件描述符为 fd1 和 fd2，则下列叙述中，正确的是________。 I．f1和f2的读写指针位置保持相同 II. f1 和 f2 共享同一个内存索引结点 III. fd1 和 fd2 分别指向各自的用户打开文件表中的一项",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II、III",
+      "C. 仅 I、II",
+      "D. I、II和III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_32",
+    "subject": "os",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control",
+      "os_io_buffer",
+      "os_io_disk"
+    ],
+    "question": "系统将数据从磁盘读到内存的过程包括以下操作： ① DMA 控制器发出中断请求 ②初始化DMA控制器并启动磁盘 (3)从磁盘传输一块数据到内存缓冲区 ④执行“DMA结束”中断服务程序 正确的执行顺序是",
+    "options": [
+      "A. ③->①->②->④",
+      "B. ②->③->①->④",
+      "C. ②->①->③->④",
+      "D. ①-→②-→④-→③"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_33",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "假设 OSI 参考模型的应用层欲发送 $400 \\mathrm{~B}$ 的数据（无拆分），除物理层和应用层之外，其他各层在封装 PDU 时均引人 $20 \\mathrm{~B}$ 的额外开销，则应用层数据传输效率约为 ______。",
+    "options": [
+      "A. $80\\%$",
+      "B. $83\\%$",
+      "C. $87\\%$",
+      "D. $91\\%$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_34",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_comm"
+    ],
+    "question": "若信道在无噪声情况下的极限数据传输速率不小于信噪比为 30dB 条件下的极限数据传输速率，则信号状态数至少是",
+    "options": [
+      "A. 4",
+      "B. 8",
+      "C. 16",
+      "D. 32"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_35",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "在下图所示的网络中, 若主机 H 发送一个封装访问 Internet 的 IP 分组的 IEEE 802.11 数据帧 F, 则帧 F 的地址 1、地址 2 和地址 3 分别是 ______。 ![](https://408.foreverlink.love/images/7f6eba7bee7383b894edd739ede13335.jpg)",
+    "options": [
+      "A. 00-12-34-56-78-9a, 00-12-34-56-78-9b, 00-12-34-56-78-9c",
+      "B. 00-12-34-56-78-9b, 00-12-34-56-78-9a, 00-12-34-56-78-9c",
+      "C. 00-12-34-56-78-9b, 00-12-34-56-78-9c, 00-12-34-56-78-9a",
+      "D. 00-12-34-56-78-9a, 00-12-34-56-78-9c, 00-12-34-56-78-9b"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_36",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4"
+    ],
+    "question": "下列 IP 地址中, 只能作为 IP 分组的源 IP 地址但不能作为目的 IP 地址的是",
+    "options": [
+      "A. 0.0.0.0",
+      "B. 127.0.0.1",
+      "C. 200.10.10.3",
+      "D. 255.255.255.255"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_37",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_route"
+    ],
+    "question": "直接封装RIP、OSPF、BGP报文的协议分别是",
+    "options": [
+      "A. TCP、UDP、IP",
+      "B. TCP、IP、UDP",
+      "C. UDP、TCP、IP",
+      "D. UDP、IP、TCP"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_38",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "若将网络 21.3.0.0/16 划分为 128 个规模相同的子网, 则每个子网可分配的最大 IP 地址个数是",
+    "options": [
+      "A. 254",
+      "B. 256",
+      "C. 510",
+      "D. 512"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_39",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "若甲向乙发起一个TCP连接，最大段长 $\\mathrm{MSS} = 1\\mathrm{KB}$ ， $\\mathrm{RTT} = 5\\mathrm{ms}$ ，乙开辟的接收缓存为 $64\\mathrm{KB}$ ，则甲从连接建立成功至发送窗口达到 $32\\mathrm{KB}$ ，需经过的时间至少是",
+    "options": [
+      "A. $25 \\mathrm{~ms}$",
+      "B. $30 \\mathrm{~ms}$",
+      "C. $160 \\mathrm{~ms}$",
+      "D. $165 \\mathrm{~ms}$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2017_40",
+    "subject": "cn",
+    "year": 2017,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp"
+    ],
+    "question": "下列关于 FTP 协议的叙述中, 错误的是",
+    "options": [
+      "A. 数据连接在每次数据传输完毕后就关闭",
+      "B. 控制连接在整个会话期间保持打开状态",
+      "C. 服务器与客户端的 TCP20 端口建立数据连接",
+      "D. 客户端与服务器的 TCP21 端口建立控制连接"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_01",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack_app"
+    ],
+    "question": "若栈 $S_{1}$ 中保存整数，栈 $S_{2}$ 中保存运算符，函数 F()依次执行下述各步操作： （1）从 $\\mathbf{S}_1$ 中依次弹出两个操作数a和b； （2）从 $\\mathbf{S}_2$ 中弹出一个运算符 op; （3）执行相应的运算bopa； （4）将运算结果压入 $S_{1}$ 中。 假定 $\\mathbf{S}_1$ 中的操作数依次是5,8,3,2（2在栈顶)， $\\mathbf{S}_2$ 中的运算符依次是\\*,-,+（+在栈顶)。调用3次F()后， $\\mathbf{S}_1$ 栈顶保存的值是",
+    "options": [
+      "A. -15",
+      "B. 15",
+      "C. -20",
+      "D. 20"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_02",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_queue"
+    ],
+    "question": "现有队列 Q 与栈 S，初始时 Q 中的元素依次是 1, 2, 3, 4, 5, 6（1 在队头），S 为空。若仅允许下列 3 种操作：① 出队并输出出队元素；② 出队并将出队元素入栈；③ 出栈并输出出栈元素，则不能得到的输出序列是 ________。",
+    "options": [
+      "A. 1,2,5,6,4,3",
+      "B. 2, 3, 4, 5, 6, 1",
+      "C. 3, 4, 5, 6, 1, 2",
+      "D. 6, 5, 4, 3, 2, 1"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_03",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_matrix"
+    ],
+    "question": "设有一个 $12 \\times 12$ 的对称矩阵 M，将其上三角部分的元素 $\\mathrm{m}_{\\mathrm{i}, \\mathrm{j}}$ （ $1 \\leq \\mathrm{i} < \\mathrm{j} \\leq 12$ ）按行优先存入 C 语言的一维数组 N 中，元素 $\\mathrm{m}_{6,6}$ 在 N 中的下标是 ______。",
+    "options": [
+      "A. 50",
+      "B. 51",
+      "C. 55",
+      "D. 66"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_04",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "设一棵非空完全二叉树 T 的所有叶结点均位于同一层，且每个非叶结点都有 2 个子结点。若 T 有 k 个叶结点，则 T 的结点总数是 ________。",
+    "options": [
+      "A. $2\\mathrm{k} - 1$",
+      "B. $2\\mathrm{k}$",
+      "C. ${\\mathrm{k}}^{2}$",
+      "D. $2^{\\mathrm{k}} - 1$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_05",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "已知字符集 $\\{\\mathrm{a},\\mathrm{b},\\mathrm{c},\\mathrm{d},\\mathrm{e},\\mathrm{f}\\}$ ，若各字符出现的次数分别为6,3,8,2,10,4，则对应字符集中各字符的哈夫曼编码可能是",
+    "options": [
+      "A. 00, 1011, 01, 1010, 11, 100",
+      "B. 00, 100, 110, 000, 0010, 01",
+      "C. 10, 1011, 11, 0011, 00, 010",
+      "D. 0011, 10, 11, 0010, 01, 000"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_06",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "已知二叉排序树如下图所示，元素之间应满足的大小关系是 ![](https://408.foreverlink.love/images/58c40ade8041548385688bf039e9acc0.jpg) ![](https://408.foreverlink.love/images/3366ca6fcc150c6e2fc1930945762706.jpg)",
+    "options": [
+      "A. $x_{1} <   x_{2} <   x_{5}$",
+      "B. $x_{1} <   x_{4} <   x_{5}$",
+      "C. $x_{3} <   x_{5} <   x_{4}$",
+      "D. $x_{4} <   x_{3} <   x_{5}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_07",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_topological"
+    ],
+    "question": "下列选项中，不是如下有向图的拓扑序列的是 ![](https://408.foreverlink.love/images/854fc5244d7083c6e02042d932cc292a.jpg) ![](https://408.foreverlink.love/images/3f28f4941f4b60257ec07f2072f904dc.jpg)",
+    "options": [
+      "A. 1, 5, 2, 3, 6, 4",
+      "B. 5, 1, 2, 6, 3, 4",
+      "C. 5, 1, 2, 3, 6, 4",
+      "D. 5, 2, 1, 6, 3, 4"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_08",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "高度为 5 的 3 阶 B 树含有的关键字个数至少是",
+    "options": [
+      "A. 15",
+      "B. 31",
+      "C. 62",
+      "D. 242"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_09",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_hash"
+    ],
+    "question": "现有长度为 7、初始为空的散列表 HT，散列函数 $\\mathrm{H}(\\mathrm{k}) = \\mathrm{k}\\% 7$ ，用线性探测再散列法解决冲突。将关键字 22,43,15 依次插入到 HT 后，查找成功的平均查找长度是 ________。",
+    "options": [
+      "A. 1.5",
+      "B. 1.6",
+      "C. 2",
+      "D. 3"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_10",
+    "subject": "ds",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "对初始数据序列（8, 3, 9, 11, 2, 1, 4, 7, 5, 10, 6）进行希尔排序。若第一趟排序结果为（1, 3, 7, 5, 2, 6, 4, 9, 11, 10, 8），第二趟排序结果为（1, 2, 6, 4, 3, 7, 5, 8, 11, 10, 9），则两趟排序采用的增量（间隔）依次是",
+    "options": [
+      "A. 3, 1",
+      "B. 3,2",
+      "C. 5,2",
+      "D. 5,3"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_11",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "在将数据序列 (6, 1, 5, 9, 8, 4, 7) 建成大根堆时，正确的序列变化过程是",
+    "options": [
+      "A. $6,1,7,9,8,4,5 \\rightarrow 6,9,7,1,8,4,5 \\rightarrow 9,6,7,1,8,4,5 \\rightarrow 9,8,7,1,6,4,5$",
+      "B. $6,9,5,1,8,4,7 \\rightarrow 6,9,7,1,8,4,5 \\rightarrow 9,6,7,1,8,4,5 \\rightarrow 9,8,7,1,6,4,5$",
+      "C. $6, 9, 5, 1, 8, 4, 7 \\rightarrow 9, 6, 5, 1, 8, 4, 7 \\rightarrow 9, 6, 7, 1, 8, 4, 5 \\rightarrow 9, 8, 7, 1, 6, 4, 5$",
+      "D. $6,1,7,9,8,4,5 \\rightarrow 7,1,6,9,8,4,5 \\rightarrow 7,9,6,1,8,4,5 \\rightarrow 9,7,6,1,8,4,5 \\rightarrow 9,8,6,1,7,4,5$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_12",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_radix",
+      "co_data_alu"
+    ],
+    "question": "冯·诺依曼结构计算机中数据采用二进制编码表示，其主要原因是 I.二进制的运算规则简单 II.制造两个稳态的物理器件较容易 III.便于用逻辑门电路实现算术运算",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III",
+      "C. 仅 II、III",
+      "D. I 、II 和 III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_13",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "假定带符号整数采用补码表示, 若 int 型变量 x 和 y 的机器数分别是 FFFF FDFH 和 0000 0041H, 则 x、y 的值以及 x - y 的机器数分别是____。",
+    "options": [
+      "A. $x = -65, y = 41, x - y$  的机器数溢出",
+      "B. $x = -33, y = 65, x - y$  的机器数为 FFFF FF9DH",
+      "C. $x = -33, y = 65, x - y$  的机器数为 FFFF FF9EH",
+      "D. $x = -65, y = 41, x - y$  的机器数为 FFFF FF96H"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_14",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "IEEE754单精度浮点格式表示的数中，最小的规格化正数是",
+    "options": [
+      "A. $1.0 \\times 2^{-126}$",
+      "B. $1.0 \\times 2^{-127}$",
+      "C. $1.0 \\times 2^{-128}$",
+      "D. $1.0 \\times 2^{-149}$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_15",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "某 32 位计算机按字节编址，采用小端(Little Endian)方式。若语令“int i = 0;”对应指令的机器代码为“C745FC00000000”，则语句“int i = -64;”对应指令的机器代码是________。",
+    "options": [
+      "A. C745FCCOFFFF",
+      "B. C745FC0CFFFF",
+      "C. C745FCFFFFCC0",
+      "D. C745FCFFFF0C"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_16",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "整数 $x$ 的机器数为 11011000，分别对 $x$ 进行逻辑右移 1 位和算术右移 1 位操作，得到的机器数各是 ______。",
+    "options": [
+      "A. 1110 1100、1110 1100",
+      "B. 01101100、11101100",
+      "C. 1110 1100、0110 1100",
+      "D. 01101100、01101100"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_17",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_main"
+    ],
+    "question": "假定DRAM芯片中存储阵列的行数为r、列数为c，对于一个 $2\\mathrm{K} \\times 1$ 位的DRAM芯片，为保证其地址引脚数最少，并尽量减少刷新开销，则r、c的取值分别是",
+    "options": [
+      "A. 2048、1",
+      "B. 64、32",
+      "C. 32、64",
+      "D. 1、2048"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_18",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "按字节编址的计算机中，某 double 型数组 A 的首地址为 $2000\\mathrm{H}$ ，使用变址寻址和循环结构访问数组 A，保存数组下标的变址寄存器初值为 0，每次循环取一个数组元素，其偏移地址为变址值乘以 sizeof(double)，取完后变址寄存器内容自动加 1。若某次循环所取元素的地址为 $2100\\mathrm{H}$ ，则进入该次循环时变址寄存器的内容是 ________。",
+    "options": [
+      "A. 25",
+      "B. 32",
+      "C. 64",
+      "D. 100"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_19",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed",
+      "co_data_alu"
+    ],
+    "question": "减法指令“sub R1, R2, R3”的功能为“（R1）-（R2）→R3”，该指令执行后将生成进位/借位标志 CF 和溢出标志 OF。若（R1）= FFFF FFFFH，（R2）= FFFF FFF0H，则该减法指令执行后，CF 与 OF 分别为 ________。",
+    "options": [
+      "A. $\\mathrm{CF} = 0, \\mathrm{OF} = 0$",
+      "B. $\\mathrm{{CF}} = 1,\\mathrm{{OF}} = 0$",
+      "C. $\\mathrm{{CF}} = 0,\\mathrm{{OF}} = 1$",
+      "D. $\\mathrm{{CF}} = 1,\\mathrm{{OF}} = 1$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_20",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "若某计算机最复杂指令的执行需要完成 5 个子功能，分别由功能部件 A~E 实现，各功能部件所需时间分别为 $80\\mathrm{ps}$ 、 $50\\mathrm{ps}$ 、 $50\\mathrm{ps}$ 、 $70\\mathrm{ps}$ 和 $50\\mathrm{ps}$ ，采用流水线方式执行指令，流水段寄存器延时为 $20\\mathrm{ps}$ ，则 CPU 时钟周期至少为 ______。",
+    "options": [
+      "A. $60~\\mathrm{ps}$",
+      "B. $70 \\mathrm{ps}$",
+      "C. $80 \\mathrm{ps}$",
+      "D. $100 \\mathrm{ps}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_21",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "下列选项中，可提高同步总线数据传输率的是________。 I.增加总线宽度 II.提高总线工作频率 Ⅲ.支持突发传输 IV.采用地址/数据线复用",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、II、III",
+      "C. 仅III、IV",
+      "D. I、II、III和IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_22",
+    "subject": "co",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "下列关于外部 I/O 中断的叙述中，正确的是________。",
+    "options": [
+      "A. 中断控制器按所接收中断请求的先后次序进行中断优先级排队",
+      "B. CPU响应中断时，通过执行中断隐指令完成通用寄存器的保护",
+      "C. CPU 只有在处于中断允许状态时，才能响应外部设备的中断请求",
+      "D. 有中断请求时, CPU 立即暂停当前指令执行, 转去执行中断服务程序"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_23",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_concept"
+    ],
+    "question": "下列关于多任务操作系统的叙述中，正确的是________。 I. 具有并发和并行的特点 II. 需要实现对共享资源的保护 III. 需要运行在多CPU的硬件平台上",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、II",
+      "D. I 、II 、III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_24",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "某系统采用基于优先权的非抢占式进程调度策略，完成一次进程调度和进程切换的系统时间开销为 $1\\mu \\mathrm{s}$ 。在 T 时刻就绪队列中有 3 个进程 $\\mathbf{P}_1$ 、 $\\mathbf{P}_2$ 和 $\\mathbf{P}_3$ ，其在就绪队列中的等待时间、需要的 CPU 时间和优先权如下表所示。 <table><tr><td>进程</td><td>等待时间</td><td>需要的CPU时间</td><td>优先权</td></tr><tr><td>P1</td><td>30 μs</td><td>12 μs</td><td>10</td></tr><tr><td>P2</td><td>15 μs</td><td>24 μs</td><td>30</td></tr><tr><td>P3</td><td>18 μs</td><td>36 μs</td><td>20</td></tr></table> 若优先权值大的进程优先获得 CPU，从 T 时刻起系统开始进程调度，则系统的平均周转时间为 ______。",
+    "options": [
+      "A. $54 \\mu \\mathrm{s}$",
+      "B. $73 \\mu \\mathrm{s}$",
+      "C. $74 \\mu \\mathrm{s}$",
+      "D. ${75\\mu }\\mathrm{s}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_25",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "属于同一进程的两个线程 thread1 和 thread2 并发执行, 共享初值为 0 的全局变量 x。thread1 和 thread2 实现对全局变量 x 加 1 的机器级代码描述如下。 <table><tr><td colspan=\"3\">thread1</td><td colspan=\"3\">thread2</td></tr><tr><td>mov R1, x</td><td colspan=\"2\">// (x) → R1</td><td>mov R2, x</td><td colspan=\"2\">// (x) → R2</td></tr><tr><td>inc R1</td><td colspan=\"2\">// (R1) +1 → R1</td><td>inc R2</td><td colspan=\"2\">// (R2) +1 → R2</td></tr><tr><td>mov x, R1</td><td colspan=\"2\">// (R1) → x</td><td>mov x, R2</td><td colspan=\"2\">// (R2) → x</td></tr></table> 在所有可能的指令执行序列中，使 $\\mathbf{X}$ 的值为2的序列个数是",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_26",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "假设系统中有 4 个同类资源，进程 $\\mathrm{P}_{1} 、 \\mathrm{P}_{2}$ 和 $\\mathrm{P}_{3}$ 需要的资源数分别为 4、3 和 1， $\\mathrm{P}_{1} 、 \\mathrm{P}_{2}$ 和 $\\mathrm{P}_{3}$ 已申请到的资源数分别为 2、1 和 0，则执行安全性检测算法的结果是",
+    "options": [
+      "A. 不存在安全序列，系统处于不安全状态",
+      "B. 存在多个安全序列，系统处于安全状态",
+      "C. 存在唯一安全序列  $\\mathrm{P}_{3} 、 \\mathrm{P}_{1} 、 \\mathrm{P}_{2}$ , 系统处于安全状态",
+      "D. 存在唯一安全序列  $\\mathrm{P}_{3} 、 \\mathrm{P}_{2} 、 \\mathrm{P}_{1}$ , 系统处于安全状态"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_27",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列选项中，可能导致当前进程P阻塞的事件是 I. 进程P申请临界资源 II. 进程P从磁盘读数据 III. 系统将CPU分配给高优先权的进程",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、II",
+      "D. I、II、III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_28",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "若 x 是管程内的条件变量，则当进程执行 x.wait()时所做的工作是",
+    "options": [
+      "A. 实现对变量  $\\mathrm{x}$  的互斥访问",
+      "B. 唤醒一个在  $\\mathrm{x}$  上阻塞的进程",
+      "C. 根据  $\\mathbf{x}$  的值判断该进程是否进入阻塞状态",
+      "D. 阻塞该进程, 并将之插入  $\\mathrm{x}$  的阻塞队列中"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_29",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "当定时器产生时钟中断后，由时钟中断服务程序更新的部分内容是 I.内核中时钟变量的值 II.当前进程占用CPU的时间 III.当前进程在时间片内的剩余执行时间",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅 I、III",
+      "D. I、II、III"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_30",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_disk"
+    ],
+    "question": "系统总是访问磁盘的某个磁道而不响应对其他磁道的访问请求, 这种现象称为磁臂黏着。下列磁盘调度算法中, 不会导致磁臂粘着的是",
+    "options": [
+      "A. 先来先服务（FCFS）",
+      "B. 最短寻道时间优先（SSTF）",
+      "C. 扫描算法（SCAN）",
+      "D. 循环扫描算法（CSCAN）"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_31",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "下列优化方法中，可以提高文件访问速度的是________。 I. 提前读 II. 为文件分配连续的簇 III.延迟写 IV.采用磁盘高速缓存",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 II、III",
+      "C. 仅 I、III、IV",
+      "D. I、II、III、IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_32",
+    "subject": "os",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "在下列同步机制中，可以实现让权等待的是",
+    "options": [
+      "A. Peterson 方法",
+      "B. swap 指令",
+      "C. 信号量方法",
+      "D. TestAndSet指令"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_33",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_dns",
+      "cn_tp_udp"
+    ],
+    "question": "下列 TCP/IP 应用层协议中，可以使用传输层无连接服务的是________。",
+    "options": [
+      "A. FTP",
+      "B. DNS",
+      "C. SMTP",
+      "D. HTTP"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_34",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_media"
+    ],
+    "question": "下列选项中，不属于物理层接口规范定义范畴的是________。",
+    "options": [
+      "A. 接口形状",
+      "B. 引脚功能",
+      "C. 物理地址",
+      "D. 信号电平"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_35",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "IEEE802.11无线局域网的MAC协议CSMA/CA进行信道预约的方法是",
+    "options": [
+      "A. 发送确认帧",
+      "B. 采用二进制指数退避",
+      "C. 使用多个 MAC 地址",
+      "D. 交换RTS与CTS帧"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_36",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "主机甲采用停-等协议向主机乙发送数据，数据传输速率是 $3 \\mathrm{~kbps}$ ，单向传播延时是 $200 \\mathrm{~ms}$ ，忽略确认帧的传输延时。当信道利用率等于 $40\\%$ 时，数据帧的长度为 ________。",
+    "options": [
+      "A. 240 比特",
+      "B. 400 比特",
+      "C. 480 比特",
+      "D. 800 比特"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_37",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_route"
+    ],
+    "question": "路由器 R 通过以太网交换机 S1 和 S2 连接两个网络，R 的接口、主机 H1 和 H2 的 IP 地址与 MAC 地址如下图所示。若 H1 向 H2 发送 1 个 IP 分组 P，则 H1 发出的封装 P 的以太网帧的目的 MAC 地址、H2 收到的封装 P 的以太网帧的源 MAC 地址分别是 ______。 ![](https://408.foreverlink.love/images/716bb6f2429ab2dea30155d70105516c.jpg)",
+    "options": [
+      "A. 00-a1-b2-c3-d4-62、00-1a-2b-3c-4d-52",
+      "B. 00-a1-b2-c3-d4-62、00-a1-b2-c3-d4-61",
+      "C. 00-1a-2b-3c-4d-51、00-1a-2b-3c-4d-52",
+      "D. 00-1a-2b-3c-4d-51、00-a1-b2-c3-d4-61"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_38",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_route"
+    ],
+    "question": "某路由表中有转发接口相同的 4 条路由表项, 其目的网络地址分别为 35.230.32.0/21、 35.230.40.0/21、35.230.48.0/21 和 35.230.56.0/21, 将该 4 条路由聚合后的目的网络地址为_____。",
+    "options": [
+      "A. 35.230.0.0/19",
+      "B. 35.230.0.0/20",
+      "C. 35.230.32.0/19",
+      "D. 35.230.32.0/20"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_39",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_udp"
+    ],
+    "question": "UDP协议实现分用(demultiplexing)时所依据的头部字段是",
+    "options": [
+      "A. 源端口号",
+      "B. 目的端口号",
+      "C. 长度",
+      "D. 校验和"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2018_40",
+    "subject": "cn",
+    "year": 2018,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_email"
+    ],
+    "question": "无需转换即可由SMTP协议直接传输的内容是",
+    "options": [
+      "A. JPEG图像",
+      "B. MPEG视频",
+      "C. EXE文件",
+      "D. ASCII 文本"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_01",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_ll_definition"
+    ],
+    "question": "设 $n$ 是描述问题规模的非负整数, 下列程序段的时间复杂度是_____。 $$ \\begin{array}{l} \\mathrm {x = 0 ;} \\\\ \\text {w h i l e (n > = (x + 1) * (x + 1))} \\\\ \\mathrm {x = x + 1 ;} \\end{array} $$",
+    "options": [
+      "A. $O(\\log n)$",
+      "B. $O\\left(n^{1 / 2}\\right)$",
+      "C. $O(n)$",
+      "D. $O(n^{2})$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_02",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "若将一棵树 T 转化为对应的二叉树 BT，则下列对 BT 的遍历中，其遍历序列与 T 的后根遍历序列相同的是________。",
+    "options": [
+      "A. 先序遍历",
+      "B. 中序遍历",
+      "C. 后序遍历",
+      "D. 按层遍历"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_03",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_huffman"
+    ],
+    "question": "对 $n$ 个互不相同的符号进行哈夫曼编码。若生成的哈夫曼树共有 115 个结点, 则 $n$ 的值是",
+    "options": [
+      "A. 56",
+      "B. 57",
+      "C. 58",
+      "D. 60"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_04",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "在任意一棵非空平衡二叉树（AVL 树） $\\mathrm{T}_{1}$ 中，删除某结点 $\\mathbf{v}$ 之后形成平衡二叉树 $\\mathrm{T}_{2}$ ，再将 $\\mathbf{v}$ 插入 $\\mathrm{T}_{2}$ 形成平衡二叉树 $\\mathrm{T}_{3}$ 。下列关于 $\\mathrm{T}_{1}$ 与 $\\mathrm{T}_{3}$ 的叙述中，正确的是________。 I. 若 $\\mathbf{v}$ 是 $\\mathrm{T}_{1}$ 的叶结点，则 $\\mathrm{T}_{1}$ 与 $\\mathrm{T}_{3}$ 可能不相同 II. 若 $\\mathrm{v}$ 不是 $\\mathrm{T}_{1}$ 的叶结点, 则 $\\mathrm{T}_{1}$ 与 $\\mathrm{T}_{3}$ 一定不相同 III. 若 $\\mathbf{v}$ 不是 $\\mathrm{T}_{1}$ 的叶结点，则 $\\mathrm{T}_{1}$ 与 $\\mathrm{T}_{3}$ 一定相同",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 II",
+      "C. 仅 I、II",
+      "D. 仅 I、III"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_05",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_critical"
+    ],
+    "question": "下图所示的 AOE 网表示一项包含 8 个活动的工程。活动 d 的最早开始时间和最迟开始时间分别是 ![](https://408.foreverlink.love/images/fcb7e9cbd45e8f38a881881b3593225a.jpg)",
+    "options": [
+      "A. 3 和 7",
+      "B. 12 和 12",
+      "C. 12 和 14",
+      "D. 15 和 15"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_06",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_basic"
+    ],
+    "question": "用有向无环图描述表达式 $(x + y)((x + y) / x)$ , 需要的顶点个数至少是",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 8",
+      "D. 9"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_07",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "选择一个排序算法时，除算法的时空效率，下列因素中，还需要考虑的是 I. 数据的规模 II. 数据的存储方式 III. 算法的稳定性 IV. 数据的初始状态",
+    "options": [
+      "A. 仅 III",
+      "B. 仅 I、II",
+      "C. 仅 II、III、IV",
+      "D. I、II、III、IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_08",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_hash"
+    ],
+    "question": "现有长度为 11 且初始为空的散列表 HT, 散列函数是 $H(\\text{key}) = \\text{key} \\% 7$ , 采用线性探查 (线性探测再散列) 法解决冲突。将关键字序列 87, 40, 30, 6, 11, 22, 98, 20 依次插入 HT 后, HT 查找失败的平均查找长度是",
+    "options": [
+      "A. 4",
+      "B. 5.25",
+      "C. 6",
+      "D. 6.29"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_09",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_seq_bin"
+    ],
+    "question": "设主串 $\\mathrm{T} =$ \"abaabaabcabaabc\", 模式串 $\\mathrm{S} =$ \"abaabc\", 采用 KMP 算法进行模式匹配, 到匹配成功时为止, 在匹配过程中进行的单个字符间的比较次数是",
+    "options": [
+      "A. 9",
+      "B. 10",
+      "C. 12",
+      "D. 15"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_10",
+    "subject": "ds",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_swap"
+    ],
+    "question": "排序过程中，对尚未确定最终位置的所有元素进行一遍处理称为一“趟”。下列序列中，不可能是快速排序第二趟结果的是________。",
+    "options": [
+      "A. 5, 2, 16, 12, 28, 60, 32, 72",
+      "B. 2, 16, 5, 28, 12, 60, 32, 72",
+      "C. 2, 12, 16, 5, 28, 32, 72, 60",
+      "D. 5,2,12,28,16,32,72,60"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_11",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_merge"
+    ],
+    "question": "设外存上有 120 个初始归并段，进行 12 路归并时，为实现最佳归并，需要补充的虚段个数是 ______。",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_12",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_intro_structure"
+    ],
+    "question": "下列关于冯·诺依曼结构计算机基本思想的叙述中，错误的是________。",
+    "options": [
+      "A. 程序的功能都通过中央处理器执行指令实现",
+      "B. 指令和数据都用二进制数表示, 形式上无差别",
+      "C. 指令按地址访问, 数据都在指令中直接给出",
+      "D. 程序执行前, 指令和数据需预先存放在存储器中"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_13",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "考虑以下C语言代码： $$ \\begin{array}{l} \\text {u n s i g n e d s h o r t u s i = 6 5 5 3 5 ;} \\\\ \\text {s h o r t s i = u s i ;} \\end{array} $$ 执行上述程序段后，si的值是",
+    "options": [
+      "A. -1",
+      "B. -32767",
+      "C. -32768",
+      "D. -65535"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_14",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_virtual"
+    ],
+    "question": "下列关于缺页处理的叙述中，错误的是",
+    "options": [
+      "A. 缺页是在地址转换时 CPU 检测到的一种异常",
+      "B. 缺页处理由操作系统提供的缺页处理程序来完成",
+      "C. 缺页处理程序根据页故障地址从外存读入所缺失的页",
+      "D. 缺页处理完成后回到发生缺页的指令的下一条指令执行"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_15",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing"
+    ],
+    "question": "某计算机采用大端方式, 按字节编址。某指令中操作数的机器数为 $1234 \\mathrm{FF00H}$ , 该操作数采用基址寻址方式, 形式地址 (用补码表示) 为 FF12H, 基址寄存器的内容为 F000 0000H, 则该操作数的 LSB (最低有效字节) 所在的地址是",
+    "options": [
+      "A. F000 FF12H",
+      "B. F000 FF15H",
+      "C. EFFF FF12H",
+      "D. EFFF FF15H"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_16",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_datapath"
+    ],
+    "question": "下列有关处理器时钟脉冲信号的叙述中，错误的是________。",
+    "options": [
+      "A. 时钟脉冲信号由机器脉冲源发出的脉冲信号经整形和分频后形成",
+      "B. 时钟脉冲信号的宽度称为时钟周期, 时钟周期的倒数为机器主频",
+      "C. 时钟周期以相邻状态单元间组合逻辑电路的最大延迟为基准确定",
+      "D. 处理器总是在每来一个时钟脉冲信号时就开始执行一条新的指令"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_17",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_datapath"
+    ],
+    "question": "某指令功能为 $\\mathrm{R[r2]}\\leftarrow \\mathrm{R[r1] + M[R[r0]]}$ ，其两个源操作数分别采用寄存器、寄存器间接寻址方式。对于下列给定部件，该指令在取数及执行过程中需要用到的是________。 I. 通用寄存器组（GPRs） II. 算术逻辑单元（ALU） III. 存储器（Memory） IV. 指令译码器（ID）",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、",
+      "C. 仅 II、III、IV",
+      "D. 仅 I、III、IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_18",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline",
+      "co_cpu_datapath"
+    ],
+    "question": "在采用“取指、译码/取数、执行、访存、写回”5段流水线的处理器中，执行如下指令序列，其中s0、s1、s2、s3和t2表示寄存器编号。 ```txt I1: add s2,s1,s0 //R[s2]←R[s1]+R[s0] I2: load s3,0(t2) //R[s3]←M[R[t2]+0] I3: add s2,s2,s3 //R[s2]←R[s2]+R[s3] I4: store s2,0(t2) //M[R[t2]+0]←R[s2] ``` 下列指令对中，不存在数据冒险的是",
+    "options": [
+      "A. I1 和 I3",
+      "B. I2 和 I3",
+      "C. I2 和 I4",
+      "D. I3 和 I4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_19",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "假定一台计算机采用 3 通道存储器总线, 配套的内存条型号为 DDR3-1333, 即内存条所接插的存储器总线的工作频率为 $1333 \\mathrm{MHz}$ , 总线宽度为 64 位, 则存储器总线的总带宽大约是____。",
+    "options": [
+      "A. $10.66\\mathrm{GB / s}$",
+      "B. $32 \\mathrm{~GB} / \\mathrm{s}$",
+      "C. $64 \\mathrm{~GB} / \\mathrm{s}$",
+      "D. 96GB/s"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_20",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interface"
+    ],
+    "question": "下列关于磁盘存储器的叙述中，错误的是",
+    "options": [
+      "A. 磁盘的格式化容量比非格式化容量小",
+      "B. 扇区中包含数据、地址和校验等信息",
+      "C. 磁盘存储器的最小读写单位为一字节",
+      "D. 磁盘存储器由磁盘控制器、磁盘驱动器和盘片组成"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_21",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "某设备以中断方式与 CPU 进行数据交换，CPU 主频为 $1 \\mathrm{GHz}$ ，设备接口中的数据缓冲寄存器为 32 位，设备的数据传输率为 $50 \\mathrm{~kB} / \\mathrm{s}$ 。若每次中断开销（包括中断响应和中断处理）为 1000 个时钟周期，则 CPU 用于该设备输入/输出的时间占整个 CPU 时间的百分比最多是 ______。",
+    "options": [
+      "A. $1.25\\%$",
+      "B. $2.5\\%$",
+      "C. $5\\%$",
+      "D. $12.5\\%$"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_22",
+    "subject": "co",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_dma",
+      "co_io_interface"
+    ],
+    "question": "下列关于 DMA 方式的叙述中, 正确的是 I. DMA 传送前由设备驱动程序设置传送参数 II. 数据传送前由DMA控制器请求总线使用权 III. 数据传送由DMA控制器直接控制总线完成 IV. DMA 传送结束后的处理由中断服务程序完成",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III、IV",
+      "C. 仅 II、III、IV",
+      "D. I、II、III、IV"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_23",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列关于线程的描述中，错误的是",
+    "options": [
+      "A. 内核级线程的调度由操作系统完成",
+      "B. 操作系统为每个用户级线程建立一个线程控制块",
+      "C. 用户级线程间的切换比内核级线程间的切换效率高",
+      "D. 用户级线程可以在不支持内核级线程的操作系统上实现"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_24",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state",
+      "os_process_algorithm"
+    ],
+    "question": "下列选项中，可能会将进程唤醒的事件是 I. I/O结束 II. 某进程退出临界区 III. 当前进程的时间片用完",
+    "options": [
+      "A. 仅 I",
+      "B. 仅 III",
+      "C. 仅 I、II",
+      "D. I、II、III"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_25",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列关于系统调用的叙述中，正确的是________。 I. 在执行系统调用服务程序的过程中，CPU 处于内核态 II. 操作系统通过提供系统调用避免用户程序直接访问外设 III. 不同的操作系统为应用程序提供了统一的系统调用接口 IV. 系统调用是操作系统内核为应用程序提供服务的接口",
+    "options": [
+      "A. 仅 I、IV",
+      "B. 仅 II、III",
+      "C. 仅 I、II、IV",
+      "D. 仅 I、III、IV"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_26",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "下列选项中，可用于文件系统管理空闲磁盘块的数据结构是 I. 位图 II. 索引结点 III. 空闲磁盘块链 IV. 文件分配表（FAT）",
+    "options": [
+      "A. 仅 I、II",
+      "B. 仅 I、III、IV",
+      "C. 仅 I、III",
+      "D. 仅 II、III、IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_27",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "系统采用二级反馈队列调度算法进行进程调度。就绪队列 $Q_{1}$ 采用时间片轮转调度算法, 时间片为 $10 \\mathrm{~ms}$ ; 就绪队列 $Q_{2}$ 采用短进程优先调度算法; 系统优先调度 $Q_{1}$ 队列中的进程, 当 $Q_{1}$ 为空时系统才会调度 $Q_{2}$ 中的进程; 新创建的进程首先进入 $Q_{1}$ ; $Q_{1}$ 中的进程执行一个时间片后, 若未结束, 则转入 $Q_{2}$ 。若当前 $Q_{1} 、 Q_{2}$ 为空, 系统依次创建进程 $P_{1} 、 P_{2}$ 后即开始进程调度, $P_{1} 、 P_{2}$ 需要的 CPU 时间分别为 $30 \\mathrm{~ms}$ 和 $20 \\mathrm{~ms}$ , 则进程 $P_{1} 、 P_{2}$ 在系统中的平均等待时间为",
+    "options": [
+      "A. ${25}\\mathrm{\\;{ms}}$",
+      "B. $20 \\mathrm{~ms}$",
+      "C. $15 \\mathrm{~ms}$",
+      "D. $10 \\mathrm{~ms}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_28",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_segmentation"
+    ],
+    "question": "在分段存储管理系统中，用共享段表描述所有被共享的段。若进程 $\\mathrm{P_1}$ 和 $\\mathrm{P_2}$ 共享段S，下列叙述中，错误的是",
+    "options": [
+      "A. 在物理内存中仅保存一份段 S 的内容",
+      "B. 段 S 在  $\\mathrm{P}_{1}$  和  $\\mathrm{P}_{2}$  中应该具有相同的段号",
+      "C. $\\mathrm{P}_{1}$  和  $\\mathrm{P}_{2}$  共享段 S 在共享段表中的段表项",
+      "D. $\\mathrm{P}_{1}$  和  $\\mathrm{P}_{2}$  都不再使用段 S 时才回收段 S 所占的内存空间"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_29",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual",
+      "os_mem_paging"
+    ],
+    "question": "某系统采用 LRU 页置换算法和局部置换策略，若系统为进程 P 预分配了 4 个页框，进程 P 访问页号的序列为 $0,1,2,7,0,5,3,5,0,2,7,6$ ，则进程访问上述页的过程中，产生页置换的总次数是 ______。",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_30",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "下列关于死锁的叙述中, 正确的是 I. 可以通过剥夺进程资源解除死锁 II. 死锁的预防方法能确保系统不发生死锁 III. 银行家算法可以判断系统是否处于死锁状态 IV. 当系统出现死锁时，必然有两个或两个以上的进程处于阻塞态",
+    "options": [
+      "A. 仅 II、III",
+      "B. 仅 I、II、IV",
+      "C. 仅 I、II、III",
+      "D. 仅 I、III、IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_31",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_paging"
+    ],
+    "question": "某计算机主存按字节编址，采用二级分页存储管理，地址结构如下所示： <table><tr><td>页目录号（10位）</td><td>页号（10位）</td><td>页内偏移（12位）</td></tr></table> 虚拟地址20501225H对应的页目录号、页号分别是",
+    "options": [
+      "A. 081H、101H",
+      "B. 081H、401H",
+      "C. $201 \\mathrm{H} 、 101 \\mathrm{H}$",
+      "D. 201H、401H"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_32",
+    "subject": "os",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_contiguous"
+    ],
+    "question": "在下列动态分区分配算法中，最容易产生内存碎片的是________。",
+    "options": [
+      "A. 首次适应算法",
+      "B. 最坏适应算法",
+      "C. 最佳适应算法",
+      "D. 循环首次适应算法"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_33",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_model"
+    ],
+    "question": "OSI参考模型的第5层（自下而上）完成的主要功能是",
+    "options": [
+      "A. 差错控制",
+      "B. 路由选择",
+      "C. 会话管理",
+      "D. 数据表示转换"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_34",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_physical_media"
+    ],
+    "question": "100BaseT 快速以太网使用的导向传输介质是",
+    "options": [
+      "A. 双绞线",
+      "B. 单模光纤",
+      "C. 多模光纤",
+      "D. 同轴电缆"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_35",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "对于滑动窗口协议，若分组序号采用 3 比特编号，发送窗口大小为 5，则接收窗口最大是",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_36",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "假设一个采用 CSMA/CD 协议的 10Mb/s 局域网，最小帧长是 128B，则在一个冲突域内两个站点之间的单向传播延时最多是 ______。",
+    "options": [
+      "A. $2.56 \\mu \\mathrm{s}$",
+      "B. $5.12 \\mu \\mathrm{s}$",
+      "C. $10.24 \\mu \\mathrm{s}$",
+      "D. $20.48 \\mu \\mathrm{s}$"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_37",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_net_ipv4",
+      "cn_net_protocols"
+    ],
+    "question": "若将101.200.16.0/20划分为5个子网，则可能的最小子网的可分配IP地址数是",
+    "options": [
+      "A. 126",
+      "B. 254",
+      "C. 510",
+      "D. 1022"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_38",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "某客户通过一个TCP连接向服务器发送数据的部分过程如题38图所示。客户在 $t_0$ 时刻第一次收到确认序列号ack_seq $= 100$ 的段，并发送序列号 $\\mathrm{seq} = 100$ 的段，但发生丢失。若TCP支持快速重传，则客户重新发送 $\\mathrm{seq} = 100$ 段的时刻是",
+    "options": [
+      "A. $t_{1}$",
+      "B. $t_{2}$",
+      "C. $t_{3}$",
+      "D. $t_{4}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_39",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_handshake"
+    ],
+    "question": "若主机甲主动发起一个与主机乙的 TCP 连接，甲、乙选择的初始序列号分别为 2018 和 2046，则第三次握手 TCP 段的确认序列号是 ______。",
+    "options": [
+      "A. 2018",
+      "B. 2019",
+      "C. 2046",
+      "D. 2047"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2019_40",
+    "subject": "cn",
+    "year": 2019,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "下列关于网络应用模型的叙述中，错误的是________。",
+    "options": [
+      "A. 在 P2P 模型中，结点之间具有对等关系",
+      "B. 在客户/服务器（C/S）模型中，客户与客户之间可以直接通信",
+      "C. 在 C/S 模型中, 主动发起通信的是客户, 被动通信的是服务器",
+      "D. 在向多用户分发一个文件时, P2P 模型通常比 C/S 模型所需的时间短"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_01",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_matrix"
+    ],
+    "question": "将一个 $10 * 10$ 对称矩阵 M 的上三角部分的元素素 $m_{ij} (1 \\leqslant i \\leqslant j \\leqslant 10)$ 按列优先存入 C语言的一维数组 N 中, 元素 $m_{7,2}$ 在 N 中的下标是:",
+    "options": [
+      "A. 15",
+      "B. 16",
+      "C. 22",
+      "D. 23"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_02",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sq_stack"
+    ],
+    "question": "对空栈 S 进行 Push 与 Pop 操作，入栈序列 a, b, c, d, e 经过 Push，Push，Pop，Push，Pop，Push，Pop 操作后得到的出栈序列是",
+    "options": [
+      "A. b,a,c",
+      "B. b,a,e",
+      "C. b,c,a",
+      "D. b,c,e"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_03",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic"
+    ],
+    "question": "对, 任意一棵高度为 5 且有 10 个节点的二叉树, 若采用顺序存储结构保存, 每个结点占 1 个存储单元 (仅存放结点的数据信息), 则存放该二叉树需要的存储单元数量至少是:",
+    "options": [
+      "A. 31",
+      "B. 16",
+      "C. 15",
+      "D. 10"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_04",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_forest"
+    ],
+    "question": "已知森林 F 及与之对应的二叉树 T，若 F 的先根遍历序列是 a, b, c, d, e, f，中根遍历序列是 b, a, d, f, e, c 则 T 的后根遍历序列是：",
+    "options": [
+      "A. b,a,d,f,e,c",
+      "B. b,d,f,e,c,a",
+      "C. b,f,e,d,c,a",
+      "D. f,e,d,c,b,a"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_05",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_tree_basic",
+      "ds_tree_traversal"
+    ],
+    "question": "下列给定的关键字输入序列中，不能生成如下二叉排序树的是： ![](https://408.foreverlink.love/images/6e66da5bd84dd873bce616684820bf46.jpg)",
+    "options": [
+      "A. 4，5，2，1，3",
+      "B. 4，5，1，2，3",
+      "C. 4，2，5，3，1",
+      "D. 4，2，1，3，5"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_06",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_dfs"
+    ],
+    "question": "修改递归方式实现的图的深度优先搜索（DFS）算法，将输出（访问）定点信息的语句移到退出递归前（即执行输出语句后立刻退出递归）。采用修改后的算法遍历有向无环图 G，若输出结果中包含 G 中的全部顶点，则输出的顶点序列是 G 的：",
+    "options": [
+      "A. 拓扑有序序列",
+      "B. 逆拓扑有序序列",
+      "C. 广度优先搜索序列",
+      "D. 深度优先搜索序列"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_07",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_mst",
+      "ds_graph_shortest"
+    ],
+    "question": "已知无向图 G 如下所示，使用克鲁斯卡尔（Kruskal）算法求图 G 的最小生成树，加入到最小生成树中的边依次是： ![](https://408.foreverlink.love/images/2d4de0d8609c2587c74533ecdbd5f998.jpg)",
+    "options": [
+      "A. (b,f)(b,d)(a,e)(c,e)(b,e)",
+      "B. (b,f)(b,d)(b,e)(a,e)(e,c)",
+      "C. (a,e)(b,e)(c,e)(b,d)(b,f)",
+      "D. (a,e)(c,e)(b,e)(b,f)(b,d)"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_08",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_graph_critical"
+    ],
+    "question": "若使用AOE网估算工程进度，则下列叙述中正确的是：",
+    "options": [
+      "A. 关键路径是从原点到汇点边数最多的一条路径",
+      "B. 关键路径是从原点到汇点路径长度最长的路径",
+      "C. 增加任一关键活动的时间不会延长工程的工期",
+      "D. 缩短任一关键活动的时间将会缩短工程的工期"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_09",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_select"
+    ],
+    "question": "下列关于大根堆（至少含 2 个元素）的叙述中正确的是： 1. 可以将堆看成一棵完全二叉树 II. 可采用顺序存储方式保存堆； III. 可以将堆看成一棵二叉排序树; IV. 堆中的次大值一定在根的下一层。",
+    "options": [
+      "A. I, II",
+      "B. I, II, IV",
+      "C. Ⅱ,Ⅲ",
+      "D. II,III,IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_10",
+    "subject": "ds",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_search_btree"
+    ],
+    "question": "依次将关键字 5, 6, 9, 13, 8, 2, 12, 15 插入初始为空的 4 阶 B 树后，根节点中包含的关键字是：",
+    "options": [
+      "A. 8",
+      "B. 6,9",
+      "C. 8, 13",
+      "D. 9, 12"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_11",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "ds_sort_insert"
+    ],
+    "question": "对大部分元素已有序的数组进行排序时，直接插入排序比简单选择排序效率更高，其原因是： 1、直接插入排序过程中元素之间的比较次数更少 II、直接插入排序过程中所需要的辅助空间更少 III、直接插入排序过程中元素的移动次数更少",
+    "options": [
+      "A. I",
+      "B. III",
+      "C. Ⅰ,Ⅱ",
+      "D. I,II,III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_12",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_structure"
+    ],
+    "question": "下列给出的部件中其位数（宽度）一定与机器字长相同的是： 1、ALU； II、指令寄存器； III、通用寄存器； IV、浮点寄存器",
+    "options": [
+      "A. I, II",
+      "B. I, III",
+      "C. Ⅱ,Ⅲ",
+      "D. II,III,IV"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_13",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_float"
+    ],
+    "question": "已知带符号整数用补码表示, float 型数据用 IEEE 754 标准表示, 假定变量 $x$ 的类型只能是 int 或 float。当 $x$ 的机器数为 C8000000H时, $x$ 的值可能是:",
+    "options": [
+      "A. -7×2²7",
+      "B. -216",
+      "C. $2^{17}$",
+      "D. $25 \\times 2^{27}$"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_14",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_data_fixed"
+    ],
+    "question": "在按字节编址，采用小端方式的 32 位计算机中，按边界对齐方式为以下 C 语言结构型变量 a 分配存储空间。 Struct record{ short x1; int x2; }a; 若 a 的首地址为 2020 FE00H，a 的成员变量 x2 的机器数为 12340000H，则其中 34H 所在存储单元的地址是：",
+    "options": [
+      "A. 2020 FE03H",
+      "B. 2020 FE04H",
+      "C. 2020 FE05H",
+      "D. 2020 FE06H"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_15",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_mem_cache",
+      "co_mem_virtual"
+    ],
+    "question": "下列关于 TLB 和 Cache 的叙述中错误的是:",
+    "options": [
+      "A. 命中率与程序局部性有关；",
+      "B. 缺失后都需要去访问主存；",
+      "C. 缺失处理都可以由硬件实现；",
+      "D. 都由DRAM存储器组成。"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_16",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_isa_addressing",
+      "co_isa_format"
+    ],
+    "question": "某计算机采用 16 位定长指令字格式, 操作码位数和寻址方式位数固定, 指令系统有 48 条指令, 支持直接、间接、立即、相对 4 种寻址方式, 单地址指令中直接寻址方式可寻址范围是:",
+    "options": [
+      "A. 0~225;",
+      "B. 0~1023;",
+      "C. -128~127;",
+      "D. -512~511;"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_17",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_cpu_pipeline"
+    ],
+    "question": "下列给出的处理器类型中理想情况下 CPI 为 1 的是: I、单周期CPU； II、多周期CPU； III、基本流水线 CPU; IV 超标量流水线 CPU",
+    "options": [
+      "A. I, II;",
+      "B. I,III;",
+      "C. II,IV;",
+      "D. III,IV;"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_18",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "下列关于“自陷”（Trap，也称陷阱）的叙述中错误的是：",
+    "options": [
+      "A. 自陷是通过陷阱指令预先设定的一类外部中断事件；",
+      "B. 自陷可用于实现程序调试时的断点设置和单步跟踪；",
+      "C. 自陷发生后 CPU 将转去执行操作系统内核相应程序；",
+      "D. 自陷处理完成后返回到陷阱指令的下一条指令执行。"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_19",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_bus_basic"
+    ],
+    "question": "QPI 总线是一种点对点全工双周同步串行总线，总线上的设备可同时接收和发送信息，每个方向可同时传输 20 位信息（16 位数据+4 位校验位），每个 QPI 数据包有 80 位信息，分 2 个时钟周期传送，每个时钟周期传递 2 次，因此 QPI 总线带宽为每秒传送次数*2B*2。若 QPI 时钟频率为 $2.4\\mathrm{GHz}$ ，则总线带宽为：",
+    "options": [
+      "A. 4.8",
+      "B. 9.6",
+      "C. 19.2",
+      "D. 38.4"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_20",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "下列事件中属于外部中断事件的是： I、访存时缺页；II、定时器延时（不确定）；III、网络数据包到达",
+    "options": [
+      "A. I,II;",
+      "B. I,II,IV;",
+      "C. II,III;",
+      "D. II,III,IV."
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_21",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_interrupt"
+    ],
+    "question": "外部中断包括不可屏蔽中断（NMI）和可屏蔽中断，下列关于外部中断的叙述中错误的是：",
+    "options": [
+      "A. CPU 处于关中断状态时也能响应 NMI 请求；",
+      "B. 一旦可屏蔽中断请求信号有效，CPU 将立即响应；",
+      "C. 不可屏蔽中断的优先级比可屏蔽中断的优先级高；",
+      "D. 可通过中断屏蔽字改变可屏蔽中断的处理优先级。"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_22",
+    "subject": "co",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "co_io_dma"
+    ],
+    "question": "若设备采用周期挪用 DMA 方式进行输入输出，每次 DMA 传送的数据块大小为 512 字节，相应的 I/O 接口中有一个 32 位数数据缓冲寄存器，对于数据输入过程，下列叙述中错误的是：",
+    "options": [
+      "A. 每准备好 32 位数据，DMA 控制器就发出一次总线请求；",
+      "B. 相对于 CPU，DMA 控制器的总线使用权的优先级更高；",
+      "C. 在整个数据块的传送过过程中，CPU 不可以访问主存储器；",
+      "D. 数据块传送结束时，会产生“DMA 传送结束”的中断请求。"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_23",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic"
+    ],
+    "question": "若多个进程共享同一个文件 F，则下列叙述中正确的是：",
+    "options": [
+      "A. 个进程只能用“读”方式打开文件 F;",
+      "B. 在系统打开文件表中仅有一个表项包含 F 的属性；",
+      "C. 各进程的用户打开文件表中关于 F 的表项内容相同；",
+      "D. 进程关闭 F 时系统删除 F 在系统打开文件表中的表项。"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_24",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_impl"
+    ],
+    "question": "下列选项中支持文件长度可变，随机访问的磁盘存储空间分配方式是：",
+    "options": [
+      "A. 索引分配；",
+      "B. 链接分配；",
+      "C. 连续分配；",
+      "D. 动态分区分配。"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_25",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_intro_status"
+    ],
+    "question": "下列与中断相关的操作中，由操作系统完成的是： I、保存被中断程序的中断点 II、提供中断服务 III、初始化中断向量表 IV、保存中断屏蔽字",
+    "options": [
+      "A. I,II;",
+      "B. I,II,IV;",
+      "C. III,IV;",
+      "D. II,III,IV."
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_26",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_algorithm"
+    ],
+    "question": "下列与进程调度有关的因素中在设计多级反馈队列调度算法时需要考虑的是: I 就绪队列的数量 II 就绪队列的优先级 III 各就绪队列的调度算法 IV 进程在就绪队列间的迁移条件",
+    "options": [
+      "A. I,II;",
+      "B. III,IV;",
+      "C. II,III,IV;",
+      "D. I,II,III,IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_27",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_deadlock"
+    ],
+    "question": "某系统中有 A,B 两类资源各 6 个, t 时刻资源分配及需求情况如下表所示 <table><tr><td>进程</td><td>A已分配数量</td><td>B已分配数量</td><td>A需求总量</td><td>B需求总量</td></tr><tr><td>P1</td><td>2</td><td>3</td><td>4</td><td>4</td></tr><tr><td>P2</td><td>2</td><td>1</td><td>3</td><td>1</td></tr><tr><td>P3</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> t时刻安全检测结果是：",
+    "options": [
+      "A. 存在安全序列 P1,P2,P3;",
+      "B. 存在安全序列 P2,P1,P3;",
+      "C. 存在安全序列 P2,P3,P1;",
+      "D. 不存在安全序列。"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_28",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_mem_virtual"
+    ],
+    "question": "下列因素影响请求分页系统有效（平均）访存时间的是： 1、缺页率； II、磁盘读写时间； III、内存访问时间； IV 执行缺页处理程序的 CPU 时间；",
+    "options": [
+      "A. Ⅱ,Ⅲ",
+      "B. I,IV",
+      "C. I,III,IV",
+      "D. I,II,III,IV"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_29",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_state"
+    ],
+    "question": "下列关于父进程与子进程的叙述中错误的是:",
+    "options": [
+      "A. 父进程与子进程可以并发执行",
+      "B. 父进程与子进程共享虚拟地址空间",
+      "C. 父进程与子进程有不同的进程控制块",
+      "D. 父进程与子进程不能同时使用同一临界资源"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_30",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_io_control"
+    ],
+    "question": "对于具备设备独立性的系统下列叙述中错误的是： A、可以使用文件名访问物理设备； B、用户程序使用逻辑设备与物理设备之间的映射关系 D、更换物理设备后必须修改访问该设备的应用程序。(缺一个选项)",
+    "options": [
+      "A.",
+      "B.",
+      "C.",
+      "D."
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_31",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_file_basic",
+      "os_file_impl"
+    ],
+    "question": "某文件系统的目录由文件名和索引节点号构成。若每个目录项长度为 64 字节, 其中 4个字节存放索引节点号, 60 个字节存放文件名。文件名由小写英文字母构成, 则该文件系统能创建的文件数量的上限为:",
+    "options": [
+      "A. $2^{26}$",
+      "B. $2^{32}$",
+      "C. $2^{60}$",
+      "D. $2^{64}$"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_32",
+    "subject": "os",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "os_process_sync"
+    ],
+    "question": "下列准则中实现临界区互斥机制必须遵循的是： I、两个进程不能同时进入临界区 II、允许进程访问空闲的临界资源 III、进程等待进入临界区的时间是有限的 IV、不能进入临界区的执行态进程立即放弃CPU",
+    "options": [
+      "A. I,IV",
+      "B. II,III",
+      "C. I,II,III",
+      "D. I,III,IV"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_33",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "下图描述的协议要素是: I、语法 II、语义 III、时序 ![](https://408.foreverlink.love/images/158a039adfbbd004805acfafb8e1fddd.jpg)",
+    "options": [
+      "A. I",
+      "B. II",
+      "C. III",
+      "D. I, II, III"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_34",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_arch_basic"
+    ],
+    "question": "下列关于虚电路网络的叙述中错误的是：",
+    "options": [
+      "A. 可以确保数据分组传输顺序",
+      "B. 需要为每条虚电路预分配带宽",
+      "C. 建立虚电路时需要进行路由选择",
+      "D. 依据虚电路号（VCID）进行数据分组转发"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_35",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_lan",
+      "cn_dl_mac"
+    ],
+    "question": "下图所示的网络冲突域和广播域的个数分别是： ![](https://408.foreverlink.love/images/1a0ac735a24ec97f8747e60e80e2a504.jpg)",
+    "options": [
+      "A. 2，2;",
+      "B. 2，4；",
+      "C. 4, 2;",
+      "D. 4，4;"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_36",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_flow"
+    ],
+    "question": "假设主机采用停-等协议向主机乙发送数据帧, 数据帧长与确认帧长均为 1000B。数据传输速率是 10kbps, 单项传播延时是 200ms。则甲的最大信道利用率:",
+    "options": [
+      "A. 80%;",
+      "B. 66.7%;",
+      "C. 44.4%;",
+      "D. 40%"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_37",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_dl_mac"
+    ],
+    "question": "某 IEEE 802.11 无线局域网中主机 H 与 AP 之间发送或接收 CSMA/CA 帧的过程如下图所示，在 H 或 AP 发送帧前所等待的帧间间隔时间（IFS）中最长的是： ![](https://408.foreverlink.love/images/c76e047bbaeb24f91c350c99ac6963f6.jpg)",
+    "options": [
+      "A. IFS1",
+      "B. IFS2",
+      "C. IFS3",
+      "D. IFS4"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_38",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "若主机甲与主机乙已建立一条 TCP 连接，最大段长（MSS）为 1KB，往返时间（RTT）为 2ms，则在不出现拥塞的前提下，拥塞窗口从 8k",
+    "options": [
+      "B. 增长到 32K",
+      "B. 所需的最长时间是：",
+      "A. 4ms",
+      "B. 8ms"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_39",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_tp_tcp",
+      "cn_tp_handshake"
+    ],
+    "question": "若主机甲与主机乙建立 TCP 连接时发送的 SYN 段中的序号为 1000，在断开连接时，甲发送给乙的 FIN 段中的序号为 5001，则在无任何重传的情况下，甲向乙已经发送的应用层数据的字节数为：",
+    "options": [
+      "A. 4002",
+      "B. 4001",
+      "C. 4000",
+      "D. 3999"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "EX_2020_40",
+    "subject": "cn",
+    "year": 2020,
+    "source": "真题",
+    "knowledgePoints": [
+      "cn_app_dns",
+      "cn_tp_udp"
+    ],
+    "question": "假设下图所示网络中的本地域名服务器只提供递归查询服务，其他域名的服务器均只提供迭代查询服务；局域网内主机访问 Internet 上各服务器的往返时间 (RTT) 均为 10ms，忽略其他各种时延，若主机 H 通过超链接 http://www.acb.com/index.html，请求浏览纯文本 Web 页 index.html，则从点击超链接开始到浏览器接收到 index.html 页面为止，所需最短、最长时间分别是： ![](https://408.foreverlink.love/images/f51c92b3cc34a829d9c55982e4032492.jpg)",
+    "options": [
+      "A. 10ms, 40ms",
+      "B. 10ms,50ms",
+      "C. 20ms,40ms",
+      "D. 20ms,50ms"
+    ],
+    "answer": "B",
+    "explanation": ""
+  }
+]

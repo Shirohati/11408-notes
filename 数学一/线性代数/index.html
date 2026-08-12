@@ -1,0 +1,1993 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="计算机考研 11408 核心背诵知识点">
+      
+      
+        <meta name="author" content="notes">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../%E6%A6%82%E7%8E%87%E8%AE%BA/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>线性代数 - 11408 考研背诵笔记</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="11408 考研背诵笔记" class="md-header__button md-logo" aria-label="11408 考研背诵笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            11408 考研背诵笔记
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              线性代数
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%E8%80%83%E7%A0%9411408%E7%AC%94%E8%AE%B0/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  考研11408笔记
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%E6%94%BF%E6%B2%BB/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  政治
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../%E8%8B%B1%E8%AF%AD/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  英语
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  数学一
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../408/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  408
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="11408 考研背诵笔记" class="md-nav__button md-logo" aria-label="11408 考研背诵笔记" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    11408 考研背诵笔记
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%80%83%E7%A0%9411408%E7%AC%94%E8%AE%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    考研11408笔记
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%94%BF%E6%B2%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    政治
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%8B%B1%E8%AF%AD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    英语
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数学一
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    数学一
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    线性代数
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    线性代数
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、行列式
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、行列式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        行列式性质
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特殊行列式
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、矩阵
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、矩阵">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        矩阵运算
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伴随矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        逆矩阵公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特殊矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        矩阵的秩
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常用结论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、向量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、向量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        线性相关判断
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        极大无关组与秩
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        施密特正交化
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、线性方程组
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、线性方程组">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        有解判定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解的结构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        克拉默法则
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、特征值与特征向量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、特征值与特征向量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性质
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特征值关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        相似对角化
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实对称矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、二次型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、二次型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基本概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        标准形 &amp; 规范形
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正定矩阵判定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配方法化标准形
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、重要定理归纳
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、重要定理归纳">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        秩的等式与不等式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        等价、相似、合同关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cayley-hamilton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cayley-Hamilton 定理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        若尔当标准形
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、常用二级结论
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%A6%82%E7%8E%87%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概率论与数理统计
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../408/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    408
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        一、行列式
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="一、行列式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        行列式性质
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特殊行列式
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        二、矩阵
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二、矩阵">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        矩阵运算
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        伴随矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        逆矩阵公式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特殊矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        矩阵的秩
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常用结论
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        三、向量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="三、向量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        线性相关判断
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        极大无关组与秩
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        施密特正交化
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        四、线性方程组
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="四、线性方程组">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        有解判定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解的结构
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        克拉默法则
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        五、特征值与特征向量
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="五、特征值与特征向量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        性质
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        特征值关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        相似对角化
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        实对称矩阵
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六、二次型
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六、二次型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基本概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        标准形 &amp; 规范形
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正定矩阵判定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        配方法化标准形
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        合同
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        七、重要定理归纳
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="七、重要定理归纳">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        秩的等式与不等式
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        等价、相似、合同关系
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cayley-hamilton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cayley-Hamilton 定理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        若尔当标准形
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        八、常用二级结论
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">线性代数 · 常用公式与定理<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="_2">一、行列式<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">行列式性质<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(|A^T| = |A|\)</span></li>
+<li><span class="arithmatex">\(|kA| = k^n|A|\)</span></li>
+<li><span class="arithmatex">\(|AB| = |A||B|\)</span></li>
+<li><span class="arithmatex">\(|A^{-1}| = \dfrac1{|A|}\)</span></li>
+<li><span class="arithmatex">\(|A^*| = |A|^{n-1}\)</span></li>
+<li><span class="arithmatex">\(|A| = \prod_{i=1}^n \lambda_i\)</span>（特征值乘积）</li>
+<li>两行互换 → 变号；某行乘 <span class="arithmatex">\(k\)</span> → 值乘 <span class="arithmatex">\(k\)</span>；两行成比例 → 为 <span class="arithmatex">\(0\)</span></li>
+<li>某行加上另一行的 <span class="arithmatex">\(k\)</span> 倍 → 值不变</li>
+</ul>
+<h3 id="_4">特殊行列式<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上/下三角</td>
+<td>主对角线乘积</td>
+</tr>
+<tr>
+<td>对角矩阵 <span class="arithmatex">\(\operatorname{diag}(d_1,\dots,d_n)\)</span></td>
+<td><span class="arithmatex">\(d_1d_2\cdots d_n\)</span></td>
+</tr>
+<tr>
+<td>范德蒙 <span class="arithmatex">\(\begin{vmatrix}1&amp;1&amp;\cdots&amp;1\\x_1&amp;x_2&amp;\cdots&amp;x_n\\\vdots&amp;\vdots&amp;&amp;\vdots\\x_1^{n-1}&amp;x_2^{n-1}&amp;\cdots&amp;x_n^{n-1}\end{vmatrix}\)</span></td>
+<td><span class="arithmatex">\(\displaystyle\prod_{1\le j&lt;i\le n}(x_i-x_j)\)</span></td>
+</tr>
+<tr>
+<td>反对角线行列式</td>
+<td><span class="arithmatex">\((-1)^{\frac{n(n-1)}2}\prod a_i\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\begin{vmatrix}A&amp;B\\C&amp;D\end{vmatrix}\)</span>（分块）</td>
+<td>$</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_5">二、矩阵<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6">矩阵运算<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\((A^T)^T = A\)</span>，<span class="arithmatex">\((kA)^T = kA^T\)</span>，<span class="arithmatex">\((AB)^T = B^TA^T\)</span>，<span class="arithmatex">\((A+B)^T = A^T+B^T\)</span></li>
+<li><span class="arithmatex">\((AB)^{-1}=B^{-1}A^{-1}\)</span>，<span class="arithmatex">\((A^T)^{-1}=(A^{-1})^T\)</span></li>
+<li><span class="arithmatex">\((A^*)^{-1}=(A^{-1})^*=\dfrac{A}{|A|}\)</span>（<span class="arithmatex">\(A\)</span> 可逆时）</li>
+</ul>
+<h3 id="_7">伴随矩阵<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(AA^* = A^*A = |A|I\)</span></li>
+<li><span class="arithmatex">\(A^* = |A|A^{-1}\)</span>（<span class="arithmatex">\(A\)</span> 可逆）</li>
+<li><span class="arithmatex">\((A^*)^* = |A|^{n-2}A\)</span>（<span class="arithmatex">\(n\ge2\)</span>）</li>
+<li><span class="arithmatex">\(|A^*| = |A|^{n-1}\)</span></li>
+</ul>
+<h3 id="_8">逆矩阵公式<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(A_{2\times2}^{-1} = \dfrac1{ad-bc}\begin{pmatrix}d&amp;-b\\-c&amp;a\end{pmatrix}\)</span></li>
+<li>分块对角：<span class="arithmatex">\(\begin{pmatrix}A&amp;\\&amp;B\end{pmatrix}^{-1}=\begin{pmatrix}A^{-1}&amp;\\&amp;B^{-1}\end{pmatrix}\)</span></li>
+<li>分块反对角：<span class="arithmatex">\(\begin{pmatrix}&amp;A\\B&amp;\end{pmatrix}^{-1}=\begin{pmatrix}&amp;B^{-1}\\A^{-1}&amp;\end{pmatrix}\)</span></li>
+</ul>
+<h3 id="_9">特殊矩阵<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>矩阵</th>
+<th>定义</th>
+<th>性质</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>对称矩阵</td>
+<td><span class="arithmatex">\(A^T=A\)</span></td>
+<td>特征值全为实数，不同特征值特征向量正交</td>
+</tr>
+<tr>
+<td>反对称矩阵</td>
+<td><span class="arithmatex">\(A^T=-A\)</span></td>
+<td>主对角元为 <span class="arithmatex">\(0\)</span></td>
+</tr>
+<tr>
+<td>正交矩阵</td>
+<td><span class="arithmatex">\(Q^TQ=I\)</span></td>
+<td><span class="arithmatex">\(Q^{-1}=Q^T\)</span>，行/列向量两两正交单位化，<span class="arithmatex">\(\|Qx\|=\|x\|\)</span></td>
+</tr>
+<tr>
+<td>幂等矩阵</td>
+<td><span class="arithmatex">\(A^2=A\)</span></td>
+<td>特征值只能为 <span class="arithmatex">\(0\)</span> 或 <span class="arithmatex">\(1\)</span></td>
+</tr>
+<tr>
+<td>幂零矩阵</td>
+<td><span class="arithmatex">\(A^k=0\)</span></td>
+<td>特征值全为 <span class="arithmatex">\(0\)</span></td>
+</tr>
+<tr>
+<td>正定矩阵</td>
+<td><span class="arithmatex">\(x^TAx&gt;0\)</span></td>
+<td>所有特征值 <span class="arithmatex">\(&gt;0\)</span>，顺序主子式 <span class="arithmatex">\(&gt;0\)</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_10">矩阵的秩<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(r(A) \le \min(m,n)\)</span></li>
+<li><span class="arithmatex">\(r(A)=r(A^T)=r(AA^T)=r(A^TA)\)</span></li>
+<li><span class="arithmatex">\(r(A\pm B) \le r(A)+r(B)\)</span></li>
+<li><span class="arithmatex">\(r(AB) \le \min(r(A),r(B))\)</span></li>
+<li><span class="arithmatex">\(r(A)+r(B)-n \le r(AB)\)</span>（Sylvester）</li>
+<li><span class="arithmatex">\(A_{m\times n},B_{n\times s},AB=0 \Rightarrow r(A)+r(B) \le n\)</span></li>
+<li><span class="arithmatex">\(r(A)=1\)</span> 的充要条件：<span class="arithmatex">\(A\)</span> 可写成 <span class="arithmatex">\(\alpha\beta^T\)</span>（<span class="arithmatex">\(\alpha,\beta\)</span> 为非零列向量）</li>
+<li>初等变换不改变秩</li>
+</ul>
+<h3 id="_11">常用结论<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(A\)</span> 可逆 <span class="arithmatex">\(\Leftrightarrow |A|\neq0 \Leftrightarrow r(A)=n \Leftrightarrow A\)</span> 满秩 <span class="arithmatex">\(\Leftrightarrow A\)</span> 特征值全非零 <span class="arithmatex">\(\Leftrightarrow Ax=0\)</span> 只有零解</li>
+<li><span class="arithmatex">\(AB=0\)</span>，<span class="arithmatex">\(A\)</span> 列满秩 <span class="arithmatex">\(\Rightarrow B=0\)</span></li>
+<li><span class="arithmatex">\(AB=I\)</span>，则 <span class="arithmatex">\(A\)</span> 左逆为 <span class="arithmatex">\(B\)</span>，<span class="arithmatex">\(B\)</span> 右逆为 <span class="arithmatex">\(A\)</span></li>
+</ul>
+<hr />
+<h2 id="_12">三、向量<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<h3 id="_13">线性相关判断<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(n+1\)</span> 个 <span class="arithmatex">\(n\)</span> 维向量必线性相关</li>
+<li>含零向量的向量组必线性相关</li>
+<li>部分相关 ⇒ 整体相关；整体无关 ⇒ 部分无关</li>
+<li>若 <span class="arithmatex">\(\alpha_1,\dots,\alpha_s\)</span> 线性无关，<span class="arithmatex">\(\beta\)</span> 不能由它们线性表示，则 <span class="arithmatex">\(\alpha_1,\dots,\alpha_s,\beta\)</span> 线性无关</li>
+<li><span class="arithmatex">\(\alpha_1,\dots,\alpha_s\)</span> 线性无关 <span class="arithmatex">\(\Leftrightarrow\)</span> 只有零解 <span class="arithmatex">\(\Leftrightarrow r(\alpha_1,\dots,\alpha_s)=s\)</span></li>
+</ul>
+<h3 id="_14">极大无关组与秩<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>向量组的秩 = 向量组张成空间的维数</li>
+<li>矩阵的秩 = 行向量组的秩 = 列向量组的秩</li>
+<li>等价向量组秩相等，反之不成立</li>
+</ul>
+<h3 id="_15">施密特正交化<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>给定 <span class="arithmatex">\(\alpha_1,\alpha_2,\dots,\alpha_s\)</span>：</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\beta_1 &amp;= \alpha_1 \\
+\beta_2 &amp;= \alpha_2 - \frac{(\alpha_2,\beta_1)}{(\beta_1,\beta_1)}\beta_1 \\
+\beta_3 &amp;= \alpha_3 - \frac{(\alpha_3,\beta_1)}{(\beta_1,\beta_1)}\beta_1 - \frac{(\alpha_3,\beta_2)}{(\beta_2,\beta_2)}\beta_2
+\end{aligned}
+\]</div>
+<p>再单位化：<span class="arithmatex">\(\eta_i = \dfrac{\beta_i}{\|\beta_i\|}\)</span></p>
+<hr />
+<h2 id="_16">四、线性方程组<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<h3 id="_17">有解判定<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>方程组</th>
+<th>有解条件</th>
+<th>解的情况</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(Ax=0\)</span>（齐次）</td>
+<td>恒有解</td>
+<td><span class="arithmatex">\(r(A)=n\)</span> 仅有零解；<span class="arithmatex">\(r(A)&lt;n\)</span> 有无穷多解</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(Ax=b\)</span>（非齐次）</td>
+<td><span class="arithmatex">\(r(A)=r(A\|b)\)</span></td>
+<td><span class="arithmatex">\(r(A)=r=n\)</span> 唯一解；<span class="arithmatex">\(r(A)=r&lt;n\)</span> 无穷多解</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_18">解的结构<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>齐次</strong>：基础解系含 <span class="arithmatex">\(n-r(A)\)</span> 个线性无关的解，通解为 <span class="arithmatex">\(\sum_{i=1}^{n-r} k_i\xi_i\)</span></li>
+<li><strong>非齐次</strong>：通解 = 特解 + 齐次通解</li>
+<li>两个非齐次解之差是齐次解</li>
+<li>非齐次解之和 <span class="arithmatex">\(\,\times\,1/2\,\)</span> 也是非齐次解（系数和为1时）</li>
+</ul>
+<h3 id="_19">克拉默法则<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<p><span class="arithmatex">\(n\)</span> 个方程 <span class="arithmatex">\(n\)</span> 个未知数，<span class="arithmatex">\(|A|\neq0\)</span> 时：
+$<span class="arithmatex">\(x_j = \frac{|A_j|}{|A|}\)</span>$
+<span class="arithmatex">\(A_j\)</span> 是 <span class="arithmatex">\(A\)</span> 的第 <span class="arithmatex">\(j\)</span> 列换成 <span class="arithmatex">\(b\)</span></p>
+<hr />
+<h2 id="_20">五、特征值与特征向量<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h2>
+<h3 id="_21">性质<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(\displaystyle\sum_{i=1}^n\lambda_i = \operatorname{tr}(A)\)</span></li>
+<li><span class="arithmatex">\(\displaystyle\prod_{i=1}^n\lambda_i = |A|\)</span></li>
+<li>不同特征值对应的特征向量线性无关</li>
+<li><span class="arithmatex">\(k\)</span> 重特征值至多有 <span class="arithmatex">\(k\)</span> 个线性无关的特征向量</li>
+<li><span class="arithmatex">\(A\)</span> 与 <span class="arithmatex">\(A^T\)</span> 特征值相同</li>
+<li>实对称矩阵不同特征值的特征向量正交</li>
+</ul>
+<h3 id="_22">特征值关系<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>矩阵</th>
+<th>特征值</th>
+<th>特征向量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(A\)</span></td>
+<td><span class="arithmatex">\(\lambda\)</span></td>
+<td><span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(kA\)</span></td>
+<td><span class="arithmatex">\(k\lambda\)</span></td>
+<td><span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(A^k\)</span></td>
+<td><span class="arithmatex">\(\lambda^k\)</span></td>
+<td><span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(A^{-1}\)</span></td>
+<td><span class="arithmatex">\(\dfrac1\lambda\)</span></td>
+<td><span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(A^*\)</span></td>
+<td>$\dfrac{</td>
+<td>A</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(f(A)\)</span></td>
+<td><span class="arithmatex">\(f(\lambda)\)</span></td>
+<td><span class="arithmatex">\(x\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(P^{-1}AP\)</span></td>
+<td><span class="arithmatex">\(\lambda\)</span></td>
+<td><span class="arithmatex">\(P^{-1}x\)</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_23">相似对角化<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
+<p><span class="arithmatex">\(A_{n\times n}\)</span> 可对角化 <span class="arithmatex">\(\Leftrightarrow A\)</span> 有 <span class="arithmatex">\(n\)</span> 个线性无关的特征向量
+<span class="arithmatex">\(\Leftrightarrow\)</span> 每个 <span class="arithmatex">\(k\)</span> 重特征值恰好有 <span class="arithmatex">\(k\)</span> 个线性无关的特征向量
+<span class="arithmatex">\(\Leftrightarrow\)</span> 几何重数 <span class="arithmatex">\(=\)</span> 代数重数</p>
+<h3 id="_24">实对称矩阵<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li>必可对角化（正交对角化）</li>
+<li>存在正交矩阵 <span class="arithmatex">\(Q\)</span> 使 <span class="arithmatex">\(Q^TAQ = \Lambda\)</span></li>
+<li>不同特征值对应的特征向量正交</li>
+<li>特征值全为实数</li>
+</ul>
+<hr />
+<h2 id="_25">六、二次型<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h2>
+<h3 id="_26">基本概念<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<p>$<span class="arithmatex">\(f(x_1,\dots,x_n) = x^TAx\)</span>$
+其中 <span class="arithmatex">\(A\)</span> 为实对称矩阵（<span class="arithmatex">\(A\)</span> 即二次型矩阵）</p>
+<h3 id="_27">标准形 &amp; 规范形<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>标准形</strong>：<span class="arithmatex">\(d_1y_1^2 + d_2y_2^2 + \cdots + d_ny_n^2\)</span></li>
+<li><strong>规范形</strong>：<span class="arithmatex">\(y_1^2+\cdots+y_p^2 - y_{p+1}^2 - \cdots - y_r^2\)</span>（<span class="arithmatex">\(p\)</span> 正惯性指数，<span class="arithmatex">\(r\)</span> 秩）</li>
+<li>惯性定理：正负惯性指数唯一</li>
+</ul>
+<h3 id="_28">正定矩阵判定<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h3>
+<p><span class="arithmatex">\(A_{n\times n}\)</span> 正定 <span class="arithmatex">\(\Leftrightarrow\)</span>：</p>
+<table>
+<thead>
+<tr>
+<th>条件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>①</td>
+<td>所有特征值 <span class="arithmatex">\(&gt;0\)</span></td>
+</tr>
+<tr>
+<td>②</td>
+<td>各阶顺序主子式 <span class="arithmatex">\(&gt;0\)</span>（<strong>赫尔维茨定理</strong>）</td>
+</tr>
+<tr>
+<td>③</td>
+<td><span class="arithmatex">\(A\)</span> 与单位矩阵合同</td>
+</tr>
+<tr>
+<td>④</td>
+<td>存在可逆 <span class="arithmatex">\(P\)</span> 使 <span class="arithmatex">\(A=P^TP\)</span></td>
+</tr>
+<tr>
+<td>⑤</td>
+<td>对任意 <span class="arithmatex">\(x\neq0\)</span>，<span class="arithmatex">\(x^TAx&gt;0\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>负定</strong>：顺序主子式 <span class="arithmatex">\(&lt;0\)</span>（奇数阶）、<span class="arithmatex">\(&gt;0\)</span>（偶数阶）</p>
+<h3 id="_29">配方法化标准形<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h3>
+<ol>
+<li>若 <span class="arithmatex">\(a_{11}\neq0\)</span>：把所有含 <span class="arithmatex">\(x_1\)</span> 项集中配方</li>
+<li>若 <span class="arithmatex">\(a_{11}=0\)</span> 但 <span class="arithmatex">\(a_{ii}\neq0\)</span>：从 <span class="arithmatex">\(x_i\)</span> 开始配方</li>
+<li>若所有 <span class="arithmatex">\(a_{ii}=0\)</span>：令 <span class="arithmatex">\(\begin{cases}x_i=y_i+y_j\\x_j=y_i-y_j\end{cases}\)</span> 出现平方项</li>
+</ol>
+<h3 id="_30">合同<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(A \cong C^TBC\)</span>（<span class="arithmatex">\(C\)</span> 可逆），<span class="arithmatex">\(A,B\)</span> 合同</li>
+<li>合同 <span class="arithmatex">\(\Rightarrow\)</span> 秩相等，正负惯性指数相同</li>
+<li>相似 <span class="arithmatex">\(\Rightarrow\)</span> 合同（对实对称矩阵）</li>
+</ul>
+<hr />
+<h2 id="_31">七、重要定理归纳<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h2>
+<h3 id="_32">秩的等式与不等式<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="arithmatex">\(r(A)=r(A^TA)\)</span>（实数域）</li>
+<li><span class="arithmatex">\(r\begin{pmatrix}A&amp;0\\0&amp;B\end{pmatrix}=r(A)+r(B)\)</span></li>
+<li><span class="arithmatex">\(r\begin{pmatrix}A&amp;C\\0&amp;B\end{pmatrix}\ge r(A)+r(B)\)</span></li>
+<li><span class="arithmatex">\(r(A-B) \ge |r(A)-r(B)|\)</span></li>
+</ul>
+<h3 id="_33">等价、相似、合同关系<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>关系</th>
+<th>定义式</th>
+<th>不变性质</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>等价</td>
+<td><span class="arithmatex">\(B=PAQ\)</span>（<span class="arithmatex">\(P,Q\)</span> 可逆）</td>
+<td>秩</td>
+</tr>
+<tr>
+<td>相似</td>
+<td><span class="arithmatex">\(B=P^{-1}AP\)</span>（<span class="arithmatex">\(P\)</span> 可逆）</td>
+<td>秩、特征值、行列式、迹、可逆性、若尔当形</td>
+</tr>
+<tr>
+<td>合同</td>
+<td><span class="arithmatex">\(B=C^TAC\)</span>（<span class="arithmatex">\(C\)</span> 可逆）</td>
+<td>秩、对称性、正负惯性指数</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cayley-hamilton">Cayley-Hamilton 定理<a class="headerlink" href="#cayley-hamilton" title="Permanent link">&para;</a></h3>
+<p><span class="arithmatex">\(A\)</span> 的特征多项式为 <span class="arithmatex">\(f(\lambda)=|\lambda I-A|\)</span>，则 <span class="arithmatex">\(f(A)=0\)</span></p>
+<h3 id="_34">若尔当标准形<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h3>
+<p>任意 <span class="arithmatex">\(n\)</span> 阶矩阵 <span class="arithmatex">\(A\)</span> 相似于若尔当形矩阵 <span class="arithmatex">\(J = \begin{pmatrix}J_1&amp;&amp;\\&amp;\ddots&amp;\\&amp;&amp;J_s\end{pmatrix}\)</span>，
+其中 <span class="arithmatex">\(J_i = \begin{pmatrix}\lambda_i&amp;1&amp;&amp;\\&amp;\lambda_i&amp;\ddots&amp;\\&amp;&amp;\ddots&amp;1\\&amp;&amp;&amp;\lambda_i\end{pmatrix}\)</span></p>
+<hr />
+<h2 id="_35">八、常用二级结论<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h2>
+<ul>
+<li><span class="arithmatex">\(AB = I \Leftrightarrow BA = I\)</span>（对方阵）</li>
+<li><span class="arithmatex">\(A, B\)</span> 均为 <span class="arithmatex">\(n\)</span> 阶矩阵，<span class="arithmatex">\(AB=0\)</span>，则 <span class="arithmatex">\(r(A)+r(B)\le n\)</span>，且 <span class="arithmatex">\(r(A), r(B)\)</span> 至少有一个 <span class="arithmatex">\(\le n/2\)</span></li>
+<li>若 <span class="arithmatex">\(A\)</span> 可逆，则 <span class="arithmatex">\(r(AB)=r(B)\)</span>；若 <span class="arithmatex">\(B\)</span> 可逆，则 <span class="arithmatex">\(r(AB)=r(A)\)</span></li>
+<li><span class="arithmatex">\(r(A)=r \Leftrightarrow A\)</span> 可分解为 <span class="arithmatex">\(A=BC\)</span>，其中 <span class="arithmatex">\(B\)</span> 列满秩 <span class="arithmatex">\(C\)</span> 行满秩</li>
+<li><span class="arithmatex">\(\alpha,\beta\)</span> 为 <span class="arithmatex">\(n\)</span> 维列向量，则 <span class="arithmatex">\(r(\alpha\beta^T)=1\)</span>（非零时）</li>
+<li><span class="arithmatex">\(\alpha\beta^T\)</span> 的特征值为 <span class="arithmatex">\(\beta^T\alpha\)</span> 和 <span class="arithmatex">\(0\)</span>（<span class="arithmatex">\(n-1\)</span> 重）</li>
+<li><span class="arithmatex">\(A\)</span> 为幂等矩阵（<span class="arithmatex">\(A^2=A\)</span>），则 <span class="arithmatex">\(A\)</span> 可对角化，特征值只有 <span class="arithmatex">\(0,1\)</span></li>
+<li><span class="arithmatex">\(A\)</span> 为对合矩阵（<span class="arithmatex">\(A^2=I\)</span>），则 <span class="arithmatex">\(A\)</span> 可对角化，特征值只有 <span class="arithmatex">\(\pm1\)</span></li>
+<li><span class="arithmatex">\(A\)</span> 正交相似于对角矩阵 <span class="arithmatex">\(\Leftrightarrow A\)</span> 为实对称矩阵</li>
+<li>实对称矩阵 <span class="arithmatex">\(A\)</span> 正定 <span class="arithmatex">\(\Leftrightarrow\)</span> 各阶顺序主子式 <span class="arithmatex">\(&gt;0\)</span></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="../../javascripts/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

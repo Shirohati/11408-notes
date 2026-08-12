@@ -1,0 +1,39 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f0f2f5; padding: 20px; color: #333; }
+.header { max-width: 1200px; margin: 0 auto 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+h1 { font-size: 24px; }
+.stats { display: flex; align-items: center; gap: 16px; font-size: 14px; }
+.stats span { background: #fff; padding: 6px 14px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.btn { border: none; padding: 6px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: background .2s; }
+.btn-primary { background: #4f46e5; color: #fff; }
+.btn-primary:hover { background: #4338ca; }
+.btn-danger { background: #ef4444; color: #fff; }
+.btn-danger:hover { background: #dc2626; }
+.btn-outline { background: #fff; border: 1px solid #d1d5db; color: #555; }
+.btn-outline:hover { background: #f9fafb; }
+.btn-small { padding: 3px 10px; font-size: 12px; }
+.grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.card { background: #fff; border-radius: 10px; padding: 14px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); text-align: center; transition: box-shadow .2s; }
+.card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.card .added { font-size: 10px; color: #ccc; margin-bottom: 4px; }
+.card .en { font-size: 16px; font-weight: 600; margin-bottom: 6px; cursor: pointer; }
+.card .cn { font-size: 14px; color: #4f46e5; min-height: 24px; cursor: pointer; margin-bottom: 8px; user-select: none; }
+.card .cn.hidden { color: transparent; background: #e5e7eb; border-radius: 4px; }
+.card .cn.hidden::selection { background: transparent; }
+.card .count { font-size: 12px; color: #999; }
+.card.known { border-left: 3px solid #16a34a; }
+.card .row2 { display: flex; justify-content: space-between; align-items: center; }
+.card .actions { display: flex; gap: 3px; }
+.card .btn-act { background: transparent; color: transparent; border: none; border-radius: 4px; padding: 1px 6px; font-size: 11px; cursor: pointer; transition: all .2s; }
+.card:hover .btn-act { color: #ccc; background: #f5f5f5; }
+.card .btn-act:hover { color: #999; background: #eee; }
+.card .btn-act:active { background: #e5e5e5; }
+.card .btn-known { color: transparent; }
+.card:hover .btn-known { color: #16a34a; }
+.card .btn-known:hover { color: #15803d; background: #dcfce7; }
+.card .dont-know { background: transparent; color: transparent; border: none; border-radius: 4px; padding: 1px 6px; font-size: 11px; cursor: pointer; transition: all .2s; }
+.card:hover .dont-know { color: #ccc; background: #f5f5f5; }
+.card .dont-know:hover { color: #999; background: #eee; }
+.card .dont-know:active { background: #e5e5e5; }
+.toolbar { max-width: 1200px; margin: 0 auto 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.toolbar .btn { font-size: 13px; }

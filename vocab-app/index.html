@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考研词汇学习</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>📖 考研词汇</h1>
+  <div class="stats">
+    <span>总数: <strong id="totalCount">0</strong></span>
+    <span>不认识: <strong id="dontKnowCount" style="color:#dc2626">0</strong></span>
+    <span>认识: <strong id="knownCount" style="color:#16a34a">0</strong></span>
+  </div>
+</div>
+
+<div class="toolbar">
+  <button class="btn btn-outline" onclick="filterAll()">全部</button>
+  <button class="btn btn-outline" onclick="filterDontKnow()">不认识</button>
+  <button class="btn btn-outline" onclick="filterKnown()">已认识</button>
+  <button class="btn btn-danger" onclick="resetAll()">重置不认识</button>
+  <span style="font-size:12px;color:#999">排序:</span>
+  <button class="btn btn-outline" id="sortDefaultBtn" onclick="setSort('default')" style="font-size:12px">默认</button>
+  <button class="btn btn-outline" id="sortDontKnowBtn" onclick="setSort('dontKnow')" style="font-size:12px">不认识↓</button>
+  <label style="font-size:13px;display:flex;align-items:center;gap:4px;margin-left:8px">
+    <input type="checkbox" id="autoHide" checked onchange="toggleAutoHide()"> 点击后自动隐藏翻译
+  </label>
+</div>
+
+<div class="toolbar" style="margin-bottom:16px">
+  <button class="btn btn-primary btn-small" onclick="doExport()">📤 导出备份</button>
+  <button class="btn btn-outline btn-small" onclick="doImport()">📥 导入备份</button>
+  <input type="file" id="importInput" accept=".json" style="display:none" onchange="handleImportFile(event)">
+  <span style="font-size:11px;color:#ddd;cursor:pointer;margin-left:auto" onclick="clearMemory()" title="清除所有不认识计数和认识标记">清除记忆</span>
+</div>
+
+<div class="grid" id="wordGrid"></div>
+
+<script src="js/words.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

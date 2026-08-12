@@ -27,10 +27,16 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
   - footnotes
   - toc:
       permalink: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - javascripts/tex-mml-chtml.js
 
 extra:
   search:

@@ -1,12 +1,12 @@
 import { getWrongs, removeWrong } from '../storage.js'
-import { questions, subjects } from '../data/index.js'
+import { questions, wdQuestions, subjects } from '../data/index.js'
 import { navigate } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 
 export function renderWrongBook(container) {
   const wrongs = getWrongs()
   const wrongIds = Object.keys(wrongs)
-  const wrongQs = questions.filter(q => wrongIds.includes(q.id))
+  const wrongQs = [...questions, ...wdQuestions].filter(q => wrongIds.includes(q.id))
 
   // 按科目分组
   const bySubject = {}

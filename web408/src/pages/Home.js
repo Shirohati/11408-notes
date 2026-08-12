@@ -1,5 +1,5 @@
 import { getAnswers, getWrongs, getDailyLog, getDailyTarget, getTodayAnsweredIds } from '../storage.js'
-import { subjects, questions, knowledgeMap } from '../data/index.js'
+import { subjects, questions, wdQuestions, knowledgeMap } from '../data/index.js'
 import { navigate } from '../router.js'
 import { renderProgressRing } from '../components/ProgressRing.js'
 
@@ -7,9 +7,10 @@ export function renderHome(container) {
   const answers = getAnswers()
   const wrongs = getWrongs()
   const dailyLog = getDailyLog()
-  const totalQuestions = questions.length
+  const allQuestions = [...questions, ...wdQuestions]
+  const totalQuestions = allQuestions.length
   const answered = Object.keys(answers).length
-  const correctCount = questions.filter(q => answers[q.id] === q.answer).length
+  const correctCount = allQuestions.filter(q => answers[q.id] === q.answer).length
   const wrongCount = Object.keys(wrongs).length
   const favCount = Object.keys(JSON.parse(localStorage.getItem('wk_favorites') || '{}')).length
   const overallRate = answered ? Math.round(correctCount / answered * 100) : 0
@@ -36,7 +37,7 @@ export function renderHome(container) {
 
   // 各科进度
   let subjectStats = subjects.map(sub => {
-    const subQs = questions.filter(q => q.subject === sub.id)
+    const subQs = allQuestions.filter(q => q.subject === sub.id)
     const subAns = subQs.filter(q => answers[q.id])
     const subCorr = subAns.filter(q => answers[q.id] === q.answer).length
     const rate = subAns.length ? Math.round(subCorr / subAns.length * 100) : 0
@@ -179,7 +180,7 @@ function getWeakPoints(answers, wrongs) {
   // 统计每个知识点的错题数
   const kpWrongs = {}
   for (const qid of Object.keys(wrongs)) {
-    const q = questions.find(q => q.id === qid)
+    const q = [...questions, ...wdQuestions].find(q => q.id === qid)
     if (q) {
       q.knowledgePoints.forEach(kpid => {
         kpWrongs[kpid] = (kpWrongs[kpid] || 0) + wrongs[qid]

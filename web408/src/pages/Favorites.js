@@ -1,12 +1,12 @@
 import { getFavorites } from '../storage.js'
-import { questions, subjects } from '../data/index.js'
+import { questions, wdQuestions, subjects } from '../data/index.js'
 import { navigate } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 
 export function renderFavorites(container) {
   const favs = getFavorites()
   const favIds = Object.keys(favs)
-  const favQs = questions.filter(q => favIds.includes(q.id))
+  const favQs = [...questions, ...wdQuestions].filter(q => favIds.includes(q.id))
 
   container.innerHTML = `
     <div class="page">

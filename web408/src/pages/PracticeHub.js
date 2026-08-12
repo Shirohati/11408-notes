@@ -1,7 +1,7 @@
 import { getParams, navigate, goBack } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 import { getDailyTarget, getTodayAnsweredIds, getSelectedYears, setSelectedYears } from '../storage.js'
-import { questions } from '../data/index.js'
+import { questions, wdQuestions } from '../data/index.js'
 
 const ALL_YEARS = [2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
 
@@ -11,7 +11,7 @@ export function renderPracticeHub(container) {
   const dailyDone = todayAnswered.length
   const dailyRate = Math.min(100, Math.round(dailyDone / target * 100))
   const totalAnswered = Object.keys(JSON.parse(localStorage.getItem('wk_answers') || '{}')).length
-  const totalQs = questions.length
+  const totalQs = questions.length + wdQuestions.length
   const selectedYears = getSelectedYears()
 
   container.innerHTML = `
@@ -51,7 +51,7 @@ export function renderPracticeHub(container) {
           <div class="mode-icon">🎲</div>
           <div class="mode-body">
             <h3>随记刷题</h3>
-            <p class="mode-desc">从全部题库中随机抽题，无限制自由练习</p>
+            <p class="mode-desc">真题 + 王道课后题，全题库随机抽题无限制练习</p>
           </div>
           <span class="mode-arrow">›</span>
         </div>

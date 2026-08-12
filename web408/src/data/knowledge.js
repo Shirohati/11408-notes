@@ -6,6 +6,13 @@ const ds = {
   color: '#4A90D9',
   chapters: [
     {
+      id: 'ds_intro',
+      name: '绪论',
+      points: [
+        { id: 'ds_complexity', name: '算法的时间复杂度和空间复杂度', summary: ['算法特性：有穷性、确定性、可行性、输入、输出', '时间复杂度：执行时间随问题规模n的增长趋势，用大O表示', '常见复杂度：O(1) < O(log2n) < O(n) < O(nlog2n) < O(n^2)', '空间复杂度：算法运行所需辅助空间随n的变化趋势', '分析循环执行次数可得时间复杂度，递归深度决定空间复杂度'], mnemonic: '看循环数复杂度，大O记号比增长' },
+      ]
+    },
+    {
       id: 'ds_linear_list',
       name: '线性表',
       points: [

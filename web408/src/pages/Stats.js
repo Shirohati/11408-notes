@@ -1,15 +1,16 @@
 import { getAnswers, getDailyLog, getDailyTarget, getTodayAnsweredIds } from '../storage.js'
-import { subjects, questions } from '../data/index.js'
+import { subjects, questions, wdQuestions } from '../data/index.js'
 
 export function renderStats(container) {
   const answers = getAnswers()
   const dailyLog = getDailyLog()
   const dailyTarget = getDailyTarget()
   const todayAnswered = getTodayAnsweredIds()
+  const allQuestions = [...questions, ...wdQuestions]
 
   // 各科统计
   const subStats = subjects.map(sub => {
-    const subQs = questions.filter(q => q.subject === sub.id)
+    const subQs = allQuestions.filter(q => q.subject === sub.id)
     const subAns = subQs.filter(q => answers[q.id])
     const subCorr = subAns.filter(q => answers[q.id] === q.answer)
     return {
@@ -102,7 +103,7 @@ export function renderStats(container) {
         <h2>学习概况</h2>
         <div class="overview-cards">
           <div class="stat-card">
-            <div class="stat-num">${questions.length}</div>
+            <div class="stat-num">${allQuestions.length}</div>
             <div class="stat-label">题库总量</div>
           </div>
           <div class="stat-card">
@@ -110,7 +111,7 @@ export function renderStats(container) {
             <div class="stat-label">已答题数</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num">${Object.keys(answers).filter(qid => answers[qid] === questions.find(q => q.id === qid)?.answer).length}</div>
+            <div class="stat-num">${Object.keys(answers).filter(qid => allQuestions.find(q => q.id === qid)?.answer === answers[qid]).length}</div>
             <div class="stat-label">正确题数</div>
           </div>
           <div class="stat-card">

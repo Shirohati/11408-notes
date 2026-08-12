@@ -1,4 +1,4 @@
-import { questions, subjects, knowledgeMap } from '../data/index.js'
+import { questions, wdQuestions, subjects, knowledgeMap } from '../data/index.js'
 import { getParams, navigate, goBack } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 import { getDailyTarget, getTodayAnsweredIds, getSelectedYears } from '../storage.js'
@@ -10,6 +10,7 @@ export function renderPractice(container) {
   const knowledgeId = params.knowledgeId || ''
   const questionId = params.questionId || ''
   const selectedYears = getSelectedYears()
+  const allQuestions = [...questions, ...wdQuestions]
 
   function filterByYears(pool) {
     if (!selectedYears || selectedYears.length === 0 || selectedYears.length === 12) return pool
@@ -21,22 +22,22 @@ export function renderPractice(container) {
   if (mode === 'daily') {
     const todayIds = getTodayAnsweredIds()
     const target = getDailyTarget()
-    const unanswered = questions.filter(q => !todayIds.includes(q.id))
-    const source = unanswered.length > 0 ? unanswered : questions
+    const unanswered = allQuestions.filter(q => !todayIds.includes(q.id))
+    const source = unanswered.length > 0 ? unanswered : allQuestions
     pool = filterByYears([...source].sort(() => Math.random() - 0.5))
     const limit = Math.max(target, 20)
     if (pool.length > limit) pool = pool.slice(0, limit)
   } else if (mode === 'random') {
-    pool = filterByYears([...questions].sort(() => Math.random() - 0.5))
+    pool = filterByYears([...allQuestions].sort(() => Math.random() - 0.5))
   } else if (questionId) {
-    const q = questions.find(q => q.id === questionId)
+    const q = allQuestions.find(q => q.id === questionId)
     pool = q ? [q] : []
   } else if (knowledgeId) {
-    pool = filterByYears(questions.filter(q => q.knowledgePoints.includes(knowledgeId)))
+    pool = filterByYears(allQuestions.filter(q => q.knowledgePoints.includes(knowledgeId)))
   } else if (chapterId) {
-    pool = questions.filter(q => q.chapter === chapterId)
+    pool = allQuestions.filter(q => q.chapter === chapterId)
   } else {
-    pool = filterByYears([...questions])
+    pool = filterByYears([...allQuestions])
   }
 
   if (!pool.length) {

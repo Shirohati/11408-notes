@@ -1,6 +1,8 @@
-import { subjects, knowledgeMap, questions } from '../data/index.js'
+import { subjects, knowledgeMap, questions, wdQuestions } from '../data/index.js'
 import { getAnswers, getWrongs } from '../storage.js'
 import { navigate, goBack, getParams } from '../router.js'
+
+const allQuestions = [...questions, ...wdQuestions]
 
 export function renderKnowledge(container) {
   const params = getParams()
@@ -15,7 +17,7 @@ export function renderKnowledge(container) {
 
   // 计算每个知识点的掌握度
   function calcMastery(kpId) {
-    const related = questions.filter(q => q.knowledgePoints.includes(kpId))
+    const related = allQuestions.filter(q => q.knowledgePoints.includes(kpId))
     if (!related.length) return null
     const answered = related.filter(q => answers[q.id])
     if (!answered.length) return null
@@ -121,7 +123,7 @@ export function renderKnowledge(container) {
 
 function calcWrongCount(kpId) {
   const wrongs = getWrongs()
-  const related = questions.filter(q => q.knowledgePoints.includes(kpId))
+  const related = allQuestions.filter(q => q.knowledgePoints.includes(kpId))
   return related.reduce((sum, q) => sum + (wrongs[q.id] || 0), 0)
 }
 
@@ -132,7 +134,7 @@ function renderDetail(container, kpId) {
     return
   }
 
-  const related = questions.filter(q => q.knowledgePoints.includes(kpId))
+  const related = allQuestions.filter(q => q.knowledgePoints.includes(kpId))
   const answers = getAnswers()
   const wrongs = getWrongs()
   const answered = related.filter(q => answers[q.id])

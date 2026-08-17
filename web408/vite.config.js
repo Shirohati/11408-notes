@@ -14,6 +14,7 @@ export default defineConfig({
         const out = fs
           .readFileSync(html, 'utf8')
           .replace(/type="module"\s*crossorigin\s*/g, '')
+          .replace(/<script src="([^"]*)"([^>]*)>/g, '<script defer src="$1"$2>')
           .replace(/<link rel="stylesheet" crossorigin/g, '<link rel="stylesheet"')
         if (out !== fs.readFileSync(html, 'utf8')) {
           fs.writeFileSync(html, out, 'utf8')

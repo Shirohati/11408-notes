@@ -1,9 +1,9 @@
 import { getParams, navigate, goBack } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 import { getDailyTarget, getTodayAnsweredIds, getSelectedYears, setSelectedYears } from '../storage.js'
-import { questions, wdQuestions } from '../data/index.js'
+import { questions, wdQuestions, yearList } from '../data/index.js'
 
-const ALL_YEARS = [2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
+const ALL_YEARS = yearList
 
 export function renderPracticeHub(container) {
   const target = getDailyTarget()

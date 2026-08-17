@@ -1,4 +1,4 @@
-import { questions, wdQuestions, subjects, knowledgeMap } from '../data/index.js'
+import { questions, wdQuestions, subjects, knowledgeMap, yearList } from '../data/index.js'
 import { getParams, navigate, goBack } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 import { getDailyTarget, getTodayAnsweredIds, getSelectedYears } from '../storage.js'
@@ -13,7 +13,7 @@ export function renderPractice(container) {
   const allQuestions = [...questions, ...wdQuestions]
 
   function filterByYears(pool) {
-    if (!selectedYears || selectedYears.length === 0 || selectedYears.length === 12) return pool
+    if (!selectedYears || selectedYears.length === 0 || selectedYears.length === yearList.length) return pool
     return pool.filter(q => q.year && selectedYears.includes(q.year))
   }
 

@@ -1,5 +1,6 @@
 import { getWrongs, removeWrong } from '../storage.js'
 import { questions, wdQuestions, subjects } from '../data/index.js'
+import { renderMath } from '../utils/math.js'
 import { navigate } from '../router.js'
 import { renderQuestionCard } from '../components/QuestionCard.js'
 
@@ -53,6 +54,8 @@ export function renderWrongBook(container) {
         `}
       </div>
     `
+
+    renderMath(container)
 
     // 筛选
     container.querySelectorAll('.btn-filter').forEach(el => {

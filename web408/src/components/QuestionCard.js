@@ -1,5 +1,6 @@
 import { getAnswers, setAnswer, getFavorites, toggleFavorite, addWrong } from '../storage.js'
 import { knowledgeMap } from '../data/index.js'
+import { renderMath } from '../utils/math.js'
 import { navigate } from '../router.js'
 
 export function renderQuestionCard(container, question, showResult = true) {
@@ -54,6 +55,8 @@ export function renderQuestionCard(container, question, showResult = true) {
       ` : ''}
     </div>
   `
+
+  renderMath(container)
 
   container.querySelectorAll('.q-option').forEach(el => {
     el.addEventListener('click', () => {
